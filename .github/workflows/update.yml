@@ -1,0 +1,43 @@
+name: Update language counts
+
+# Daily batch refresh of data.json (~450 Search API requests at ~2.1s
+# spacing take roughly 16 minutes, staying under the 30 req/min limit).
+"on":
+  schedule:
+    - cron: "0 0 * * *" # daily at 00:00 UTC
+  workflow_dispatch: {} # manual trigger from the GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Fetch counts into data.json
+        run: python update.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if data.json changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data.json; then
+            echo "No changes to data.json."
+            exit 0
+          fi
+          git add data.json
+          git commit -m "Update language counts [skip ci]"
+          git push origin HEAD:main

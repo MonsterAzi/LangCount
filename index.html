@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Programming Language Repository Counts</title>
+<meta name="description" content="Repository counts for every programming language recognized by GitHub Linguist.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #666666;
+    --border: #e0e0e0;
+    --row-hover: #f5f5f5;
+    --accent: #0969da;
+    --input-bg: #ffffff;
+  }
+  [data-theme="dark"] {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --row-hover: #161b22;
+    --accent: #58a6ff;
+    --input-bg: #0d1117;
+  }
+  @media (prefers-color-scheme: dark) {
+    [data-theme="auto"] {
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --muted: #8b949e;
+      --border: #30363d;
+      --row-hover: #161b22;
+      --accent: #58a6ff;
+      --input-bg: #0d1117;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+      Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  header, main { max-width: 860px; margin: 0 auto; padding: 0 1rem; }
+  header { padding-top: 2rem; padding-bottom: 1rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 0.25rem; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0.25rem 0; }
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
+    margin: 1rem 0;
+  }
+  #search {
+    flex: 1 1 220px;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--input-bg);
+    color: var(--fg);
+  }
+  .sort-group { display: flex; gap: 0.5rem; align-items: center; }
+  button, select {
+    font-size: 0.9rem;
+    padding: 0.45rem 0.7rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--input-bg);
+    color: var(--fg);
+    cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th:first-child, td:first-child { width: 4rem; color: var(--muted); }
+  td:last-child, th:last-child { text-align: right; }
+  tbody tr:hover { background: var(--row-hover); }
+  #status { color: var(--muted); padding: 2rem 0; text-align: center; }
+  footer { max-width: 860px; margin: 2rem auto; padding: 0 1rem 2rem; color: var(--muted); font-size: 0.85rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Programming Language Repository Counts</h1>
+  <p class="meta" id="summary">Loading…</p>
+  <p class="meta">Last updated: <span id="updated">—</span></p>
+</header>
+<main>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Filter languages…" autocomplete="off" aria-label="Filter languages by name">
+    <div class="sort-group">
+      <label for="sort">Sort</label>
+      <select id="sort">
+        <option value="count-desc">Count ↓</option>
+        <option value="count-asc">Count ↑</option>
+        <option value="alpha">A–Z</option>
+      </select>
+      <button id="theme" type="button" title="Toggle dark/light mode">◐ Theme</button>
+    </div>
+  </div>
+  <div class="table-wrap">
+    <table aria-label="Repository counts by language">
+      <thead>
+        <tr><th scope="col">Rank</th><th scope="col">Language</th><th scope="col">Repositories</th></tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <p id="status" role="status"></p>
+</main>
+<footer>
+  Counts come from the GitHub Search API (<code>total_count</code> per language);
+  language list from GitHub Linguist. Refreshed daily.
+</footer>
+<script>
+(function () {
+  "use strict";
+  var rowsEl = document.getElementById("rows");
+  var searchEl = document.getElementById("search");
+  var sortEl = document.getElementById("sort");
+  var statusEl = document.getElementById("status");
+  var summaryEl = document.getElementById("summary");
+  var updatedEl = document.getElementById("updated");
+  var themeBtn = document.getElementById("theme");
+  var all = [];
+
+  // Theme: respect saved choice, otherwise follow the OS setting.
+  try {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") {
+      document.documentElement.dataset.theme = saved;
+    }
+  } catch (e) { /* private mode: stay on auto */ }
+  themeBtn.addEventListener("click", function () {
+    var current = document.documentElement.dataset.theme;
+    var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var next = (current === "dark" || (current === "auto" && dark)) ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem("theme", next); } catch (e) {}
+  });
+
+  function formatCount(n) { return Number(n).toLocaleString("en-US"); }
+
+  function render() {
+    var q = searchEl.value.trim().toLowerCase();
+    var mode = sortEl.value;
+    var items = all.filter(function (item) {
+      return !q || item.language.toLowerCase().indexOf(q) !== -1;
+    });
+    items.sort(function (a, b) {
+      if (mode === "alpha") return a.language.localeCompare(b.language);
+      if (mode === "count-asc") return a.count - b.count;
+      return b.count - a.count;
+    });
+    rowsEl.textContent = "";
+    var frag = document.createDocumentFragment();
+    items.forEach(function (item) {
+      var tr = document.createElement("tr");
+      [["td", String(item.rank)], ["td", item.language],
+       ["td", formatCount(item.count)]].forEach(function (cell) {
+        var el = document.createElement(cell[0]);
+        el.textContent = cell[1];
+        tr.appendChild(el);
+      });
+      frag.appendChild(tr);
+    });
+    rowsEl.appendChild(frag);
+    statusEl.textContent = items.length === 0 ? "No languages match your filter." : "";
+  }
+
+  searchEl.addEventListener("input", render);
+  sortEl.addEventListener("change", render);
+
+  fetch("./data.json", { cache: "no-store" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (data) {
+      all = Array.isArray(data.languages) ? data.languages : [];
+      summaryEl.textContent = "Tracking " +
+        Number(data.total_languages || all.length).toLocaleString("en-US") +
+        " programming languages.";
+      updatedEl.textContent = data.last_updated || "unknown";
+      render();
+    })
+    .catch(function (err) {
+      summaryEl.textContent = "Could not load data.";
+      statusEl.textContent = "Failed to load ./data.json (" + err.message +
+        "). It is generated by the daily workflow.";
+    });
+})();
+</script>
+</body>
+</html>
