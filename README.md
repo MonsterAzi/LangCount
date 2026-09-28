@@ -15,7 +15,8 @@ dependency-free HTML/CSS/JS hosted on GitHub Pages.
 - `.github/workflows/update.yml` — daily 00:00 UTC run plus manual dispatch
   (runs unit tests first, then refreshes `data.json`).
 - `index.html` — renders `data.json` with search, click-to-sort column
-  headers, and dark/light mode.
+  headers, live position rank plus a +/− mover column vs the by-count rank,
+  and dark/light mode.
 - `tests/test_update.py` — stdlib-only unit tests (`python -m unittest
   discover -s tests -v`).
 - `data.json` — generated artifact (committed by the workflow).
