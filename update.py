@@ -39,14 +39,14 @@ REQUEST_TIMEOUT = 30
 OUTPUT_PATH = "data.json"
 DATES_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "language_dates.csv")
 
-# Prediction model: N_future = N_now * (1 + A*dt) ** ALPHA.
+# Prediction model: N_future = N_now * (1 + dt/A) ** ALPHA,
+# where A = t_now - t_0 is the language's effective age in years on GitHub
+# and t_0 = max(first_public_year, GITHUB_LAUNCH). Repos can only accumulate
+# since GitHub exists, so pre-2008 languages all count from launch.
 ALPHA = 1.3
 PREDICT_HORIZONS = (1, 5)  # years ahead; rendered as pred_1y / pred_5y
-# Annual growth rate A by language age (years since first public release):
-# younger languages grow faster. Tune freely; kept deliberately coarse.
-AGE_BRACKETS = ((5, 0.30), (11, 0.20), (21, 0.10))
-OLD_LANGUAGE_RATE = 0.05
-DEFAULT_RATE = 0.10  # used when the first-public year is unknown
+GITHUB_LAUNCH = 2008 + (4 - 1) / 12  # April 2008, i.e. 2008.25
+MIN_EFFECTIVE_AGE = 1 / 12  # one month; guards against division by zero
 
 
 def _sleep_until_reset(response: requests.Response) -> float:
@@ -111,26 +111,28 @@ def _get_with_retry(
     raise RuntimeError(f"Failed to GET {url} after {MAX_RETRIES} attempts") from last_error
 
 
-def growth_rate_for_age(age: int | None) -> float:
-    """Annual growth rate A: younger languages grow faster."""
-    if age is None:
-        return DEFAULT_RATE
-    for max_age, rate in AGE_BRACKETS:
-        if age < max_age:
-            return rate
-    return OLD_LANGUAGE_RATE
+def fractional_year(moment: datetime) -> float:
+    """Convert a timestamp to a fractional year, e.g. mid-2026 -> ~2026.5."""
+    year_start = datetime(moment.year, 1, 1, tzinfo=timezone.utc)
+    next_year = datetime(moment.year + 1, 1, 1, tzinfo=timezone.utc)
+    return moment.year + (moment - year_start) / (next_year - year_start)
 
 
-def growth_rate_for_year(first_public: int | None, now_year: int) -> float:
-    """Map a first-public year (or None) to an annual growth rate."""
+def t0_for_year(first_public: int | None) -> float:
+    """Effective start year: birth year, floored at the GitHub launch."""
     if first_public is None:
-        return DEFAULT_RATE
-    return growth_rate_for_age(now_year - first_public)
+        return GITHUB_LAUNCH
+    return max(float(first_public), GITHUB_LAUNCH)
 
 
-def predict(count: int, rate: float, years: int) -> int:
-    """Extrapolate a repo count: N_now * (1 + A*dt) ** ALPHA."""
-    return int(round(count * (1 + rate * years) ** ALPHA))
+def effective_age(first_public: int | None, now: float) -> float:
+    """A = t_now - t_0 in years (floored at one month, never zero)."""
+    return max(now - t0_for_year(first_public), MIN_EFFECTIVE_AGE)
+
+
+def predict(count: int, age_years: float, years: int) -> int:
+    """Extrapolate a repo count: N_now * (1 + dt/A) ** ALPHA."""
+    return int(round(count * (1 + years / age_years) ** ALPHA))
 
 
 def load_first_public_years(path: str) -> dict[str, int | None]:
@@ -205,12 +207,12 @@ def main(output_path: str = OUTPUT_PATH, dates_path: str = DATES_CSV) -> None:
 
     languages = fetch_programming_languages(session)
     first_public = load_first_public_years(dates_path)
-    now_year = datetime.now(timezone.utc).year
+    now_frac = fractional_year(datetime.now(timezone.utc))
     missing = [lang for lang in languages if first_public.get(lang) is None]
     if missing:
         print(
             f"{len(missing)} languages have no first-public year "
-            f"(showing blank, using default growth rate).",
+            f"(showing blank, using GitHub launch as t_0).",
             flush=True,
         )
 
@@ -229,14 +231,14 @@ def main(output_path: str = OUTPUT_PATH, dates_path: str = DATES_CSV) -> None:
             count = 0
         last_request = time.time()
         year = first_public.get(language)
-        rate = growth_rate_for_year(year, now_year)
+        age = effective_age(year, now_frac)
         results.append(
             {
                 "language": language,
                 "count": count,
                 "first_public": year,
-                "pred_1y": predict(count, rate, PREDICT_HORIZONS[0]),
-                "pred_5y": predict(count, rate, PREDICT_HORIZONS[1]),
+                "pred_1y": predict(count, age, PREDICT_HORIZONS[0]),
+                "pred_5y": predict(count, age, PREDICT_HORIZONS[1]),
             }
         )
         print(f"[{i}/{total}] {language}: {count:,}", flush=True)
@@ -248,15 +250,11 @@ def main(output_path: str = OUTPUT_PATH, dates_path: str = DATES_CSV) -> None:
         .replace("+00:00", "Z"),
         "total_languages": len(results),
         "model": {
-            "formula": "N_future = N_now * (1 + A*dt) ** alpha",
+            "formula": "N_future = N_now * (1 + dt/A) ** alpha",
+            "age_definition": "A = t_now - t_0 in years",
+            "t0_definition": "max(first_public_year, 2008.25 [GitHub launch, April 2008])",
             "alpha": ALPHA,
             "horizons_years": list(PREDICT_HORIZONS),
-            "age_brackets": [
-                {"max_age": max_age, "annual_rate": rate}
-                for max_age, rate in AGE_BRACKETS
-            ],
-            "old_language_rate": OLD_LANGUAGE_RATE,
-            "default_rate_unknown_date": DEFAULT_RATE,
         },
         "languages": [
             {

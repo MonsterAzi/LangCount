@@ -46,19 +46,16 @@ edit the CSV and re-run (or wait for the next daily run).
 
 Each language gets `pred_1y` / `pred_5y` projections from
 
-`N_future = N_now * (1 + A*dt) ** alpha`, with `alpha = 1.3`.
+`N_future = N_now * (1 + Δt/A) ** alpha`, with `alpha = 1.3`.
 
-The annual rate `A` depends on language age (years since first public
-release), so younger languages are projected to grow faster:
-
-| Age (years) | < 5 | 5–10 | 11–20 | > 20 | unknown |
-| --- | --- | --- | --- | --- | --- |
-| A | 0.30 | 0.20 | 0.10 | 0.05 | 0.10 |
-
-These are rough extrapolations, not measurements — tune `ALPHA`,
-`AGE_BRACKETS`, `OLD_LANGUAGE_RATE`, and `DEFAULT_RATE` at the top of
-`update.py`. The active parameters are also recorded in the `model` block of
-every generated `data.json`.
+`A = t_now − t_0` is the language's effective age in years on GitHub, where
+`t_0 = max(first_public_year, April 2008)` — repo counts can only accumulate
+since GitHub exists, so a 1972 language and a 2008 language start from the
+same launch date. Languages with an unknown birth year use the April 2008
+launch as `t_0`. Smaller `A` (younger languages) yields steeper projected
+growth. These are rough extrapolations, not measurements — tune `ALPHA` and
+`GITHUB_LAUNCH` at the top of `update.py`. The active parameters are also
+recorded in the `model` block of every generated `data.json`.
 
 ## Local development
 

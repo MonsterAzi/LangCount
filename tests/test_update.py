@@ -9,6 +9,7 @@ import os
 import sys
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from unittest.mock import patch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -16,43 +17,49 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import update
 
 
-class PredictTest(unittest.TestCase):
-    def test_one_year_factor(self):
-        # (1 + 0.10*1) ** 1.3 ~= 1.1319
-        self.assertEqual(update.predict(100_000, 0.10, 1), round(100_000 * 1.1**1.3))
+class AgeModelTest(unittest.TestCase):
+    def test_t0_floored_at_github_launch(self):
+        self.assertEqual(update.t0_for_year(1991), update.GITHUB_LAUNCH)
+        self.assertEqual(update.t0_for_year(1972), update.GITHUB_LAUNCH)
+        self.assertEqual(update.t0_for_year(None), update.GITHUB_LAUNCH)
+        self.assertEqual(update.t0_for_year(2020), 2020.0)
 
-    def test_five_year_factor(self):
-        # (1 + 0.10*5) ** 1.3 = 1.5 ** 1.3 ~= 1.6941
-        self.assertEqual(update.predict(100_000, 0.10, 5), round(100_000 * 1.5**1.3))
+    def test_effective_age(self):
+        self.assertAlmostEqual(
+            update.effective_age(1991, 2026.5), 2026.5 - update.GITHUB_LAUNCH
+        )
+        self.assertAlmostEqual(update.effective_age(2024, 2026.5), 2.5)
+        self.assertAlmostEqual(update.effective_age(None, 2026.5), 2026.5 - 2008.25)
+
+    def test_current_year_birth_never_divides_by_zero(self):
+        self.assertGreater(update.effective_age(2026, 2026.5), 0)
+        self.assertEqual(
+            update.predict(1000, update.effective_age(2026, 2026.5), 1),
+            round(1000 * (1 + 1 / update.effective_age(2026, 2026.5)) ** 1.3),
+        )
+
+    def test_fractional_year(self):
+        jan1 = update.fractional_year(datetime(2026, 1, 1, tzinfo=timezone.utc))
+        self.assertEqual(jan1, 2026.0)
+        mid = update.fractional_year(datetime(2026, 7, 2, tzinfo=timezone.utc))
+        self.assertAlmostEqual(mid, 2026.5, places=2)
+
+    def test_predict_math(self):
+        # N * (1 + dt/A) ** 1.3 with A = 18.4
+        self.assertEqual(
+            update.predict(100_000, 18.4, 1), round(100_000 * (1 + 1 / 18.4) ** 1.3)
+        )
+        self.assertEqual(
+            update.predict(100_000, 18.4, 5), round(100_000 * (1 + 5 / 18.4) ** 1.3)
+        )
 
     def test_zero_count_stays_zero(self):
-        self.assertEqual(update.predict(0, 0.30, 5), 0)
+        self.assertEqual(update.predict(0, 3.0, 5), 0)
 
     def test_young_grows_faster_than_old(self):
-        young = update.predict(10_000, update.growth_rate_for_age(2), 5)
-        old = update.predict(10_000, update.growth_rate_for_age(40), 5)
+        young = update.predict(10_000, 3.7, 5)
+        old = update.predict(10_000, 18.4, 5)
         self.assertGreater(young, old)
-
-
-class GrowthRateTest(unittest.TestCase):
-    def test_brackets(self):
-        self.assertEqual(update.growth_rate_for_age(2), 0.30)
-        self.assertEqual(update.growth_rate_for_age(5), 0.20)
-        self.assertEqual(update.growth_rate_for_age(10), 0.20)
-        self.assertEqual(update.growth_rate_for_age(11), 0.10)
-        self.assertEqual(update.growth_rate_for_age(20), 0.10)
-        self.assertEqual(update.growth_rate_for_age(21), 0.05)
-        self.assertEqual(update.growth_rate_for_age(60), 0.05)
-
-    def test_unknown_age_gets_default(self):
-        self.assertEqual(update.growth_rate_for_age(None), update.DEFAULT_RATE)
-
-    def test_year_mapping(self):
-        now = 2026
-        self.assertEqual(
-            update.growth_rate_for_year(2024, now), update.growth_rate_for_age(2)
-        )
-        self.assertEqual(update.growth_rate_for_year(None, now), update.DEFAULT_RATE)
 
 
 class DatesCsvTest(unittest.TestCase):
