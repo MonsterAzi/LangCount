@@ -1,12 +1,4520 @@
 {
-  "last_updated": "1970-01-01T00:00:00Z",
-  "total_languages": 0,
+  "last_updated": "2026-09-28T01:22:19Z",
+  "total_languages": 563,
   "model": {
     "formula": "N_future = N_now * (1 + dt/A) ** alpha",
     "age_definition": "A = t_now - t_0 in years",
     "t0_definition": "max(first_public_year, 2008.25 [GitHub launch, April 2008])",
     "alpha": 1.3,
-    "horizons_years": [1, 5]
+    "horizons_years": [
+      1,
+      5
+    ]
   },
-  "languages": []
+  "languages": [
+    {
+      "rank": 1,
+      "language": "JavaScript",
+      "count": 47595222,
+      "first_public": 1995,
+      "pred_1y": 50968401,
+      "pred_5y": 64967227
+    },
+    {
+      "rank": 2,
+      "language": "Python",
+      "count": 34064128,
+      "first_public": 1991,
+      "pred_1y": 36478329,
+      "pred_5y": 46497355
+    },
+    {
+      "rank": 3,
+      "language": "Java",
+      "count": 21714217,
+      "first_public": 1995,
+      "pred_1y": 23253152,
+      "pred_5y": 29639792
+    },
+    {
+      "rank": 4,
+      "language": "TypeScript",
+      "count": 18811071,
+      "first_public": 2012,
+      "pred_1y": 20486762,
+      "pred_5y": 27499173
+    },
+    {
+      "rank": 5,
+      "language": "C#",
+      "count": 7694202,
+      "first_public": 2000,
+      "pred_1y": 8239507,
+      "pred_5y": 10502545
+    },
+    {
+      "rank": 6,
+      "language": "C++",
+      "count": 7148291,
+      "first_public": 1985,
+      "pred_1y": 7654906,
+      "pred_5y": 9757380
+    },
+    {
+      "rank": 7,
+      "language": "PHP",
+      "count": 6404558,
+      "first_public": 1995,
+      "pred_1y": 6858463,
+      "pred_5y": 8742188
+    },
+    {
+      "rank": 8,
+      "language": "C",
+      "count": 4342911,
+      "first_public": 1972,
+      "pred_1y": 4650703,
+      "pred_5y": 5928051
+    },
+    {
+      "rank": 9,
+      "language": "Shell",
+      "count": 3311867,
+      "first_public": 1977,
+      "pred_1y": 3546586,
+      "pred_5y": 4520681
+    },
+    {
+      "rank": 10,
+      "language": "Ruby",
+      "count": 2970092,
+      "first_public": 1995,
+      "pred_1y": 3180589,
+      "pred_5y": 4054160
+    },
+    {
+      "rank": 11,
+      "language": "Go",
+      "count": 2539710,
+      "first_public": 2009,
+      "pred_1y": 2727377,
+      "pred_5y": 3507302
+    },
+    {
+      "rank": 12,
+      "language": "Kotlin",
+      "count": 2352893,
+      "first_public": 2011,
+      "pred_1y": 2549051,
+      "pred_5y": 3367819
+    },
+    {
+      "rank": 13,
+      "language": "Dart",
+      "count": 2127090,
+      "first_public": 2011,
+      "pred_1y": 2304423,
+      "pred_5y": 3044616
+    },
+    {
+      "rank": 14,
+      "language": "Swift",
+      "count": 1704072,
+      "first_public": 2014,
+      "pred_1y": 1879970,
+      "pred_5y": 2620652
+    },
+    {
+      "rank": 15,
+      "language": "Rust",
+      "count": 1367345,
+      "first_public": 2010,
+      "pred_1y": 1474470,
+      "pred_5y": 1920590
+    },
+    {
+      "rank": 16,
+      "language": "R",
+      "count": 1133442,
+      "first_public": 1993,
+      "pred_1y": 1213772,
+      "pred_5y": 1547142
+    },
+    {
+      "rank": 17,
+      "language": "Lua",
+      "count": 747786,
+      "first_public": 1993,
+      "pred_1y": 800783,
+      "pred_5y": 1020724
+    },
+    {
+      "rank": 18,
+      "language": "Dockerfile",
+      "count": 698151,
+      "first_public": 2013,
+      "pred_1y": 764916,
+      "pred_5y": 1045126
+    },
+    {
+      "rank": 19,
+      "language": "HCL",
+      "count": 669481,
+      "first_public": 2014,
+      "pred_1y": 738586,
+      "pred_5y": 1029579
+    },
+    {
+      "rank": 20,
+      "language": "Objective-C",
+      "count": 543042,
+      "first_public": 1984,
+      "pred_1y": 581529,
+      "pred_5y": 741249
+    },
+    {
+      "rank": 21,
+      "language": "MATLAB",
+      "count": 500328,
+      "first_public": 1984,
+      "pred_1y": 535787,
+      "pred_5y": 682945
+    },
+    {
+      "rank": 22,
+      "language": "Makefile",
+      "count": 433687,
+      "first_public": 1976,
+      "pred_1y": 464423,
+      "pred_5y": 591980
+    },
+    {
+      "rank": 23,
+      "language": "PowerShell",
+      "count": 371816,
+      "first_public": 2006,
+      "pred_1y": 398167,
+      "pred_5y": 507527
+    },
+    {
+      "rank": 24,
+      "language": "Solidity",
+      "count": 296901,
+      "first_public": 2014,
+      "pred_1y": 327548,
+      "pred_5y": 456597
+    },
+    {
+      "rank": 25,
+      "language": "Scala",
+      "count": 260279,
+      "first_public": 2003,
+      "pred_1y": 278726,
+      "pred_5y": 355279
+    },
+    {
+      "rank": 26,
+      "language": "ShaderLab",
+      "count": 253106,
+      "first_public": 2005,
+      "pred_1y": 271044,
+      "pred_5y": 345488
+    },
+    {
+      "rank": 27,
+      "language": "GDScript",
+      "count": 230673,
+      "first_public": 2014,
+      "pred_1y": 254484,
+      "pred_5y": 354747
+    },
+    {
+      "rank": 28,
+      "language": "Assembly",
+      "count": 214514,
+      "first_public": 1949,
+      "pred_1y": 229717,
+      "pred_5y": 292810
+    },
+    {
+      "rank": 29,
+      "language": "Perl",
+      "count": 188611,
+      "first_public": 1987,
+      "pred_1y": 201978,
+      "pred_5y": 257453
+    },
+    {
+      "rank": 30,
+      "language": "Batchfile",
+      "count": 174648,
+      "first_public": 1981,
+      "pred_1y": 187026,
+      "pred_5y": 238394
+    },
+    {
+      "rank": 31,
+      "language": "TSQL",
+      "count": 169220,
+      "first_public": 1987,
+      "pred_1y": 181213,
+      "pred_5y": 230984
+    },
+    {
+      "rank": 32,
+      "language": "Verilog",
+      "count": 165521,
+      "first_public": 1984,
+      "pred_1y": 177252,
+      "pred_5y": 225935
+    },
+    {
+      "rank": 33,
+      "language": "Vim script",
+      "count": 165308,
+      "first_public": 1991,
+      "pred_1y": 177024,
+      "pred_5y": 225645
+    },
+    {
+      "rank": 34,
+      "language": "Haskell",
+      "count": 164201,
+      "first_public": 1990,
+      "pred_1y": 175838,
+      "pred_5y": 224133
+    },
+    {
+      "rank": 35,
+      "language": "Hack",
+      "count": 152258,
+      "first_public": 2014,
+      "pred_1y": 167974,
+      "pred_5y": 234154
+    },
+    {
+      "rank": 36,
+      "language": "CMake",
+      "count": 137646,
+      "first_public": 2000,
+      "pred_1y": 147401,
+      "pred_5y": 187886
+    },
+    {
+      "rank": 37,
+      "language": "Elixir",
+      "count": 132344,
+      "first_public": 2011,
+      "pred_1y": 143377,
+      "pred_5y": 189431
+    },
+    {
+      "rank": 38,
+      "language": "Visual Basic .NET",
+      "count": 113385,
+      "first_public": 2001,
+      "pred_1y": 121421,
+      "pred_5y": 154770
+    },
+    {
+      "rank": 39,
+      "language": "Groovy",
+      "count": 110995,
+      "first_public": 2003,
+      "pred_1y": 118861,
+      "pred_5y": 151508
+    },
+    {
+      "rank": 40,
+      "language": "Processing",
+      "count": 102137,
+      "first_public": 2001,
+      "pred_1y": 109376,
+      "pred_5y": 139416
+    },
+    {
+      "rank": 41,
+      "language": "Clojure",
+      "count": 97406,
+      "first_public": 2007,
+      "pred_1y": 104309,
+      "pred_5y": 132959
+    },
+    {
+      "rank": 42,
+      "language": "Julia",
+      "count": 94391,
+      "first_public": 2012,
+      "pred_1y": 102799,
+      "pred_5y": 137987
+    },
+    {
+      "rank": 43,
+      "language": "Nix",
+      "count": 86390,
+      "first_public": 2004,
+      "pred_1y": 92513,
+      "pred_5y": 117922
+    },
+    {
+      "rank": 44,
+      "language": "PLpgSQL",
+      "count": 80156,
+      "first_public": 1998,
+      "pred_1y": 85837,
+      "pred_5y": 109413
+    },
+    {
+      "rank": 45,
+      "language": "Pascal",
+      "count": 78606,
+      "first_public": 1970,
+      "pred_1y": 84177,
+      "pred_5y": 107297
+    },
+    {
+      "rank": 46,
+      "language": "Emacs Lisp",
+      "count": 77013,
+      "first_public": 1985,
+      "pred_1y": 82471,
+      "pred_5y": 105122
+    },
+    {
+      "rank": 47,
+      "language": "Wolfram Language",
+      "count": 67465,
+      "first_public": 1988,
+      "pred_1y": 72246,
+      "pred_5y": 92089
+    },
+    {
+      "rank": 48,
+      "language": "VHDL",
+      "count": 66001,
+      "first_public": 1983,
+      "pred_1y": 70679,
+      "pred_5y": 90091
+    },
+    {
+      "rank": 49,
+      "language": "CoffeeScript",
+      "count": 63654,
+      "first_public": 2009,
+      "pred_1y": 68358,
+      "pred_5y": 87905
+    },
+    {
+      "rank": 50,
+      "language": "ASP.NET",
+      "count": 63005,
+      "first_public": 2002,
+      "pred_1y": 67470,
+      "pred_5y": 86001
+    },
+    {
+      "rank": 51,
+      "language": "Smarty",
+      "count": 60059,
+      "first_public": 2002,
+      "pred_1y": 64316,
+      "pred_5y": 81980
+    },
+    {
+      "rank": 52,
+      "language": "SystemVerilog",
+      "count": 51174,
+      "first_public": 2002,
+      "pred_1y": 54801,
+      "pred_5y": 69852
+    },
+    {
+      "rank": 53,
+      "language": "Classic ASP",
+      "count": 46122,
+      "first_public": 1996,
+      "pred_1y": 49391,
+      "pred_5y": 62956
+    },
+    {
+      "rank": 54,
+      "language": "Fortran",
+      "count": 46075,
+      "first_public": 1957,
+      "pred_1y": 49340,
+      "pred_5y": 62892
+    },
+    {
+      "rank": 55,
+      "language": "Apex",
+      "count": 44348,
+      "first_public": 2007,
+      "pred_1y": 47491,
+      "pred_5y": 60535
+    },
+    {
+      "rank": 56,
+      "language": "OCaml",
+      "count": 43546,
+      "first_public": 1996,
+      "pred_1y": 46632,
+      "pred_5y": 59440
+    },
+    {
+      "rank": 57,
+      "language": "Cuda",
+      "count": 42403,
+      "first_public": 2007,
+      "pred_1y": 45408,
+      "pred_5y": 57880
+    },
+    {
+      "rank": 58,
+      "language": "QML",
+      "count": 41152,
+      "first_public": 2010,
+      "pred_1y": 44376,
+      "pred_5y": 57803
+    },
+    {
+      "rank": 59,
+      "language": "Zig",
+      "count": 38539,
+      "first_public": 2016,
+      "pred_1y": 43268,
+      "pred_5y": 63344
+    },
+    {
+      "rank": 60,
+      "language": "Prolog",
+      "count": 38288,
+      "first_public": 1972,
+      "pred_1y": 41002,
+      "pred_5y": 52263
+    },
+    {
+      "rank": 61,
+      "language": "PLSQL",
+      "count": 35609,
+      "first_public": 1992,
+      "pred_1y": 38133,
+      "pred_5y": 48606
+    },
+    {
+      "rank": 62,
+      "language": "F#",
+      "count": 34972,
+      "first_public": 2005,
+      "pred_1y": 37451,
+      "pred_5y": 47737
+    },
+    {
+      "rank": 63,
+      "language": "Erlang",
+      "count": 34287,
+      "first_public": 1986,
+      "pred_1y": 36717,
+      "pred_5y": 46802
+    },
+    {
+      "rank": 64,
+      "language": "Rebol",
+      "count": 33198,
+      "first_public": 1997,
+      "pred_1y": 35551,
+      "pred_5y": 45315
+    },
+    {
+      "rank": 65,
+      "language": "XSLT",
+      "count": 33159,
+      "first_public": 1999,
+      "pred_1y": 35509,
+      "pred_5y": 45262
+    },
+    {
+      "rank": 66,
+      "language": "Common Lisp",
+      "count": 32515,
+      "first_public": 1984,
+      "pred_1y": 34819,
+      "pred_5y": 44383
+    },
+    {
+      "rank": 67,
+      "language": "Tcl",
+      "count": 30562,
+      "first_public": 1988,
+      "pred_1y": 32728,
+      "pred_5y": 41717
+    },
+    {
+      "rank": 68,
+      "language": "AutoHotkey",
+      "count": 26395,
+      "first_public": 2003,
+      "pred_1y": 28266,
+      "pred_5y": 36029
+    },
+    {
+      "rank": 69,
+      "language": "VBA",
+      "count": 25800,
+      "first_public": 1993,
+      "pred_1y": 27629,
+      "pred_5y": 35217
+    },
+    {
+      "rank": 70,
+      "language": "Haxe",
+      "count": 25783,
+      "first_public": 2005,
+      "pred_1y": 27610,
+      "pred_5y": 35194
+    },
+    {
+      "rank": 71,
+      "language": "ActionScript",
+      "count": 25377,
+      "first_public": 1999,
+      "pred_1y": 27176,
+      "pred_5y": 34639
+    },
+    {
+      "rank": 72,
+      "language": "GLSL",
+      "count": 25227,
+      "first_public": 2004,
+      "pred_1y": 27015,
+      "pred_5y": 34435
+    },
+    {
+      "rank": 73,
+      "language": "Racket",
+      "count": 23655,
+      "first_public": 1995,
+      "pred_1y": 25331,
+      "pred_5y": 32289
+    },
+    {
+      "rank": 74,
+      "language": "Puppet",
+      "count": 23524,
+      "first_public": 2005,
+      "pred_1y": 25191,
+      "pred_5y": 32110
+    },
+    {
+      "rank": 75,
+      "language": "Elm",
+      "count": 22779,
+      "first_public": 2012,
+      "pred_1y": 24808,
+      "pred_5y": 33300
+    },
+    {
+      "rank": 76,
+      "language": "Scheme",
+      "count": 21775,
+      "first_public": 1975,
+      "pred_1y": 23318,
+      "pred_5y": 29723
+    },
+    {
+      "rank": 77,
+      "language": "ColdFusion",
+      "count": 21207,
+      "first_public": 1995,
+      "pred_1y": 22710,
+      "pred_5y": 28947
+    },
+    {
+      "rank": 78,
+      "language": "Visual Basic 6.0",
+      "count": 19709,
+      "first_public": 1998,
+      "pred_1y": 21106,
+      "pred_5y": 26903
+    },
+    {
+      "rank": 79,
+      "language": "OpenSCAD",
+      "count": 19098,
+      "first_public": 2010,
+      "pred_1y": 20594,
+      "pred_5y": 26825
+    },
+    {
+      "rank": 80,
+      "language": "Yacc",
+      "count": 19054,
+      "first_public": 1975,
+      "pred_1y": 20404,
+      "pred_5y": 26009
+    },
+    {
+      "rank": 81,
+      "language": "Stata",
+      "count": 19046,
+      "first_public": 1985,
+      "pred_1y": 20396,
+      "pred_5y": 25998
+    },
+    {
+      "rank": 82,
+      "language": "Game Maker Language",
+      "count": 18129,
+      "first_public": 1999,
+      "pred_1y": 19414,
+      "pred_5y": 24746
+    },
+    {
+      "rank": 83,
+      "language": "Bicep",
+      "count": 17933,
+      "first_public": 2020,
+      "pred_1y": 21466,
+      "pred_5y": 36895
+    },
+    {
+      "rank": 84,
+      "language": "RobotFramework",
+      "count": 17907,
+      "first_public": 2008,
+      "pred_1y": 19176,
+      "pred_5y": 24443
+    },
+    {
+      "rank": 85,
+      "language": "Gherkin",
+      "count": 17242,
+      "first_public": 2008,
+      "pred_1y": 18464,
+      "pred_5y": 23535
+    },
+    {
+      "rank": 86,
+      "language": "Lean",
+      "count": 17083,
+      "first_public": 2013,
+      "pred_1y": 18717,
+      "pred_5y": 25573
+    },
+    {
+      "rank": 87,
+      "language": "D",
+      "count": 16325,
+      "first_public": 2001,
+      "pred_1y": 17482,
+      "pred_5y": 22284
+    },
+    {
+      "rank": 88,
+      "language": "Luau",
+      "count": 15865,
+      "first_public": 2021,
+      "pred_1y": 19549,
+      "pred_5y": 35823
+    },
+    {
+      "rank": 89,
+      "language": "PureBasic",
+      "count": 15360,
+      "first_public": 1998,
+      "pred_1y": 16449,
+      "pred_5y": 20966
+    },
+    {
+      "rank": 90,
+      "language": "Smalltalk",
+      "count": 14796,
+      "first_public": 1980,
+      "pred_1y": 15845,
+      "pred_5y": 20196
+    },
+    {
+      "rank": 91,
+      "language": "ABAP",
+      "count": 14658,
+      "first_public": 1983,
+      "pred_1y": 15697,
+      "pred_5y": 20008
+    },
+    {
+      "rank": 92,
+      "language": "DIGITAL Command Language",
+      "count": 14031,
+      "first_public": 1977,
+      "pred_1y": 15025,
+      "pred_5y": 19152
+    },
+    {
+      "rank": 93,
+      "language": "Nim",
+      "count": 13946,
+      "first_public": 2008,
+      "pred_1y": 14934,
+      "pred_5y": 19036
+    },
+    {
+      "rank": 94,
+      "language": "SAS",
+      "count": 13915,
+      "first_public": 1976,
+      "pred_1y": 14901,
+      "pred_5y": 18994
+    },
+    {
+      "rank": 95,
+      "language": "Typst",
+      "count": 13551,
+      "first_public": 2023,
+      "pred_1y": 18440,
+      "pred_5y": 40852
+    },
+    {
+      "rank": 96,
+      "language": "Papyrus",
+      "count": 13516,
+      "first_public": 2011,
+      "pred_1y": 14643,
+      "pred_5y": 19346
+    },
+    {
+      "rank": 97,
+      "language": "Portugol",
+      "count": 12566,
+      "first_public": null,
+      "pred_1y": 13457,
+      "pred_5y": 17153
+    },
+    {
+      "rank": 98,
+      "language": "mcfunction",
+      "count": 11780,
+      "first_public": 2017,
+      "pred_1y": 13376,
+      "pred_5y": 20187
+    },
+    {
+      "rank": 99,
+      "language": "VBScript",
+      "count": 11329,
+      "first_public": 1996,
+      "pred_1y": 12132,
+      "pred_5y": 15464
+    },
+    {
+      "rank": 100,
+      "language": "SourcePawn",
+      "count": 10919,
+      "first_public": 2004,
+      "pred_1y": 11693,
+      "pred_5y": 14904
+    },
+    {
+      "rank": 101,
+      "language": "G-code",
+      "count": 10663,
+      "first_public": null,
+      "pred_1y": 11419,
+      "pred_5y": 14555
+    },
+    {
+      "rank": 102,
+      "language": "Move",
+      "count": 10481,
+      "first_public": 2019,
+      "pred_1y": 12275,
+      "pred_5y": 20034
+    },
+    {
+      "rank": 103,
+      "language": "Crystal",
+      "count": 10420,
+      "first_public": 2014,
+      "pred_1y": 11496,
+      "pred_5y": 16025
+    },
+    {
+      "rank": 104,
+      "language": "Nextflow",
+      "count": 10408,
+      "first_public": 2013,
+      "pred_1y": 11403,
+      "pred_5y": 15581
+    },
+    {
+      "rank": 105,
+      "language": "Ada",
+      "count": 10379,
+      "first_public": 1980,
+      "pred_1y": 11115,
+      "pred_5y": 14167
+    },
+    {
+      "rank": 106,
+      "language": "AMPL",
+      "count": 10137,
+      "first_public": 1985,
+      "pred_1y": 10855,
+      "pred_5y": 13837
+    },
+    {
+      "rank": 107,
+      "language": "LLVM",
+      "count": 10100,
+      "first_public": 2003,
+      "pred_1y": 10816,
+      "pred_5y": 13786
+    },
+    {
+      "rank": 108,
+      "language": "Starlark",
+      "count": 9917,
+      "first_public": 2017,
+      "pred_1y": 11261,
+      "pred_5y": 16994
+    },
+    {
+      "rank": 109,
+      "language": "Clarity",
+      "count": 9741,
+      "first_public": null,
+      "pred_1y": 10431,
+      "pred_5y": 13296
+    },
+    {
+      "rank": 110,
+      "language": "Ren'Py",
+      "count": 9521,
+      "first_public": 2004,
+      "pred_1y": 10196,
+      "pred_5y": 12996
+    },
+    {
+      "rank": 111,
+      "language": "BitBake",
+      "count": 9492,
+      "first_public": 2003,
+      "pred_1y": 10165,
+      "pred_5y": 12957
+    },
+    {
+      "rank": 112,
+      "language": "COBOL",
+      "count": 9402,
+      "first_public": 1959,
+      "pred_1y": 10068,
+      "pred_5y": 12834
+    },
+    {
+      "rank": 113,
+      "language": "Max",
+      "count": 9391,
+      "first_public": 1990,
+      "pred_1y": 10057,
+      "pred_5y": 12819
+    },
+    {
+      "rank": 114,
+      "language": "Standard ML",
+      "count": 8793,
+      "first_public": 1984,
+      "pred_1y": 9416,
+      "pred_5y": 12002
+    },
+    {
+      "rank": 115,
+      "language": "Logos",
+      "count": 8650,
+      "first_public": null,
+      "pred_1y": 9263,
+      "pred_5y": 11807
+    },
+    {
+      "rank": 116,
+      "language": "Rocq Prover",
+      "count": 8607,
+      "first_public": 1989,
+      "pred_1y": 9217,
+      "pred_5y": 11749
+    },
+    {
+      "rank": 117,
+      "language": "LabVIEW",
+      "count": 8535,
+      "first_public": 1986,
+      "pred_1y": 9140,
+      "pred_5y": 11650
+    },
+    {
+      "rank": 118,
+      "language": "Wollok",
+      "count": 8432,
+      "first_public": null,
+      "pred_1y": 9030,
+      "pred_5y": 11510
+    },
+    {
+      "rank": 119,
+      "language": "Odin",
+      "count": 8081,
+      "first_public": 2016,
+      "pred_1y": 9073,
+      "pred_5y": 13282
+    },
+    {
+      "rank": 120,
+      "language": "LookML",
+      "count": 7979,
+      "first_public": 2013,
+      "pred_1y": 8742,
+      "pred_5y": 11944
+    },
+    {
+      "rank": 121,
+      "language": "SWIG",
+      "count": 7878,
+      "first_public": 1996,
+      "pred_1y": 8436,
+      "pred_5y": 10753
+    },
+    {
+      "rank": 122,
+      "language": "Objective-C++",
+      "count": 7857,
+      "first_public": null,
+      "pred_1y": 8414,
+      "pred_5y": 10725
+    },
+    {
+      "rank": 123,
+      "language": "ASL",
+      "count": 7821,
+      "first_public": null,
+      "pred_1y": 8375,
+      "pred_5y": 10676
+    },
+    {
+      "rank": 124,
+      "language": "Scilab",
+      "count": 7637,
+      "first_public": 1990,
+      "pred_1y": 8178,
+      "pred_5y": 10424
+    },
+    {
+      "rank": 125,
+      "language": "MQL5",
+      "count": 7257,
+      "first_public": 2010,
+      "pred_1y": 7826,
+      "pred_5y": 10193
+    },
+    {
+      "rank": 126,
+      "language": "SQF",
+      "count": 7235,
+      "first_public": 2001,
+      "pred_1y": 7748,
+      "pred_5y": 9876
+    },
+    {
+      "rank": 127,
+      "language": "SQLPL",
+      "count": 7232,
+      "first_public": 1998,
+      "pred_1y": 7745,
+      "pred_5y": 9872
+    },
+    {
+      "rank": 128,
+      "language": "FreeMarker",
+      "count": 7188,
+      "first_public": 2003,
+      "pred_1y": 7697,
+      "pred_5y": 9812
+    },
+    {
+      "rank": 129,
+      "language": "NSIS",
+      "count": 6916,
+      "first_public": 2000,
+      "pred_1y": 7406,
+      "pred_5y": 9440
+    },
+    {
+      "rank": 130,
+      "language": "PureScript",
+      "count": 6717,
+      "first_public": 2013,
+      "pred_1y": 7359,
+      "pred_5y": 10055
+    },
+    {
+      "rank": 131,
+      "language": "AGS Script",
+      "count": 6636,
+      "first_public": 1997,
+      "pred_1y": 7106,
+      "pred_5y": 9058
+    },
+    {
+      "rank": 132,
+      "language": "1C Enterprise",
+      "count": 6333,
+      "first_public": null,
+      "pred_1y": 6782,
+      "pred_5y": 8645
+    },
+    {
+      "rank": 133,
+      "language": "HLSL",
+      "count": 6248,
+      "first_public": 2002,
+      "pred_1y": 6691,
+      "pred_5y": 8528
+    },
+    {
+      "rank": 134,
+      "language": "AL",
+      "count": 6243,
+      "first_public": 2018,
+      "pred_1y": 7187,
+      "pred_5y": 11241
+    },
+    {
+      "rank": 135,
+      "language": "Pawn",
+      "count": 6107,
+      "first_public": 1998,
+      "pred_1y": 6540,
+      "pred_5y": 8336
+    },
+    {
+      "rank": 136,
+      "language": "NetLogo",
+      "count": 5965,
+      "first_public": 1999,
+      "pred_1y": 6388,
+      "pred_5y": 8142
+    },
+    {
+      "rank": 137,
+      "language": "Just",
+      "count": 5906,
+      "first_public": 2016,
+      "pred_1y": 6631,
+      "pred_5y": 9707
+    },
+    {
+      "rank": 138,
+      "language": "OpenEdge ABL",
+      "count": 5819,
+      "first_public": 1984,
+      "pred_1y": 6231,
+      "pred_5y": 7943
+    },
+    {
+      "rank": 139,
+      "language": "AutoIt",
+      "count": 5707,
+      "first_public": 1999,
+      "pred_1y": 6111,
+      "pred_5y": 7790
+    },
+    {
+      "rank": 140,
+      "language": "Lex",
+      "count": 5687,
+      "first_public": 1975,
+      "pred_1y": 6090,
+      "pred_5y": 7763
+    },
+    {
+      "rank": 141,
+      "language": "SuperCollider",
+      "count": 5614,
+      "first_public": 1996,
+      "pred_1y": 6012,
+      "pred_5y": 7663
+    },
+    {
+      "rank": 142,
+      "language": "CAP CDS",
+      "count": 5556,
+      "first_public": null,
+      "pred_1y": 5950,
+      "pred_5y": 7584
+    },
+    {
+      "rank": 143,
+      "language": "Ballerina",
+      "count": 5356,
+      "first_public": 2017,
+      "pred_1y": 6082,
+      "pred_5y": 9178
+    },
+    {
+      "rank": 144,
+      "language": "Cairo",
+      "count": 5347,
+      "first_public": 2020,
+      "pred_1y": 6401,
+      "pred_5y": 11001
+    },
+    {
+      "rank": 145,
+      "language": "GAP",
+      "count": 5215,
+      "first_public": 1986,
+      "pred_1y": 5585,
+      "pred_5y": 7118
+    },
+    {
+      "rank": 146,
+      "language": "Gleam",
+      "count": 5177,
+      "first_public": 2019,
+      "pred_1y": 6063,
+      "pred_5y": 9896
+    },
+    {
+      "rank": 147,
+      "language": "Io",
+      "count": 5035,
+      "first_public": 2002,
+      "pred_1y": 5392,
+      "pred_5y": 6873
+    },
+    {
+      "rank": 148,
+      "language": "Smali",
+      "count": 4983,
+      "first_public": 2010,
+      "pred_1y": 5373,
+      "pred_5y": 6999
+    },
+    {
+      "rank": 149,
+      "language": "Salt",
+      "count": 4749,
+      "first_public": 2011,
+      "pred_1y": 5145,
+      "pred_5y": 6797
+    },
+    {
+      "rank": 150,
+      "language": "Raku",
+      "count": 4619,
+      "first_public": 2005,
+      "pred_1y": 4946,
+      "pred_5y": 6305
+    },
+    {
+      "rank": 151,
+      "language": "xBase",
+      "count": 4532,
+      "first_public": 1979,
+      "pred_1y": 4853,
+      "pred_5y": 6186
+    },
+    {
+      "rank": 152,
+      "language": "AppleScript",
+      "count": 4500,
+      "first_public": 1993,
+      "pred_1y": 4819,
+      "pred_5y": 6142
+    },
+    {
+      "rank": 153,
+      "language": "Vala",
+      "count": 4438,
+      "first_public": 2006,
+      "pred_1y": 4753,
+      "pred_5y": 6058
+    },
+    {
+      "rank": 154,
+      "language": "Motoko",
+      "count": 4377,
+      "first_public": 2019,
+      "pred_1y": 5126,
+      "pred_5y": 8366
+    },
+    {
+      "rank": 155,
+      "language": "Awk",
+      "count": 3984,
+      "first_public": 1977,
+      "pred_1y": 4266,
+      "pred_5y": 5438
+    },
+    {
+      "rank": 156,
+      "language": "QMake",
+      "count": 3980,
+      "first_public": 2000,
+      "pred_1y": 4262,
+      "pred_5y": 5433
+    },
+    {
+      "rank": 157,
+      "language": "Procfile",
+      "count": 3940,
+      "first_public": 2011,
+      "pred_1y": 4268,
+      "pred_5y": 5640
+    },
+    {
+      "rank": 158,
+      "language": "ReScript",
+      "count": 3795,
+      "first_public": 2020,
+      "pred_1y": 4543,
+      "pred_5y": 7808
+    },
+    {
+      "rank": 159,
+      "language": "CodeQL",
+      "count": 3680,
+      "first_public": 2019,
+      "pred_1y": 4310,
+      "pred_5y": 7034
+    },
+    {
+      "rank": 160,
+      "language": "Gnuplot",
+      "count": 3559,
+      "first_public": 1986,
+      "pred_1y": 3811,
+      "pred_5y": 4858
+    },
+    {
+      "rank": 161,
+      "language": "M",
+      "count": 3514,
+      "first_public": 1966,
+      "pred_1y": 3763,
+      "pred_5y": 4797
+    },
+    {
+      "rank": 162,
+      "language": "Open Policy Agent",
+      "count": 3455,
+      "first_public": 2016,
+      "pred_1y": 3879,
+      "pred_5y": 5679
+    },
+    {
+      "rank": 163,
+      "language": "Agda",
+      "count": 3330,
+      "first_public": 1999,
+      "pred_1y": 3566,
+      "pred_5y": 4545
+    },
+    {
+      "rank": 164,
+      "language": "Jsonnet",
+      "count": 3292,
+      "first_public": 2014,
+      "pred_1y": 3632,
+      "pred_5y": 5063
+    },
+    {
+      "rank": 165,
+      "language": "V",
+      "count": 3253,
+      "first_public": 2019,
+      "pred_1y": 3810,
+      "pred_5y": 6218
+    },
+    {
+      "rank": 166,
+      "language": "DM",
+      "count": 3215,
+      "first_public": 1996,
+      "pred_1y": 3443,
+      "pred_5y": 4388
+    },
+    {
+      "rank": 167,
+      "language": "LilyPond",
+      "count": 3171,
+      "first_public": 1996,
+      "pred_1y": 3396,
+      "pred_5y": 4328
+    },
+    {
+      "rank": 168,
+      "language": "M4",
+      "count": 3065,
+      "first_public": 1977,
+      "pred_1y": 3282,
+      "pred_5y": 4184
+    },
+    {
+      "rank": 169,
+      "language": "Monkey C",
+      "count": 2990,
+      "first_public": 2016,
+      "pred_1y": 3357,
+      "pred_5y": 4914
+    },
+    {
+      "rank": 170,
+      "language": "MAXScript",
+      "count": 2914,
+      "first_public": 1996,
+      "pred_1y": 3121,
+      "pred_5y": 3978
+    },
+    {
+      "rank": 171,
+      "language": "DataWeave",
+      "count": 2886,
+      "first_public": 2015,
+      "pred_1y": 3210,
+      "pred_5y": 4577
+    },
+    {
+      "rank": 172,
+      "language": "MoonBit",
+      "count": 2874,
+      "first_public": 2023,
+      "pred_1y": 3911,
+      "pred_5y": 8664
+    },
+    {
+      "rank": 173,
+      "language": "CLIPS",
+      "count": 2844,
+      "first_public": 1986,
+      "pred_1y": 3046,
+      "pred_5y": 3882
+    },
+    {
+      "rank": 174,
+      "language": "MQL4",
+      "count": 2835,
+      "first_public": 2005,
+      "pred_1y": 3036,
+      "pred_5y": 3870
+    },
+    {
+      "rank": 175,
+      "language": "IDL",
+      "count": 2822,
+      "first_public": 1977,
+      "pred_1y": 3022,
+      "pred_5y": 3852
+    },
+    {
+      "rank": 176,
+      "language": "YARA",
+      "count": 2803,
+      "first_public": 2008,
+      "pred_1y": 3002,
+      "pred_5y": 3826
+    },
+    {
+      "rank": 177,
+      "language": "WebAssembly",
+      "count": 2774,
+      "first_public": 2017,
+      "pred_1y": 3150,
+      "pred_5y": 4754
+    },
+    {
+      "rank": 178,
+      "language": "nesC",
+      "count": 2772,
+      "first_public": 2003,
+      "pred_1y": 2968,
+      "pred_5y": 3784
+    },
+    {
+      "rank": 179,
+      "language": "Brainfuck",
+      "count": 2677,
+      "first_public": 1993,
+      "pred_1y": 2867,
+      "pred_5y": 3654
+    },
+    {
+      "rank": 180,
+      "language": "ImageJ Macro",
+      "count": 2676,
+      "first_public": 1997,
+      "pred_1y": 2866,
+      "pred_5y": 3653
+    },
+    {
+      "rank": 181,
+      "language": "Squirrel",
+      "count": 2627,
+      "first_public": 2003,
+      "pred_1y": 2813,
+      "pred_5y": 3586
+    },
+    {
+      "rank": 182,
+      "language": "Inno Setup",
+      "count": 2529,
+      "first_public": 1997,
+      "pred_1y": 2708,
+      "pred_5y": 3452
+    },
+    {
+      "rank": 183,
+      "language": "Idris",
+      "count": 2480,
+      "first_public": 2009,
+      "pred_1y": 2663,
+      "pred_5y": 3425
+    },
+    {
+      "rank": 184,
+      "language": "ANTLR",
+      "count": 2464,
+      "first_public": null,
+      "pred_1y": 2639,
+      "pred_5y": 3363
+    },
+    {
+      "rank": 185,
+      "language": "ZenScript",
+      "count": 2439,
+      "first_public": 2015,
+      "pred_1y": 2712,
+      "pred_5y": 3868
+    },
+    {
+      "rank": 186,
+      "language": "Forth",
+      "count": 2438,
+      "first_public": 1970,
+      "pred_1y": 2611,
+      "pred_5y": 3328
+    },
+    {
+      "rank": 187,
+      "language": "BASIC",
+      "count": 2397,
+      "first_public": 1964,
+      "pred_1y": 2567,
+      "pred_5y": 3272
+    },
+    {
+      "rank": 188,
+      "language": "AngelScript",
+      "count": 2388,
+      "first_public": 2003,
+      "pred_1y": 2557,
+      "pred_5y": 3260
+    },
+    {
+      "rank": 189,
+      "language": "LiveScript",
+      "count": 2225,
+      "first_public": 2011,
+      "pred_1y": 2410,
+      "pred_5y": 3185
+    },
+    {
+      "rank": 190,
+      "language": "XQuery",
+      "count": 2219,
+      "first_public": 2007,
+      "pred_1y": 2376,
+      "pred_5y": 3029
+    },
+    {
+      "rank": 191,
+      "language": "Cypher",
+      "count": 2199,
+      "first_public": 2011,
+      "pred_1y": 2382,
+      "pred_5y": 3148
+    },
+    {
+      "rank": 192,
+      "language": "RouterOS Script",
+      "count": 2189,
+      "first_public": null,
+      "pred_1y": 2344,
+      "pred_5y": 2988
+    },
+    {
+      "rank": 193,
+      "language": "Nushell",
+      "count": 2118,
+      "first_public": 2019,
+      "pred_1y": 2480,
+      "pred_5y": 4048
+    },
+    {
+      "rank": 194,
+      "language": "ObjectScript",
+      "count": 2113,
+      "first_public": 1997,
+      "pred_1y": 2263,
+      "pred_5y": 2884
+    },
+    {
+      "rank": 195,
+      "language": "Reason",
+      "count": 2101,
+      "first_public": 2016,
+      "pred_1y": 2359,
+      "pred_5y": 3453
+    },
+    {
+      "rank": 196,
+      "language": "Cython",
+      "count": 2100,
+      "first_public": 2007,
+      "pred_1y": 2249,
+      "pred_5y": 2866
+    },
+    {
+      "rank": 197,
+      "language": "ABAP CDS",
+      "count": 2080,
+      "first_public": 2013,
+      "pred_1y": 2279,
+      "pred_5y": 3114
+    },
+    {
+      "rank": 198,
+      "language": "UnrealScript",
+      "count": 2052,
+      "first_public": 1998,
+      "pred_1y": 2197,
+      "pred_5y": 2801
+    },
+    {
+      "rank": 199,
+      "language": "Tree-sitter Query",
+      "count": 1941,
+      "first_public": 2018,
+      "pred_1y": 2235,
+      "pred_5y": 3495
+    },
+    {
+      "rank": 200,
+      "language": "GCC Machine Description",
+      "count": 1840,
+      "first_public": 1987,
+      "pred_1y": 1970,
+      "pred_5y": 2512
+    },
+    {
+      "rank": 201,
+      "language": "WDL",
+      "count": 1788,
+      "first_public": 2014,
+      "pred_1y": 1973,
+      "pred_5y": 2750
+    },
+    {
+      "rank": 202,
+      "language": "Modelica",
+      "count": 1786,
+      "first_public": 1997,
+      "pred_1y": 1913,
+      "pred_5y": 2438
+    },
+    {
+      "rank": 203,
+      "language": "PigLatin",
+      "count": 1670,
+      "first_public": 2008,
+      "pred_1y": 1788,
+      "pred_5y": 2280
+    },
+    {
+      "rank": 204,
+      "language": "Sage",
+      "count": 1666,
+      "first_public": 2005,
+      "pred_1y": 1784,
+      "pred_5y": 2274
+    },
+    {
+      "rank": 205,
+      "language": "PDDL",
+      "count": 1577,
+      "first_public": 1998,
+      "pred_1y": 1689,
+      "pred_5y": 2153
+    },
+    {
+      "rank": 206,
+      "language": "Component Pascal",
+      "count": 1576,
+      "first_public": null,
+      "pred_1y": 1688,
+      "pred_5y": 2151
+    },
+    {
+      "rank": 207,
+      "language": "Meson",
+      "count": 1576,
+      "first_public": 2013,
+      "pred_1y": 1727,
+      "pred_5y": 2359
+    },
+    {
+      "rank": 208,
+      "language": "Zeek",
+      "count": 1561,
+      "first_public": 1998,
+      "pred_1y": 1672,
+      "pred_5y": 2131
+    },
+    {
+      "rank": 209,
+      "language": "Xtend",
+      "count": 1503,
+      "first_public": 2011,
+      "pred_1y": 1628,
+      "pred_5y": 2151
+    },
+    {
+      "rank": 210,
+      "language": "BibTeX Style",
+      "count": 1494,
+      "first_public": 1985,
+      "pred_1y": 1600,
+      "pred_5y": 2039
+    },
+    {
+      "rank": 211,
+      "language": "Brightscript",
+      "count": 1472,
+      "first_public": 2008,
+      "pred_1y": 1576,
+      "pred_5y": 2009
+    },
+    {
+      "rank": 212,
+      "language": "TLA",
+      "count": 1469,
+      "first_public": 1999,
+      "pred_1y": 1573,
+      "pred_5y": 2005
+    },
+    {
+      "rank": 213,
+      "language": "Isabelle",
+      "count": 1464,
+      "first_public": 1986,
+      "pred_1y": 1568,
+      "pred_5y": 1998
+    },
+    {
+      "rank": 214,
+      "language": "Stan",
+      "count": 1460,
+      "first_public": 2012,
+      "pred_1y": 1590,
+      "pred_5y": 2134
+    },
+    {
+      "rank": 215,
+      "language": "Cadence",
+      "count": 1440,
+      "first_public": 2019,
+      "pred_1y": 1686,
+      "pred_5y": 2752
+    },
+    {
+      "rank": 216,
+      "language": "q",
+      "count": 1427,
+      "first_public": 2003,
+      "pred_1y": 1528,
+      "pred_5y": 1948
+    },
+    {
+      "rank": 217,
+      "language": "Objective-J",
+      "count": 1421,
+      "first_public": 2008,
+      "pred_1y": 1522,
+      "pred_5y": 1940
+    },
+    {
+      "rank": 218,
+      "language": "GAMS",
+      "count": 1420,
+      "first_public": 1976,
+      "pred_1y": 1521,
+      "pred_5y": 1938
+    },
+    {
+      "rank": 219,
+      "language": "GSC",
+      "count": 1418,
+      "first_public": null,
+      "pred_1y": 1518,
+      "pred_5y": 1936
+    },
+    {
+      "rank": 220,
+      "language": "FreeBASIC",
+      "count": 1362,
+      "first_public": 2004,
+      "pred_1y": 1459,
+      "pred_5y": 1859
+    },
+    {
+      "rank": 221,
+      "language": "Alloy",
+      "count": 1330,
+      "first_public": 2002,
+      "pred_1y": 1424,
+      "pred_5y": 1815
+    },
+    {
+      "rank": 222,
+      "language": "P4",
+      "count": 1330,
+      "first_public": 2014,
+      "pred_1y": 1467,
+      "pred_5y": 2045
+    },
+    {
+      "rank": 223,
+      "language": "Mojo",
+      "count": 1327,
+      "first_public": 2023,
+      "pred_1y": 1806,
+      "pred_5y": 4001
+    },
+    {
+      "rank": 224,
+      "language": "SMT",
+      "count": 1291,
+      "first_public": 2004,
+      "pred_1y": 1382,
+      "pred_5y": 1762
+    },
+    {
+      "rank": 225,
+      "language": "Common Workflow Language",
+      "count": 1191,
+      "first_public": 2014,
+      "pred_1y": 1314,
+      "pred_5y": 1832
+    },
+    {
+      "rank": 226,
+      "language": "Eiffel",
+      "count": 1153,
+      "first_public": 1986,
+      "pred_1y": 1235,
+      "pred_5y": 1574
+    },
+    {
+      "rank": 227,
+      "language": "GDShader",
+      "count": 1146,
+      "first_public": 2018,
+      "pred_1y": 1319,
+      "pred_5y": 2064
+    },
+    {
+      "rank": 228,
+      "language": "RenderScript",
+      "count": 1127,
+      "first_public": 2011,
+      "pred_1y": 1221,
+      "pred_5y": 1613
+    },
+    {
+      "rank": 229,
+      "language": "POV-Ray SDL",
+      "count": 1103,
+      "first_public": 1991,
+      "pred_1y": 1181,
+      "pred_5y": 1506
+    },
+    {
+      "rank": 230,
+      "language": "Linker Script",
+      "count": 1102,
+      "first_public": null,
+      "pred_1y": 1180,
+      "pred_5y": 1504
+    },
+    {
+      "rank": 231,
+      "language": "HiveQL",
+      "count": 1080,
+      "first_public": 2009,
+      "pred_1y": 1160,
+      "pred_5y": 1491
+    },
+    {
+      "rank": 232,
+      "language": "PowerBuilder",
+      "count": 1067,
+      "first_public": 1991,
+      "pred_1y": 1143,
+      "pred_5y": 1456
+    },
+    {
+      "rank": 233,
+      "language": "LSL",
+      "count": 1042,
+      "first_public": 2003,
+      "pred_1y": 1116,
+      "pred_5y": 1422
+    },
+    {
+      "rank": 234,
+      "language": "Dhall",
+      "count": 1027,
+      "first_public": 2017,
+      "pred_1y": 1166,
+      "pred_5y": 1760
+    },
+    {
+      "rank": 235,
+      "language": "CUE",
+      "count": 1005,
+      "first_public": 2019,
+      "pred_1y": 1177,
+      "pred_5y": 1921
+    },
+    {
+      "rank": 236,
+      "language": "4D",
+      "count": 979,
+      "first_public": 1984,
+      "pred_1y": 1048,
+      "pred_5y": 1336
+    },
+    {
+      "rank": 237,
+      "language": "JetBrains MPS",
+      "count": 979,
+      "first_public": 2009,
+      "pred_1y": 1051,
+      "pred_5y": 1352
+    },
+    {
+      "rank": 238,
+      "language": "Limbo",
+      "count": 977,
+      "first_public": 1996,
+      "pred_1y": 1046,
+      "pred_5y": 1334
+    },
+    {
+      "rank": 239,
+      "language": "Lasso",
+      "count": 958,
+      "first_public": 1996,
+      "pred_1y": 1026,
+      "pred_5y": 1308
+    },
+    {
+      "rank": 240,
+      "language": "XS",
+      "count": 947,
+      "first_public": null,
+      "pred_1y": 1014,
+      "pred_5y": 1293
+    },
+    {
+      "rank": 241,
+      "language": "GDB",
+      "count": 931,
+      "first_public": 1986,
+      "pred_1y": 997,
+      "pred_5y": 1271
+    },
+    {
+      "rank": 242,
+      "language": "Circom",
+      "count": 909,
+      "first_public": 2020,
+      "pred_1y": 1088,
+      "pred_5y": 1870
+    },
+    {
+      "rank": 243,
+      "language": "Xojo",
+      "count": 900,
+      "first_public": 2013,
+      "pred_1y": 986,
+      "pred_5y": 1347
+    },
+    {
+      "rank": 244,
+      "language": "MoonScript",
+      "count": 894,
+      "first_public": 2011,
+      "pred_1y": 969,
+      "pred_5y": 1280
+    },
+    {
+      "rank": 245,
+      "language": "NCL",
+      "count": 886,
+      "first_public": null,
+      "pred_1y": 949,
+      "pred_5y": 1209
+    },
+    {
+      "rank": 246,
+      "language": "Rascal",
+      "count": 869,
+      "first_public": 2009,
+      "pred_1y": 933,
+      "pred_5y": 1200
+    },
+    {
+      "rank": 247,
+      "language": "RPGLE",
+      "count": 857,
+      "first_public": 1994,
+      "pred_1y": 918,
+      "pred_5y": 1170
+    },
+    {
+      "rank": 248,
+      "language": "Mercury",
+      "count": 851,
+      "first_public": 1995,
+      "pred_1y": 911,
+      "pred_5y": 1162
+    },
+    {
+      "rank": 249,
+      "language": "DTrace",
+      "count": 843,
+      "first_public": 2005,
+      "pred_1y": 903,
+      "pred_5y": 1151
+    },
+    {
+      "rank": 250,
+      "language": "QuickBASIC",
+      "count": 822,
+      "first_public": 1985,
+      "pred_1y": 880,
+      "pred_5y": 1122
+    },
+    {
+      "rank": 251,
+      "language": "VCL",
+      "count": 809,
+      "first_public": 2006,
+      "pred_1y": 866,
+      "pred_5y": 1104
+    },
+    {
+      "rank": 252,
+      "language": "ChucK",
+      "count": 790,
+      "first_public": 2003,
+      "pred_1y": 846,
+      "pred_5y": 1078
+    },
+    {
+      "rank": 253,
+      "language": "BlitzBasic",
+      "count": 783,
+      "first_public": 2000,
+      "pred_1y": 838,
+      "pred_5y": 1069
+    },
+    {
+      "rank": 254,
+      "language": "OpenQASM",
+      "count": 783,
+      "first_public": 2017,
+      "pred_1y": 889,
+      "pred_5y": 1342
+    },
+    {
+      "rank": 255,
+      "language": "RPC",
+      "count": 780,
+      "first_public": null,
+      "pred_1y": 835,
+      "pred_5y": 1065
+    },
+    {
+      "rank": 256,
+      "language": "Gosu",
+      "count": 771,
+      "first_public": null,
+      "pred_1y": 826,
+      "pred_5y": 1052
+    },
+    {
+      "rank": 257,
+      "language": "Dafny",
+      "count": 769,
+      "first_public": 2009,
+      "pred_1y": 826,
+      "pred_5y": 1062
+    },
+    {
+      "rank": 258,
+      "language": "GAML",
+      "count": 762,
+      "first_public": null,
+      "pred_1y": 816,
+      "pred_5y": 1040
+    },
+    {
+      "rank": 259,
+      "language": "NewLisp",
+      "count": 758,
+      "first_public": 1991,
+      "pred_1y": 812,
+      "pred_5y": 1035
+    },
+    {
+      "rank": 260,
+      "language": "Pony",
+      "count": 716,
+      "first_public": 2014,
+      "pred_1y": 790,
+      "pred_5y": 1101
+    },
+    {
+      "rank": 261,
+      "language": "Red",
+      "count": 715,
+      "first_public": 2011,
+      "pred_1y": 775,
+      "pred_5y": 1023
+    },
+    {
+      "rank": 262,
+      "language": "Cangjie",
+      "count": 709,
+      "first_public": 2024,
+      "pred_1y": 1062,
+      "pred_5y": 2735
+    },
+    {
+      "rank": 263,
+      "language": "Slash",
+      "count": 709,
+      "first_public": null,
+      "pred_1y": 759,
+      "pred_5y": 968
+    },
+    {
+      "rank": 264,
+      "language": "HolyC",
+      "count": 694,
+      "first_public": null,
+      "pred_1y": 743,
+      "pred_5y": 947
+    },
+    {
+      "rank": 265,
+      "language": "AspectJ",
+      "count": 691,
+      "first_public": 2001,
+      "pred_1y": 740,
+      "pred_5y": 943
+    },
+    {
+      "rank": 266,
+      "language": "Q#",
+      "count": 672,
+      "first_public": 2017,
+      "pred_1y": 763,
+      "pred_5y": 1152
+    },
+    {
+      "rank": 267,
+      "language": "Bluespec",
+      "count": 665,
+      "first_public": null,
+      "pred_1y": 712,
+      "pred_5y": 908
+    },
+    {
+      "rank": 268,
+      "language": "Fluent",
+      "count": 647,
+      "first_public": null,
+      "pred_1y": 693,
+      "pred_5y": 883
+    },
+    {
+      "rank": 269,
+      "language": "Promela",
+      "count": 647,
+      "first_public": 1991,
+      "pred_1y": 693,
+      "pred_5y": 883
+    },
+    {
+      "rank": 270,
+      "language": "CWeb",
+      "count": 646,
+      "first_public": 1987,
+      "pred_1y": 692,
+      "pred_5y": 882
+    },
+    {
+      "rank": 271,
+      "language": "Vyper",
+      "count": 637,
+      "first_public": 2017,
+      "pred_1y": 723,
+      "pred_5y": 1092
+    },
+    {
+      "rank": 272,
+      "language": "Jai",
+      "count": 632,
+      "first_public": null,
+      "pred_1y": 677,
+      "pred_5y": 863
+    },
+    {
+      "rank": 273,
+      "language": "APL",
+      "count": 624,
+      "first_public": 1964,
+      "pred_1y": 668,
+      "pred_5y": 852
+    },
+    {
+      "rank": 274,
+      "language": "Turing",
+      "count": 620,
+      "first_public": 1982,
+      "pred_1y": 664,
+      "pred_5y": 846
+    },
+    {
+      "rank": 275,
+      "language": "CartoCSS",
+      "count": 609,
+      "first_public": null,
+      "pred_1y": 652,
+      "pred_5y": 831
+    },
+    {
+      "rank": 276,
+      "language": "Noir",
+      "count": 606,
+      "first_public": 2022,
+      "pred_1y": 777,
+      "pred_5y": 1546
+    },
+    {
+      "rank": 277,
+      "language": "Macaulay2",
+      "count": 603,
+      "first_public": 1993,
+      "pred_1y": 646,
+      "pred_5y": 823
+    },
+    {
+      "rank": 278,
+      "language": "Propeller Spin",
+      "count": 593,
+      "first_public": 2006,
+      "pred_1y": 635,
+      "pred_5y": 809
+    },
+    {
+      "rank": 279,
+      "language": "MLIR",
+      "count": 592,
+      "first_public": 2019,
+      "pred_1y": 693,
+      "pred_5y": 1132
+    },
+    {
+      "rank": 280,
+      "language": "J",
+      "count": 582,
+      "first_public": 1990,
+      "pred_1y": 623,
+      "pred_5y": 794
+    },
+    {
+      "rank": 281,
+      "language": "Thrift",
+      "count": 579,
+      "first_public": 2007,
+      "pred_1y": 620,
+      "pred_5y": 790
+    },
+    {
+      "rank": 282,
+      "language": "Janet",
+      "count": 578,
+      "first_public": 2017,
+      "pred_1y": 656,
+      "pred_5y": 990
+    },
+    {
+      "rank": 283,
+      "language": "Pkl",
+      "count": 577,
+      "first_public": 2024,
+      "pred_1y": 865,
+      "pred_5y": 2226
+    },
+    {
+      "rank": 284,
+      "language": "hoon",
+      "count": 573,
+      "first_public": 2013,
+      "pred_1y": 628,
+      "pred_5y": 858
+    },
+    {
+      "rank": 285,
+      "language": "Inform 7",
+      "count": 566,
+      "first_public": 2006,
+      "pred_1y": 606,
+      "pred_5y": 773
+    },
+    {
+      "rank": 286,
+      "language": "F*",
+      "count": 558,
+      "first_public": null,
+      "pred_1y": 598,
+      "pred_5y": 762
+    },
+    {
+      "rank": 287,
+      "language": "IGOR Pro",
+      "count": 554,
+      "first_public": 1989,
+      "pred_1y": 593,
+      "pred_5y": 756
+    },
+    {
+      "rank": 288,
+      "language": "Csound Document",
+      "count": 546,
+      "first_public": 1985,
+      "pred_1y": 585,
+      "pred_5y": 745
+    },
+    {
+      "rank": 289,
+      "language": "sed",
+      "count": 545,
+      "first_public": 1974,
+      "pred_1y": 584,
+      "pred_5y": 744
+    },
+    {
+      "rank": 290,
+      "language": "Hy",
+      "count": 542,
+      "first_public": 2013,
+      "pred_1y": 594,
+      "pred_5y": 811
+    },
+    {
+      "rank": 291,
+      "language": "Fennel",
+      "count": 541,
+      "first_public": 2016,
+      "pred_1y": 607,
+      "pred_5y": 889
+    },
+    {
+      "rank": 292,
+      "language": "Metal",
+      "count": 540,
+      "first_public": 2014,
+      "pred_1y": 596,
+      "pred_5y": 830
+    },
+    {
+      "rank": 293,
+      "language": "E",
+      "count": 526,
+      "first_public": null,
+      "pred_1y": 563,
+      "pred_5y": 718
+    },
+    {
+      "rank": 294,
+      "language": "Terra",
+      "count": 519,
+      "first_public": 2013,
+      "pred_1y": 569,
+      "pred_5y": 777
+    },
+    {
+      "rank": 295,
+      "language": "LOLCODE",
+      "count": 517,
+      "first_public": 2007,
+      "pred_1y": 554,
+      "pred_5y": 706
+    },
+    {
+      "rank": 296,
+      "language": "Ink",
+      "count": 515,
+      "first_public": 2016,
+      "pred_1y": 578,
+      "pred_5y": 846
+    },
+    {
+      "rank": 297,
+      "language": "JCL",
+      "count": 511,
+      "first_public": 1964,
+      "pred_1y": 547,
+      "pred_5y": 698
+    },
+    {
+      "rank": 298,
+      "language": "REXX",
+      "count": 506,
+      "first_public": 1979,
+      "pred_1y": 542,
+      "pred_5y": 691
+    },
+    {
+      "rank": 299,
+      "language": "Answer Set Programming",
+      "count": 496,
+      "first_public": null,
+      "pred_1y": 531,
+      "pred_5y": 677
+    },
+    {
+      "rank": 300,
+      "language": "Faust",
+      "count": 494,
+      "first_public": 2002,
+      "pred_1y": 529,
+      "pred_5y": 674
+    },
+    {
+      "rank": 301,
+      "language": "Oz",
+      "count": 484,
+      "first_public": 1995,
+      "pred_1y": 518,
+      "pred_5y": 661
+    },
+    {
+      "rank": 302,
+      "language": "KerboScript",
+      "count": 483,
+      "first_public": null,
+      "pred_1y": 517,
+      "pred_5y": 659
+    },
+    {
+      "rank": 303,
+      "language": "KakouneScript",
+      "count": 476,
+      "first_public": null,
+      "pred_1y": 510,
+      "pred_5y": 650
+    },
+    {
+      "rank": 304,
+      "language": "Modula-2",
+      "count": 451,
+      "first_public": 1978,
+      "pred_1y": 483,
+      "pred_5y": 616
+    },
+    {
+      "rank": 305,
+      "language": "Pyret",
+      "count": 439,
+      "first_public": 2013,
+      "pred_1y": 481,
+      "pred_5y": 657
+    },
+    {
+      "rank": 306,
+      "language": "Linear Programming",
+      "count": 433,
+      "first_public": null,
+      "pred_1y": 464,
+      "pred_5y": 591
+    },
+    {
+      "rank": 307,
+      "language": "C3",
+      "count": 413,
+      "first_public": 2019,
+      "pred_1y": 484,
+      "pred_5y": 789
+    },
+    {
+      "rank": 308,
+      "language": "Beef",
+      "count": 403,
+      "first_public": null,
+      "pred_1y": 432,
+      "pred_5y": 550
+    },
+    {
+      "rank": 309,
+      "language": "WGSL",
+      "count": 403,
+      "first_public": 2020,
+      "pred_1y": 482,
+      "pred_5y": 829
+    },
+    {
+      "rank": 310,
+      "language": "KRL",
+      "count": 402,
+      "first_public": null,
+      "pred_1y": 430,
+      "pred_5y": 549
+    },
+    {
+      "rank": 311,
+      "language": "NASL",
+      "count": 397,
+      "first_public": 1998,
+      "pred_1y": 425,
+      "pred_5y": 542
+    },
+    {
+      "rank": 312,
+      "language": "ECL",
+      "count": 387,
+      "first_public": 2011,
+      "pred_1y": 419,
+      "pred_5y": 554
+    },
+    {
+      "rank": 313,
+      "language": "XC",
+      "count": 378,
+      "first_public": 2005,
+      "pred_1y": 405,
+      "pred_5y": 516
+    },
+    {
+      "rank": 314,
+      "language": "Cirru",
+      "count": 376,
+      "first_public": null,
+      "pred_1y": 403,
+      "pred_5y": 513
+    },
+    {
+      "rank": 315,
+      "language": "Euphoria",
+      "count": 368,
+      "first_public": 1993,
+      "pred_1y": 394,
+      "pred_5y": 502
+    },
+    {
+      "rank": 316,
+      "language": "TL-Verilog",
+      "count": 367,
+      "first_public": 2017,
+      "pred_1y": 417,
+      "pred_5y": 629
+    },
+    {
+      "rank": 317,
+      "language": "Jac",
+      "count": 365,
+      "first_public": null,
+      "pred_1y": 391,
+      "pred_5y": 498
+    },
+    {
+      "rank": 318,
+      "language": "Nu",
+      "count": 355,
+      "first_public": 2019,
+      "pred_1y": 416,
+      "pred_5y": 679
+    },
+    {
+      "rank": 319,
+      "language": "B4X",
+      "count": 353,
+      "first_public": null,
+      "pred_1y": 378,
+      "pred_5y": 482
+    },
+    {
+      "rank": 320,
+      "language": "Witcher Script",
+      "count": 349,
+      "first_public": null,
+      "pred_1y": 374,
+      "pred_5y": 476
+    },
+    {
+      "rank": 321,
+      "language": "Chapel",
+      "count": 348,
+      "first_public": null,
+      "pred_1y": 373,
+      "pred_5y": 475
+    },
+    {
+      "rank": 322,
+      "language": "mIRC Script",
+      "count": 348,
+      "first_public": 1995,
+      "pred_1y": 373,
+      "pred_5y": 475
+    },
+    {
+      "rank": 323,
+      "language": "Clean",
+      "count": 346,
+      "first_public": null,
+      "pred_1y": 371,
+      "pred_5y": 472
+    },
+    {
+      "rank": 324,
+      "language": "NWScript",
+      "count": 336,
+      "first_public": 2002,
+      "pred_1y": 360,
+      "pred_5y": 459
+    },
+    {
+      "rank": 325,
+      "language": "Ceylon",
+      "count": 330,
+      "first_public": 2011,
+      "pred_1y": 358,
+      "pred_5y": 472
+    },
+    {
+      "rank": 326,
+      "language": "Clarion",
+      "count": 323,
+      "first_public": 1986,
+      "pred_1y": 346,
+      "pred_5y": 441
+    },
+    {
+      "rank": 327,
+      "language": "Arc",
+      "count": 321,
+      "first_public": 2008,
+      "pred_1y": 344,
+      "pred_5y": 438
+    },
+    {
+      "rank": 328,
+      "language": "Nasal",
+      "count": 319,
+      "first_public": null,
+      "pred_1y": 342,
+      "pred_5y": 435
+    },
+    {
+      "rank": 329,
+      "language": "Modula-3",
+      "count": 312,
+      "first_public": 1988,
+      "pred_1y": 334,
+      "pred_5y": 426
+    },
+    {
+      "rank": 330,
+      "language": "Uno",
+      "count": 312,
+      "first_public": 2011,
+      "pred_1y": 338,
+      "pred_5y": 447
+    },
+    {
+      "rank": 331,
+      "language": "Ring",
+      "count": 306,
+      "first_public": 2016,
+      "pred_1y": 344,
+      "pred_5y": 503
+    },
+    {
+      "rank": 332,
+      "language": "jq",
+      "count": 303,
+      "first_public": 2012,
+      "pred_1y": 330,
+      "pred_5y": 443
+    },
+    {
+      "rank": 333,
+      "language": "Roc",
+      "count": 298,
+      "first_public": 2020,
+      "pred_1y": 357,
+      "pred_5y": 613
+    },
+    {
+      "rank": 334,
+      "language": "Praat",
+      "count": 292,
+      "first_public": 1992,
+      "pred_1y": 313,
+      "pred_5y": 399
+    },
+    {
+      "rank": 335,
+      "language": "BlitzMax",
+      "count": 288,
+      "first_public": 2004,
+      "pred_1y": 308,
+      "pred_5y": 393
+    },
+    {
+      "rank": 336,
+      "language": "Xmake",
+      "count": 286,
+      "first_public": 2015,
+      "pred_1y": 318,
+      "pred_5y": 454
+    },
+    {
+      "rank": 337,
+      "language": "Berry",
+      "count": 282,
+      "first_public": null,
+      "pred_1y": 302,
+      "pred_5y": 385
+    },
+    {
+      "rank": 338,
+      "language": "Monkey",
+      "count": 278,
+      "first_public": 2011,
+      "pred_1y": 301,
+      "pred_5y": 398
+    },
+    {
+      "rank": 339,
+      "language": "Factor",
+      "count": 277,
+      "first_public": 2003,
+      "pred_1y": 297,
+      "pred_5y": 378
+    },
+    {
+      "rank": 340,
+      "language": "Boo",
+      "count": 275,
+      "first_public": 2003,
+      "pred_1y": 294,
+      "pred_5y": 375
+    },
+    {
+      "rank": 341,
+      "language": "FLUX",
+      "count": 266,
+      "first_public": null,
+      "pred_1y": 285,
+      "pred_5y": 363
+    },
+    {
+      "rank": 342,
+      "language": "Pep8",
+      "count": 266,
+      "first_public": null,
+      "pred_1y": 285,
+      "pred_5y": 363
+    },
+    {
+      "rank": 343,
+      "language": "eC",
+      "count": 264,
+      "first_public": 2005,
+      "pred_1y": 283,
+      "pred_5y": 360
+    },
+    {
+      "rank": 344,
+      "language": "Aiken",
+      "count": 257,
+      "first_public": 2022,
+      "pred_1y": 330,
+      "pred_5y": 655
+    },
+    {
+      "rank": 345,
+      "language": "EmberScript",
+      "count": 252,
+      "first_public": null,
+      "pred_1y": 270,
+      "pred_5y": 344
+    },
+    {
+      "rank": 346,
+      "language": "Sway",
+      "count": 248,
+      "first_public": 2021,
+      "pred_1y": 306,
+      "pred_5y": 560
+    },
+    {
+      "rank": 347,
+      "language": "ATS",
+      "count": 241,
+      "first_public": null,
+      "pred_1y": 258,
+      "pred_5y": 329
+    },
+    {
+      "rank": 348,
+      "language": "Grammatical Framework",
+      "count": 238,
+      "first_public": null,
+      "pred_1y": 255,
+      "pred_5y": 325
+    },
+    {
+      "rank": 349,
+      "language": "ooc",
+      "count": 233,
+      "first_public": 2009,
+      "pred_1y": 250,
+      "pred_5y": 322
+    },
+    {
+      "rank": 350,
+      "language": "Toit",
+      "count": 230,
+      "first_public": 2020,
+      "pred_1y": 275,
+      "pred_5y": 473
+    },
+    {
+      "rank": 351,
+      "language": "Jolie",
+      "count": 228,
+      "first_public": null,
+      "pred_1y": 244,
+      "pred_5y": 311
+    },
+    {
+      "rank": 352,
+      "language": "Frege",
+      "count": 227,
+      "first_public": 2011,
+      "pred_1y": 246,
+      "pred_5y": 325
+    },
+    {
+      "rank": 353,
+      "language": "Mako",
+      "count": 224,
+      "first_public": 2006,
+      "pred_1y": 240,
+      "pred_5y": 306
+    },
+    {
+      "rank": 354,
+      "language": "Earthly",
+      "count": 223,
+      "first_public": 2020,
+      "pred_1y": 267,
+      "pred_5y": 459
+    },
+    {
+      "rank": 355,
+      "language": "Singularity",
+      "count": 222,
+      "first_public": 2015,
+      "pred_1y": 247,
+      "pred_5y": 352
+    },
+    {
+      "rank": 356,
+      "language": "Power Query",
+      "count": 219,
+      "first_public": 2013,
+      "pred_1y": 240,
+      "pred_5y": 328
+    },
+    {
+      "rank": 357,
+      "language": "TypeSpec",
+      "count": 218,
+      "first_public": 2023,
+      "pred_1y": 297,
+      "pred_5y": 657
+    },
+    {
+      "rank": 358,
+      "language": "Dune",
+      "count": 216,
+      "first_public": 2016,
+      "pred_1y": 243,
+      "pred_5y": 355
+    },
+    {
+      "rank": 359,
+      "language": "CQL",
+      "count": 215,
+      "first_public": 2011,
+      "pred_1y": 233,
+      "pred_5y": 308
+    },
+    {
+      "rank": 360,
+      "language": "Imba",
+      "count": 213,
+      "first_public": null,
+      "pred_1y": 228,
+      "pred_5y": 291
+    },
+    {
+      "rank": 361,
+      "language": "MiniZinc",
+      "count": 212,
+      "first_public": 2008,
+      "pred_1y": 227,
+      "pred_5y": 289
+    },
+    {
+      "rank": 362,
+      "language": "Nemerle",
+      "count": 211,
+      "first_public": 2003,
+      "pred_1y": 226,
+      "pred_5y": 288
+    },
+    {
+      "rank": 363,
+      "language": "Fantom",
+      "count": 208,
+      "first_public": 2005,
+      "pred_1y": 223,
+      "pred_5y": 284
+    },
+    {
+      "rank": 364,
+      "language": "QuakeC",
+      "count": 208,
+      "first_public": 1996,
+      "pred_1y": 223,
+      "pred_5y": 284
+    },
+    {
+      "rank": 365,
+      "language": "Kaitai Struct",
+      "count": 205,
+      "first_public": 2015,
+      "pred_1y": 228,
+      "pred_5y": 325
+    },
+    {
+      "rank": 366,
+      "language": "HIP",
+      "count": 194,
+      "first_public": 2016,
+      "pred_1y": 218,
+      "pred_5y": 319
+    },
+    {
+      "rank": 367,
+      "language": "Cool",
+      "count": 193,
+      "first_public": null,
+      "pred_1y": 207,
+      "pred_5y": 263
+    },
+    {
+      "rank": 368,
+      "language": "Bison",
+      "count": 188,
+      "first_public": 1985,
+      "pred_1y": 201,
+      "pred_5y": 257
+    },
+    {
+      "rank": 369,
+      "language": "Asymptote",
+      "count": 187,
+      "first_public": 2004,
+      "pred_1y": 200,
+      "pred_5y": 255
+    },
+    {
+      "rank": 370,
+      "language": "Pike",
+      "count": 187,
+      "first_public": 1994,
+      "pred_1y": 200,
+      "pred_5y": 255
+    },
+    {
+      "rank": 371,
+      "language": "ZIL",
+      "count": 187,
+      "first_public": 1979,
+      "pred_1y": 200,
+      "pred_5y": 255
+    },
+    {
+      "rank": 372,
+      "language": "Dylan",
+      "count": 186,
+      "first_public": null,
+      "pred_1y": 199,
+      "pred_5y": 254
+    },
+    {
+      "rank": 373,
+      "language": "Futhark",
+      "count": 185,
+      "first_public": 2014,
+      "pred_1y": 204,
+      "pred_5y": 285
+    },
+    {
+      "rank": 374,
+      "language": "Volt",
+      "count": 183,
+      "first_public": null,
+      "pred_1y": 196,
+      "pred_5y": 250
+    },
+    {
+      "rank": 375,
+      "language": "KCL",
+      "count": 180,
+      "first_public": null,
+      "pred_1y": 193,
+      "pred_5y": 246
+    },
+    {
+      "rank": 376,
+      "language": "ZAP",
+      "count": 178,
+      "first_public": null,
+      "pred_1y": 191,
+      "pred_5y": 243
+    },
+    {
+      "rank": 377,
+      "language": "Zimpl",
+      "count": 178,
+      "first_public": 2004,
+      "pred_1y": 191,
+      "pred_5y": 243
+    },
+    {
+      "rank": 378,
+      "language": "Curry",
+      "count": 177,
+      "first_public": null,
+      "pred_1y": 190,
+      "pred_5y": 242
+    },
+    {
+      "rank": 379,
+      "language": "Cap'n Proto",
+      "count": 169,
+      "first_public": 2013,
+      "pred_1y": 185,
+      "pred_5y": 253
+    },
+    {
+      "rank": 380,
+      "language": "DenizenScript",
+      "count": 169,
+      "first_public": null,
+      "pred_1y": 181,
+      "pred_5y": 231
+    },
+    {
+      "rank": 381,
+      "language": "Mathematical Programming System",
+      "count": 168,
+      "first_public": null,
+      "pred_1y": 180,
+      "pred_5y": 229
+    },
+    {
+      "rank": 382,
+      "language": "Rez",
+      "count": 168,
+      "first_public": 2012,
+      "pred_1y": 183,
+      "pred_5y": 246
+    },
+    {
+      "rank": 383,
+      "language": "LigoLANG",
+      "count": 166,
+      "first_public": 2019,
+      "pred_1y": 194,
+      "pred_5y": 317
+    },
+    {
+      "rank": 384,
+      "language": "NetLinx",
+      "count": 159,
+      "first_public": null,
+      "pred_1y": 170,
+      "pred_5y": 217
+    },
+    {
+      "rank": 385,
+      "language": "OMNeT++ NED",
+      "count": 158,
+      "first_public": 1997,
+      "pred_1y": 169,
+      "pred_5y": 216
+    },
+    {
+      "rank": 386,
+      "language": "AIDL",
+      "count": 156,
+      "first_public": 2008,
+      "pred_1y": 167,
+      "pred_5y": 213
+    },
+    {
+      "rank": 387,
+      "language": "PEG.js",
+      "count": 153,
+      "first_public": 2010,
+      "pred_1y": 165,
+      "pred_5y": 215
+    },
+    {
+      "rank": 388,
+      "language": "JSONiq",
+      "count": 148,
+      "first_public": 2013,
+      "pred_1y": 162,
+      "pred_5y": 222
+    },
+    {
+      "rank": 389,
+      "language": "Glyph",
+      "count": 145,
+      "first_public": null,
+      "pred_1y": 155,
+      "pred_5y": 198
+    },
+    {
+      "rank": 390,
+      "language": "Jasmin",
+      "count": 145,
+      "first_public": null,
+      "pred_1y": 155,
+      "pred_5y": 198
+    },
+    {
+      "rank": 391,
+      "language": "Moocode",
+      "count": 145,
+      "first_public": null,
+      "pred_1y": 155,
+      "pred_5y": 198
+    },
+    {
+      "rank": 392,
+      "language": "Parrot",
+      "count": 145,
+      "first_public": 2002,
+      "pred_1y": 155,
+      "pred_5y": 198
+    },
+    {
+      "rank": 393,
+      "language": "BrighterScript",
+      "count": 144,
+      "first_public": null,
+      "pred_1y": 154,
+      "pred_5y": 197
+    },
+    {
+      "rank": 394,
+      "language": "Flix",
+      "count": 141,
+      "first_public": null,
+      "pred_1y": 151,
+      "pred_5y": 192
+    },
+    {
+      "rank": 395,
+      "language": "Slang",
+      "count": 141,
+      "first_public": null,
+      "pred_1y": 151,
+      "pred_5y": 192
+    },
+    {
+      "rank": 396,
+      "language": "Genero 4gl",
+      "count": 139,
+      "first_public": null,
+      "pred_1y": 149,
+      "pred_5y": 190
+    },
+    {
+      "rank": 397,
+      "language": "Tact",
+      "count": 136,
+      "first_public": 2022,
+      "pred_1y": 174,
+      "pred_5y": 347
+    },
+    {
+      "rank": 398,
+      "language": "PicoLisp",
+      "count": 135,
+      "first_public": 1988,
+      "pred_1y": 145,
+      "pred_5y": 184
+    },
+    {
+      "rank": 399,
+      "language": "FIRRTL",
+      "count": 132,
+      "first_public": null,
+      "pred_1y": 141,
+      "pred_5y": 180
+    },
+    {
+      "rank": 400,
+      "language": "BQN",
+      "count": 131,
+      "first_public": 2020,
+      "pred_1y": 157,
+      "pred_5y": 270
+    },
+    {
+      "rank": 401,
+      "language": "HyPhy",
+      "count": 123,
+      "first_public": null,
+      "pred_1y": 132,
+      "pred_5y": 168
+    },
+    {
+      "rank": 402,
+      "language": "IL Assembly",
+      "count": 121,
+      "first_public": 2002,
+      "pred_1y": 130,
+      "pred_5y": 165
+    },
+    {
+      "rank": 403,
+      "language": "Ragel",
+      "count": 120,
+      "first_public": 2002,
+      "pred_1y": 129,
+      "pred_5y": 164
+    },
+    {
+      "rank": 404,
+      "language": "TXL",
+      "count": 120,
+      "first_public": 1988,
+      "pred_1y": 129,
+      "pred_5y": 164
+    },
+    {
+      "rank": 405,
+      "language": "Cycript",
+      "count": 117,
+      "first_public": 2011,
+      "pred_1y": 127,
+      "pred_5y": 167
+    },
+    {
+      "rank": 406,
+      "language": "UrWeb",
+      "count": 117,
+      "first_public": 2008,
+      "pred_1y": 125,
+      "pred_5y": 160
+    },
+    {
+      "rank": 407,
+      "language": "XProc",
+      "count": 117,
+      "first_public": 2010,
+      "pred_1y": 126,
+      "pred_5y": 164
+    },
+    {
+      "rank": 408,
+      "language": "TI Program",
+      "count": 113,
+      "first_public": 1990,
+      "pred_1y": 121,
+      "pred_5y": 154
+    },
+    {
+      "rank": 409,
+      "language": "REALbasic",
+      "count": 112,
+      "first_public": 1998,
+      "pred_1y": 120,
+      "pred_5y": 153
+    },
+    {
+      "rank": 410,
+      "language": "Leo",
+      "count": 111,
+      "first_public": 2021,
+      "pred_1y": 137,
+      "pred_5y": 251
+    },
+    {
+      "rank": 411,
+      "language": "NMODL",
+      "count": 109,
+      "first_public": null,
+      "pred_1y": 117,
+      "pred_5y": 149
+    },
+    {
+      "rank": 412,
+      "language": "Elvish",
+      "count": 104,
+      "first_public": null,
+      "pred_1y": 111,
+      "pred_5y": 142
+    },
+    {
+      "rank": 413,
+      "language": "Rouge",
+      "count": 104,
+      "first_public": 2013,
+      "pred_1y": 114,
+      "pred_5y": 156
+    },
+    {
+      "rank": 414,
+      "language": "Xonsh",
+      "count": 102,
+      "first_public": 2015,
+      "pred_1y": 113,
+      "pred_5y": 162
+    },
+    {
+      "rank": 415,
+      "language": "Zephir",
+      "count": 101,
+      "first_public": 2013,
+      "pred_1y": 111,
+      "pred_5y": 151
+    },
+    {
+      "rank": 416,
+      "language": "Befunge",
+      "count": 100,
+      "first_public": 1993,
+      "pred_1y": 107,
+      "pred_5y": 136
+    },
+    {
+      "rank": 417,
+      "language": "Talon",
+      "count": 100,
+      "first_public": null,
+      "pred_1y": 107,
+      "pred_5y": 136
+    },
+    {
+      "rank": 418,
+      "language": "mupad",
+      "count": 98,
+      "first_public": 1989,
+      "pred_1y": 105,
+      "pred_5y": 134
+    },
+    {
+      "rank": 419,
+      "language": "Wren",
+      "count": 97,
+      "first_public": 2015,
+      "pred_1y": 108,
+      "pred_5y": 154
+    },
+    {
+      "rank": 420,
+      "language": "MeTTa",
+      "count": 94,
+      "first_public": 2023,
+      "pred_1y": 128,
+      "pred_5y": 283
+    },
+    {
+      "rank": 421,
+      "language": "LFE",
+      "count": 93,
+      "first_public": 2008,
+      "pred_1y": 100,
+      "pred_5y": 127
+    },
+    {
+      "rank": 422,
+      "language": "Pact",
+      "count": 93,
+      "first_public": 2017,
+      "pred_1y": 106,
+      "pred_5y": 159
+    },
+    {
+      "rank": 423,
+      "language": "Csound Score",
+      "count": 90,
+      "first_public": 1985,
+      "pred_1y": 96,
+      "pred_5y": 123
+    },
+    {
+      "rank": 424,
+      "language": "Hare",
+      "count": 87,
+      "first_public": 2022,
+      "pred_1y": 112,
+      "pred_5y": 222
+    },
+    {
+      "rank": 425,
+      "language": "Ox",
+      "count": 87,
+      "first_public": null,
+      "pred_1y": 93,
+      "pred_5y": 119
+    },
+    {
+      "rank": 426,
+      "language": "Csound",
+      "count": 85,
+      "first_public": 1985,
+      "pred_1y": 91,
+      "pred_5y": 116
+    },
+    {
+      "rank": 427,
+      "language": "Nearley",
+      "count": 85,
+      "first_public": 2014,
+      "pred_1y": 94,
+      "pred_5y": 131
+    },
+    {
+      "rank": 428,
+      "language": "Koka",
+      "count": 83,
+      "first_public": 2012,
+      "pred_1y": 90,
+      "pred_5y": 121
+    },
+    {
+      "rank": 429,
+      "language": "Qt Script",
+      "count": 83,
+      "first_public": 2007,
+      "pred_1y": 89,
+      "pred_5y": 113
+    },
+    {
+      "rank": 430,
+      "language": "Filebench WML",
+      "count": 82,
+      "first_public": null,
+      "pred_1y": 88,
+      "pred_5y": 112
+    },
+    {
+      "rank": 431,
+      "language": "Harbour",
+      "count": 82,
+      "first_public": 1999,
+      "pred_1y": 88,
+      "pred_5y": 112
+    },
+    {
+      "rank": 432,
+      "language": "Logtalk",
+      "count": 82,
+      "first_public": 1998,
+      "pred_1y": 88,
+      "pred_5y": 112
+    },
+    {
+      "rank": 433,
+      "language": "Augeas",
+      "count": 80,
+      "first_public": 2007,
+      "pred_1y": 86,
+      "pred_5y": 109
+    },
+    {
+      "rank": 434,
+      "language": "LiveCode Script",
+      "count": 76,
+      "first_public": null,
+      "pred_1y": 81,
+      "pred_5y": 104
+    },
+    {
+      "rank": 435,
+      "language": "Opa",
+      "count": 76,
+      "first_public": 2010,
+      "pred_1y": 82,
+      "pred_5y": 107
+    },
+    {
+      "rank": 436,
+      "language": "Slice",
+      "count": 76,
+      "first_public": 2002,
+      "pred_1y": 81,
+      "pred_5y": 104
+    },
+    {
+      "rank": 437,
+      "language": "Boogie",
+      "count": 75,
+      "first_public": null,
+      "pred_1y": 80,
+      "pred_5y": 102
+    },
+    {
+      "rank": 438,
+      "language": "Yul",
+      "count": 75,
+      "first_public": 2016,
+      "pred_1y": 84,
+      "pred_5y": 123
+    },
+    {
+      "rank": 439,
+      "language": "Mint",
+      "count": 72,
+      "first_public": null,
+      "pred_1y": 77,
+      "pred_5y": 98
+    },
+    {
+      "rank": 440,
+      "language": "Smithy",
+      "count": 72,
+      "first_public": 2019,
+      "pred_1y": 84,
+      "pred_5y": 138
+    },
+    {
+      "rank": 441,
+      "language": "Mirah",
+      "count": 70,
+      "first_public": 2008,
+      "pred_1y": 75,
+      "pred_5y": 96
+    },
+    {
+      "rank": 442,
+      "language": "EdgeQL",
+      "count": 68,
+      "first_public": null,
+      "pred_1y": 73,
+      "pred_5y": 93
+    },
+    {
+      "rank": 443,
+      "language": "KFramework",
+      "count": 67,
+      "first_public": null,
+      "pred_1y": 72,
+      "pred_5y": 91
+    },
+    {
+      "rank": 444,
+      "language": "Shen",
+      "count": 67,
+      "first_public": 2010,
+      "pred_1y": 72,
+      "pred_5y": 94
+    },
+    {
+      "rank": 445,
+      "language": "Click",
+      "count": 66,
+      "first_public": 2014,
+      "pred_1y": 73,
+      "pred_5y": 101
+    },
+    {
+      "rank": 446,
+      "language": "JASS",
+      "count": 66,
+      "first_public": 2002,
+      "pred_1y": 71,
+      "pred_5y": 90
+    },
+    {
+      "rank": 447,
+      "language": "Oxygene",
+      "count": 65,
+      "first_public": 2005,
+      "pred_1y": 70,
+      "pred_5y": 89
+    },
+    {
+      "rank": 448,
+      "language": "Pan",
+      "count": 65,
+      "first_public": null,
+      "pred_1y": 70,
+      "pred_5y": 89
+    },
+    {
+      "rank": 449,
+      "language": "Redscript",
+      "count": 63,
+      "first_public": null,
+      "pred_1y": 67,
+      "pred_5y": 86
+    },
+    {
+      "rank": 450,
+      "language": "B",
+      "count": 62,
+      "first_public": 1969,
+      "pred_1y": 66,
+      "pred_5y": 85
+    },
+    {
+      "rank": 451,
+      "language": "Sieve",
+      "count": 58,
+      "first_public": 2001,
+      "pred_1y": 62,
+      "pred_5y": 79
+    },
+    {
+      "rank": 452,
+      "language": "ucode",
+      "count": 58,
+      "first_public": null,
+      "pred_1y": 62,
+      "pred_5y": 79
+    },
+    {
+      "rank": 453,
+      "language": "KoLmafia ASH",
+      "count": 56,
+      "first_public": null,
+      "pred_1y": 60,
+      "pred_5y": 76
+    },
+    {
+      "rank": 454,
+      "language": "Fancy",
+      "count": 55,
+      "first_public": null,
+      "pred_1y": 59,
+      "pred_5y": 75
+    },
+    {
+      "rank": 455,
+      "language": "Nickel",
+      "count": 55,
+      "first_public": 2021,
+      "pred_1y": 68,
+      "pred_5y": 124
+    },
+    {
+      "rank": 456,
+      "language": "Redcode",
+      "count": 55,
+      "first_public": 1984,
+      "pred_1y": 59,
+      "pred_5y": 75
+    },
+    {
+      "rank": 457,
+      "language": "PogoScript",
+      "count": 54,
+      "first_public": null,
+      "pred_1y": 58,
+      "pred_5y": 74
+    },
+    {
+      "rank": 458,
+      "language": "Golo",
+      "count": 53,
+      "first_public": null,
+      "pred_1y": 57,
+      "pred_5y": 72
+    },
+    {
+      "rank": 459,
+      "language": "Teal",
+      "count": 53,
+      "first_public": 2019,
+      "pred_1y": 62,
+      "pred_5y": 101
+    },
+    {
+      "rank": 460,
+      "language": "X10",
+      "count": 50,
+      "first_public": 2005,
+      "pred_1y": 54,
+      "pred_5y": 68
+    },
+    {
+      "rank": 461,
+      "language": "SurrealQL",
+      "count": 49,
+      "first_public": 2021,
+      "pred_1y": 60,
+      "pred_5y": 111
+    },
+    {
+      "rank": 462,
+      "language": "Carbon",
+      "count": 48,
+      "first_public": 2022,
+      "pred_1y": 62,
+      "pred_5y": 122
+    },
+    {
+      "rank": 463,
+      "language": "Daslang",
+      "count": 48,
+      "first_public": null,
+      "pred_1y": 51,
+      "pred_5y": 66
+    },
+    {
+      "rank": 464,
+      "language": "Module Management System",
+      "count": 47,
+      "first_public": null,
+      "pred_1y": 50,
+      "pred_5y": 64
+    },
+    {
+      "rank": 465,
+      "language": "Dogescript",
+      "count": 46,
+      "first_public": null,
+      "pred_1y": 49,
+      "pred_5y": 63
+    },
+    {
+      "rank": 466,
+      "language": "Oberon",
+      "count": 42,
+      "first_public": 1987,
+      "pred_1y": 45,
+      "pred_5y": 57
+    },
+    {
+      "rank": 467,
+      "language": "Genshi",
+      "count": 41,
+      "first_public": 2006,
+      "pred_1y": 44,
+      "pred_5y": 56
+    },
+    {
+      "rank": 468,
+      "language": "Liquidsoap",
+      "count": 39,
+      "first_public": 2007,
+      "pred_1y": 42,
+      "pred_5y": 53
+    },
+    {
+      "rank": 469,
+      "language": "Self",
+      "count": 39,
+      "first_public": 1990,
+      "pred_1y": 42,
+      "pred_5y": 53
+    },
+    {
+      "rank": 470,
+      "language": "wisp",
+      "count": 39,
+      "first_public": null,
+      "pred_1y": 42,
+      "pred_5y": 53
+    },
+    {
+      "rank": 471,
+      "language": "EQ",
+      "count": 38,
+      "first_public": null,
+      "pred_1y": 41,
+      "pred_5y": 52
+    },
+    {
+      "rank": 472,
+      "language": "Hurl",
+      "count": 36,
+      "first_public": 2021,
+      "pred_1y": 44,
+      "pred_5y": 81
+    },
+    {
+      "rank": 473,
+      "language": "Verse",
+      "count": 36,
+      "first_public": 2023,
+      "pred_1y": 49,
+      "pred_5y": 109
+    },
+    {
+      "rank": 474,
+      "language": "RAScript",
+      "count": 35,
+      "first_public": null,
+      "pred_1y": 37,
+      "pred_5y": 48
+    },
+    {
+      "rank": 475,
+      "language": "Rhai",
+      "count": 35,
+      "first_public": 2019,
+      "pred_1y": 41,
+      "pred_5y": 67
+    },
+    {
+      "rank": 476,
+      "language": "Genie",
+      "count": 34,
+      "first_public": null,
+      "pred_1y": 36,
+      "pred_5y": 46
+    },
+    {
+      "rank": 477,
+      "language": "Nit",
+      "count": 34,
+      "first_public": null,
+      "pred_1y": 36,
+      "pred_5y": 46
+    },
+    {
+      "rank": 478,
+      "language": "Grace",
+      "count": 32,
+      "first_public": null,
+      "pred_1y": 34,
+      "pred_5y": 44
+    },
+    {
+      "rank": 479,
+      "language": "SmPL",
+      "count": 32,
+      "first_public": 2008,
+      "pred_1y": 34,
+      "pred_5y": 44
+    },
+    {
+      "rank": 480,
+      "language": "Opal",
+      "count": 30,
+      "first_public": 2011,
+      "pred_1y": 33,
+      "pred_5y": 43
+    },
+    {
+      "rank": 481,
+      "language": "Quint",
+      "count": 30,
+      "first_public": 2022,
+      "pred_1y": 38,
+      "pred_5y": 77
+    },
+    {
+      "rank": 482,
+      "language": "Charity",
+      "count": 29,
+      "first_public": null,
+      "pred_1y": 31,
+      "pred_5y": 40
+    },
+    {
+      "rank": 483,
+      "language": "Sail",
+      "count": 29,
+      "first_public": 2014,
+      "pred_1y": 32,
+      "pred_5y": 45
+    },
+    {
+      "rank": 484,
+      "language": "Gno",
+      "count": 26,
+      "first_public": 2022,
+      "pred_1y": 33,
+      "pred_5y": 66
+    },
+    {
+      "rank": 485,
+      "language": "Ioke",
+      "count": 26,
+      "first_public": 2008,
+      "pred_1y": 28,
+      "pred_5y": 35
+    },
+    {
+      "rank": 486,
+      "language": "Pro*C",
+      "count": 26,
+      "first_public": null,
+      "pred_1y": 28,
+      "pred_5y": 35
+    },
+    {
+      "rank": 487,
+      "language": "Tape",
+      "count": 26,
+      "first_public": null,
+      "pred_1y": 28,
+      "pred_5y": 35
+    },
+    {
+      "rank": 488,
+      "language": "Scenic",
+      "count": 24,
+      "first_public": 2018,
+      "pred_1y": 28,
+      "pred_5y": 43
+    },
+    {
+      "rank": 489,
+      "language": "WebIDL",
+      "count": 22,
+      "first_public": null,
+      "pred_1y": 24,
+      "pred_5y": 30
+    },
+    {
+      "rank": 490,
+      "language": "OverpassQL",
+      "count": 21,
+      "first_public": 2012,
+      "pred_1y": 23,
+      "pred_5y": 31
+    },
+    {
+      "rank": 491,
+      "language": "OverPy",
+      "count": 20,
+      "first_public": null,
+      "pred_1y": 21,
+      "pred_5y": 27
+    },
+    {
+      "rank": 492,
+      "language": "Tolk",
+      "count": 20,
+      "first_public": 2023,
+      "pred_1y": 27,
+      "pred_5y": 60
+    },
+    {
+      "rank": 493,
+      "language": "LoomScript",
+      "count": 19,
+      "first_public": null,
+      "pred_1y": 20,
+      "pred_5y": 26
+    },
+    {
+      "rank": 494,
+      "language": "MiniScript",
+      "count": 19,
+      "first_public": 2017,
+      "pred_1y": 22,
+      "pred_5y": 33
+    },
+    {
+      "rank": 495,
+      "language": "Lambdapi",
+      "count": 16,
+      "first_public": null,
+      "pred_1y": 17,
+      "pred_5y": 22
+    },
+    {
+      "rank": 496,
+      "language": "Untyped Plutus Core",
+      "count": 16,
+      "first_public": 2021,
+      "pred_1y": 20,
+      "pred_5y": 36
+    },
+    {
+      "rank": 497,
+      "language": "BAML",
+      "count": 14,
+      "first_public": 2006,
+      "pred_1y": 15,
+      "pred_5y": 19
+    },
+    {
+      "rank": 498,
+      "language": "ImHex Pattern Language",
+      "count": 14,
+      "first_public": 2021,
+      "pred_1y": 17,
+      "pred_5y": 32
+    },
+    {
+      "rank": 499,
+      "language": "ISPC",
+      "count": 13,
+      "first_public": 2011,
+      "pred_1y": 14,
+      "pred_5y": 19
+    },
+    {
+      "rank": 500,
+      "language": "Polar",
+      "count": 13,
+      "first_public": 2020,
+      "pred_1y": 16,
+      "pred_5y": 27
+    },
+    {
+      "rank": 501,
+      "language": "ALGOL",
+      "count": 12,
+      "first_public": 1958,
+      "pred_1y": 13,
+      "pred_5y": 16
+    },
+    {
+      "rank": 502,
+      "language": "Lobster",
+      "count": 10,
+      "first_public": 2015,
+      "pred_1y": 11,
+      "pred_5y": 16
+    },
+    {
+      "rank": 503,
+      "language": "FPP",
+      "count": 8,
+      "first_public": null,
+      "pred_1y": 9,
+      "pred_5y": 11
+    },
+    {
+      "rank": 504,
+      "language": "Clue",
+      "count": 6,
+      "first_public": null,
+      "pred_1y": 6,
+      "pred_5y": 8
+    },
+    {
+      "rank": 505,
+      "language": "Omgrofl",
+      "count": 6,
+      "first_public": 2006,
+      "pred_1y": 6,
+      "pred_5y": 8
+    },
+    {
+      "rank": 506,
+      "language": "Quake",
+      "count": 6,
+      "first_public": null,
+      "pred_1y": 6,
+      "pred_5y": 8
+    },
+    {
+      "rank": 507,
+      "language": "Whiley",
+      "count": 6,
+      "first_public": 2010,
+      "pred_1y": 6,
+      "pred_5y": 8
+    },
+    {
+      "rank": 508,
+      "language": "OMNeT++ MSG",
+      "count": 5,
+      "first_public": 1997,
+      "pred_1y": 5,
+      "pred_5y": 7
+    },
+    {
+      "rank": 509,
+      "language": "SIP",
+      "count": 4,
+      "first_public": null,
+      "pred_1y": 4,
+      "pred_5y": 5
+    },
+    {
+      "rank": 510,
+      "language": "ShellSession",
+      "count": 4,
+      "first_public": 1977,
+      "pred_1y": 4,
+      "pred_5y": 5
+    },
+    {
+      "rank": 511,
+      "language": "Aleo",
+      "count": 3,
+      "first_public": 2021,
+      "pred_1y": 4,
+      "pred_5y": 7
+    },
+    {
+      "rank": 512,
+      "language": "Langium",
+      "count": 3,
+      "first_public": 2021,
+      "pred_1y": 4,
+      "pred_5y": 7
+    },
+    {
+      "rank": 513,
+      "language": "Myghty",
+      "count": 3,
+      "first_public": 2005,
+      "pred_1y": 3,
+      "pred_5y": 4
+    },
+    {
+      "rank": 514,
+      "language": "MiniD",
+      "count": 2,
+      "first_public": 2006,
+      "pred_1y": 2,
+      "pred_5y": 3
+    },
+    {
+      "rank": 515,
+      "language": "NetLinx+ERB",
+      "count": 2,
+      "first_public": null,
+      "pred_1y": 2,
+      "pred_5y": 3
+    },
+    {
+      "rank": 516,
+      "language": "JFlex",
+      "count": 1,
+      "first_public": null,
+      "pred_1y": 1,
+      "pred_5y": 1
+    },
+    {
+      "rank": 517,
+      "language": "Alpine Abuild",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 518,
+      "language": "Apollo Guidance Computer",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 519,
+      "language": "ArkTS",
+      "count": 0,
+      "first_public": 2021,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 520,
+      "language": "B (Formal Method)",
+      "count": 0,
+      "first_public": 1996,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 521,
+      "language": "Bend",
+      "count": 0,
+      "first_public": 2024,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 522,
+      "language": "Bluespec BH",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 523,
+      "language": "C2hs Haskell",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 524,
+      "language": "Cairo Zero",
+      "count": 0,
+      "first_public": 2020,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 525,
+      "language": "CameLIGO",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 526,
+      "language": "ColdFusion CFC",
+      "count": 0,
+      "first_public": 2002,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 527,
+      "language": "ECLiPSe",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 528,
+      "language": "Elvish Transcript",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 529,
+      "language": "Filterscript",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 530,
+      "language": "Fortran Free Form",
+      "count": 0,
+      "first_public": 1991,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 531,
+      "language": "Gentoo Ebuild",
+      "count": 0,
+      "first_public": 2002,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 532,
+      "language": "Gentoo Eclass",
+      "count": 0,
+      "first_public": 2002,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 533,
+      "language": "Glimmer JS",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 534,
+      "language": "Glimmer TS",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 535,
+      "language": "Groovy Server Pages",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 536,
+      "language": "Isabelle ROOT",
+      "count": 0,
+      "first_public": 1986,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 537,
+      "language": "Java Server Pages",
+      "count": 0,
+      "first_public": 1999,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 538,
+      "language": "Java Template Engine",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 539,
+      "language": "JavaScript+ERB",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 540,
+      "language": "Jison",
+      "count": 0,
+      "first_public": 2010,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 541,
+      "language": "Jison Lex",
+      "count": 0,
+      "first_public": 2010,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 542,
+      "language": "Julia REPL",
+      "count": 0,
+      "first_public": 2012,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 543,
+      "language": "LLVM TableGen",
+      "count": 0,
+      "first_public": 2003,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 544,
+      "language": "Lean 4",
+      "count": 0,
+      "first_public": 2021,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 545,
+      "language": "Literate Agda",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 546,
+      "language": "Literate CoffeeScript",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 547,
+      "language": "Literate Haskell",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 548,
+      "language": "M4Sugar",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 549,
+      "language": "MUF",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 550,
+      "language": "Motorola 68K Assembly",
+      "count": 0,
+      "first_public": 1979,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 551,
+      "language": "NumPy",
+      "count": 0,
+      "first_public": 2006,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 552,
+      "language": "OpenCL",
+      "count": 0,
+      "first_public": 2009,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 553,
+      "language": "OpenRC runscript",
+      "count": 0,
+      "first_public": 2007,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 554,
+      "language": "Parrot Assembly",
+      "count": 0,
+      "first_public": 2002,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 555,
+      "language": "Parrot Internal Representation",
+      "count": 0,
+      "first_public": 2002,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 556,
+      "language": "Python console",
+      "count": 0,
+      "first_public": 1991,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 557,
+      "language": "ReasonLIGO",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 558,
+      "language": "Snakemake",
+      "count": 0,
+      "first_public": 2012,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 559,
+      "language": "TSX",
+      "count": 0,
+      "first_public": 2015,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 560,
+      "language": "Tcsh",
+      "count": 0,
+      "first_public": 1983,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 561,
+      "language": "Unified Parallel C",
+      "count": 0,
+      "first_public": 1999,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 562,
+      "language": "Unix Assembly",
+      "count": 0,
+      "first_public": null,
+      "pred_1y": 0,
+      "pred_5y": 0
+    },
+    {
+      "rank": 563,
+      "language": "fish",
+      "count": 0,
+      "first_public": 2005,
+      "pred_1y": 0,
+      "pred_5y": 0
+    }
+  ]
 }
