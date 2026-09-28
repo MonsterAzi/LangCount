@@ -63,7 +63,7 @@
     color: var(--fg);
   }
   .sort-group { display: flex; gap: 0.5rem; align-items: center; }
-  button, select {
+  button {
     font-size: 0.9rem;
     padding: 0.45rem 0.7rem;
     border: 1px solid var(--border);
@@ -76,8 +76,11 @@
   .table-wrap { overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
   th, td { padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }
-  th:first-child, td:first-child { width: 4rem; color: var(--muted); }
-  td:last-child, th:last-child { text-align: right; }
+  th:first-child, td:first-child { width: 3.5rem; color: var(--muted); }
+  th.num, td.num { text-align: right; }
+  th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+  th.sortable:hover { color: var(--accent); }
+  th .arrow { font-size: 0.75em; color: var(--accent); }
   tbody tr:hover { background: var(--row-hover); }
   #status { color: var(--muted); padding: 2rem 0; text-align: center; }
   footer { max-width: 860px; margin: 2rem auto; padding: 0 1rem 2rem; color: var(--muted); font-size: 0.85rem; }
@@ -94,19 +97,21 @@
   <div class="toolbar">
     <input id="search" type="search" placeholder="Filter languages…" autocomplete="off" aria-label="Filter languages by name">
     <div class="sort-group">
-      <label for="sort">Sort</label>
-      <select id="sort">
-        <option value="count-desc">Count ↓</option>
-        <option value="count-asc">Count ↑</option>
-        <option value="alpha">A–Z</option>
-      </select>
+      <span class="meta">Tip: click a column header to sort.</span>
       <button id="theme" type="button" title="Toggle dark/light mode">◐ Theme</button>
     </div>
   </div>
   <div class="table-wrap">
     <table aria-label="Repository counts by language">
       <thead>
-        <tr><th scope="col">Rank</th><th scope="col">Language</th><th scope="col">Repositories</th></tr>
+        <tr>
+          <th scope="col" data-key="rank" class="sortable" aria-sort="none">Rank <span class="arrow" aria-hidden="true"></span></th>
+          <th scope="col" data-key="language" class="sortable" aria-sort="none">Language <span class="arrow" aria-hidden="true"></span></th>
+          <th scope="col" data-key="count" class="sortable num" aria-sort="descending">Repositories <span class="arrow" aria-hidden="true"></span></th>
+          <th scope="col" data-key="first_public" class="sortable num" aria-sort="none" title="First year with a public compiler or interpreter">First public <span class="arrow" aria-hidden="true"></span></th>
+          <th scope="col" data-key="pred_1y" class="sortable num" aria-sort="none" title="Predicted repo count 1 year out">+1 yr <span class="arrow" aria-hidden="true"></span></th>
+          <th scope="col" data-key="pred_5y" class="sortable num" aria-sort="none" title="Predicted repo count 5 years out">+5 yr <span class="arrow" aria-hidden="true"></span></th>
+        </tr>
       </thead>
       <tbody id="rows"></tbody>
     </table>
@@ -115,14 +120,15 @@
 </main>
 <footer>
   Counts come from the GitHub Search API (<code>total_count</code> per language);
-  language list from GitHub Linguist. Refreshed daily.
+  language list from GitHub Linguist. The +1 yr / +5 yr columns are rough
+  model projections (younger languages assumed to grow faster), not measurements.
+  Refreshed daily.
 </footer>
 <script>
 (function () {
   "use strict";
   var rowsEl = document.getElementById("rows");
   var searchEl = document.getElementById("search");
-  var sortEl = document.getElementById("sort");
   var statusEl = document.getElementById("status");
   var summaryEl = document.getElementById("summary");
   var updatedEl = document.getElementById("updated");
@@ -144,37 +150,78 @@
     try { localStorage.setItem("theme", next); } catch (e) {}
   });
 
-  function formatCount(n) { return Number(n).toLocaleString("en-US"); }
+  var sortKey = "count"; // rank | language | count | first_public | pred_1y | pred_5y
+  var sortDir = -1; // -1 = descending, 1 = ascending
+
+  function formatCount(n) { return Number(n == null ? 0 : n).toLocaleString("en-US"); }
+  function formatYear(y) { return y == null ? "—" : String(y); }
+
+  function compareItems(a, b) {
+    var va = a[sortKey], vb = b[sortKey];
+    if (sortKey === "language") {
+      return sortDir * String(va).localeCompare(String(vb));
+    }
+    if (va == null && vb == null) return 0;
+    if (va == null) return 1; // unknown years sort last either way
+    if (vb == null) return -1;
+    return sortDir * (va - vb);
+  }
+
+  function updateHeaders() {
+    var ths = document.querySelectorAll("th.sortable");
+    Array.prototype.forEach.call(ths, function (th) {
+      var arrow = th.querySelector(".arrow");
+      if (th.getAttribute("data-key") === sortKey) {
+        arrow.textContent = sortDir === 1 ? "▲" : "▼";
+        th.setAttribute("aria-sort", sortDir === 1 ? "ascending" : "descending");
+      } else {
+        arrow.textContent = "";
+        th.setAttribute("aria-sort", "none");
+      }
+    });
+  }
 
   function render() {
     var q = searchEl.value.trim().toLowerCase();
-    var mode = sortEl.value;
     var items = all.filter(function (item) {
       return !q || item.language.toLowerCase().indexOf(q) !== -1;
     });
-    items.sort(function (a, b) {
-      if (mode === "alpha") return a.language.localeCompare(b.language);
-      if (mode === "count-asc") return a.count - b.count;
-      return b.count - a.count;
-    });
+    items.sort(compareItems);
     rowsEl.textContent = "";
     var frag = document.createDocumentFragment();
     items.forEach(function (item) {
       var tr = document.createElement("tr");
-      [["td", String(item.rank)], ["td", item.language],
-       ["td", formatCount(item.count)]].forEach(function (cell) {
+      [["td", String(item.rank), ""],
+       ["td", item.language, ""],
+       ["td", formatCount(item.count), "num"],
+       ["td", formatYear(item.first_public), "num"],
+       ["td", formatCount(item.pred_1y), "num"],
+       ["td", formatCount(item.pred_5y), "num"]].forEach(function (cell) {
         var el = document.createElement(cell[0]);
         el.textContent = cell[1];
+        if (cell[2]) el.className = cell[2];
         tr.appendChild(el);
       });
       frag.appendChild(tr);
     });
     rowsEl.appendChild(frag);
+    updateHeaders();
     statusEl.textContent = items.length === 0 ? "No languages match your filter." : "";
   }
 
   searchEl.addEventListener("input", render);
-  sortEl.addEventListener("change", render);
+  Array.prototype.forEach.call(document.querySelectorAll("th.sortable"), function (th) {
+    th.addEventListener("click", function () {
+      var key = th.getAttribute("data-key");
+      if (key === sortKey) {
+        sortDir = -sortDir;
+      } else {
+        sortKey = key;
+        sortDir = (key === "language") ? 1 : -1;
+      }
+      render();
+    });
+  });
 
   fetch("./data.json", { cache: "no-store" })
     .then(function (res) {

@@ -7,9 +7,17 @@ dependency-free HTML/CSS/JS hosted on GitHub Pages.
 
 - `update.py` — fetches `languages.yml`, queries the Search API once per
   programming language (~2.1 s spacing, header-aware rate-limit retries),
-  writes ranked results to `data.json`.
-- `.github/workflows/update.yml` — daily 00:00 UTC run plus manual dispatch.
-- `index.html` — renders `data.json` with search, sorting, and dark/light mode.
+  merges first-public years, computes 1yr/5yr projections, and writes
+  ranked results to `data.json`.
+- `language_dates.csv` — first-public year (first public compiler or
+  interpreter) per language, curated by hand; blank where unknown.
+  Edit this file to fix or fill in dates — no code changes needed.
+- `.github/workflows/update.yml` — daily 00:00 UTC run plus manual dispatch
+  (runs unit tests first, then refreshes `data.json`).
+- `index.html` — renders `data.json` with search, click-to-sort column
+  headers, and dark/light mode.
+- `tests/test_update.py` — stdlib-only unit tests (`python -m unittest
+  discover -s tests -v`).
 - `data.json` — generated artifact (committed by the workflow).
 
 ## Setup
@@ -26,10 +34,37 @@ dependency-free HTML/CSS/JS hosted on GitHub Pages.
    Run workflow** (`workflow_dispatch`). This populates `data.json`;
    the run takes roughly 16 minutes for ~450 languages.
 
+## First-public dates
+
+`language_dates.csv` has two columns, `language,first_public`, with one row
+per Linguist programming language (year granularity; blank = unknown, shown
+as "—"). `update.py` loads it relative to its own location, warns about rows
+it cannot parse, and carries on with unknown dates. To correct a date, just
+edit the CSV and re-run (or wait for the next daily run).
+
+## Prediction model
+
+Each language gets `pred_1y` / `pred_5y` projections from
+
+`N_future = N_now * (1 + A*dt) ** alpha`, with `alpha = 1.3`.
+
+The annual rate `A` depends on language age (years since first public
+release), so younger languages are projected to grow faster:
+
+| Age (years) | < 5 | 5–10 | 11–20 | > 20 | unknown |
+| --- | --- | --- | --- | --- | --- |
+| A | 0.30 | 0.20 | 0.10 | 0.05 | 0.10 |
+
+These are rough extrapolations, not measurements — tune `ALPHA`,
+`AGE_BRACKETS`, `OLD_LANGUAGE_RATE`, and `DEFAULT_RATE` at the top of
+`update.py`. The active parameters are also recorded in the `model` block of
+every generated `data.json`.
+
 ## Local development
 
 ```bash
 pip install requests pyyaml
-GITHUB_TOKEN=ghp_... python update.py   # writes data.json
-python -m http.server 8000              # open http://localhost:8000
+python -m unittest discover -s tests -v   # stdlib only, no extra deps
+GITHUB_TOKEN=ghp_... python update.py      # writes data.json
+python -m http.server 8000                 # open http://localhost:8000
 ```

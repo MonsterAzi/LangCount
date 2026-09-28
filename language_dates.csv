@@ -1,0 +1,564 @@
+language,first_public
+1C Enterprise,
+4D,1984
+ABAP,1983
+ABAP CDS,2013
+AGS Script,1997
+AIDL,2008
+AL,2018
+ALGOL,1958
+AMPL,1985
+ANTLR,
+APL,1964
+ASL,
+ASP.NET,2002
+ATS,
+ActionScript,1999
+Ada,1980
+Agda,1999
+Aiken,2022
+Aleo,2021
+Alloy,2002
+Alpine Abuild,
+AngelScript,2003
+Answer Set Programming,
+Apex,2007
+Apollo Guidance Computer,
+AppleScript,1993
+Arc,2008
+ArkTS,2021
+AspectJ,2001
+Assembly,1949
+Asymptote,2004
+Augeas,2007
+AutoHotkey,2003
+AutoIt,1999
+Awk,1977
+B,1969
+B (Formal Method),1996
+B4X,
+BAML,2006
+BASIC,1964
+BQN,2020
+Ballerina,2017
+Batchfile,1981
+Beef,
+Befunge,1993
+Bend,2024
+Berry,
+BibTeX Style,1985
+Bicep,2020
+Bison,1985
+BitBake,2003
+BlitzBasic,2000
+BlitzMax,2004
+Bluespec,
+Bluespec BH,
+Boo,2003
+Boogie,
+Brainfuck,1993
+BrighterScript,
+Brightscript,2008
+C,1972
+C#,2000
+C++,1985
+C2hs Haskell,
+C3,2019
+CAP CDS,
+CLIPS,1986
+CMake,2000
+COBOL,1959
+CQL,2011
+CUE,2019
+CWeb,1987
+Cadence,2019
+Cairo,2020
+Cairo Zero,2020
+CameLIGO,
+Cangjie,2024
+Cap'n Proto,2013
+Carbon,2022
+CartoCSS,
+Ceylon,2011
+Chapel,
+Charity,
+ChucK,2003
+Circom,2020
+Cirru,
+Clarion,1986
+Clarity,
+Classic ASP,1996
+Clean,
+Click,2014
+Clojure,2007
+Clue,
+CodeQL,2019
+CoffeeScript,2009
+ColdFusion,1995
+ColdFusion CFC,2002
+Common Lisp,1984
+Common Workflow Language,2014
+Component Pascal,
+Cool,
+Crystal,2014
+Csound,1985
+Csound Document,1985
+Csound Score,1985
+Cuda,2007
+Curry,
+Cycript,2011
+Cypher,2011
+Cython,2007
+D,2001
+DIGITAL Command Language,1977
+DM,1996
+DTrace,2005
+Dafny,2009
+Dart,2011
+Daslang,
+DataWeave,2015
+DenizenScript,
+Dhall,2017
+Dockerfile,2013
+Dogescript,
+Dune,2016
+Dylan,
+E,
+ECL,2011
+ECLiPSe,
+EQ,
+Earthly,2020
+EdgeQL,
+Eiffel,1986
+Elixir,2011
+Elm,2012
+Elvish,
+Elvish Transcript,
+Emacs Lisp,1985
+EmberScript,
+Erlang,1986
+Euphoria,1993
+F#,2005
+F*,
+FIRRTL,
+FLUX,
+FPP,
+Factor,2003
+Fancy,
+Fantom,2005
+Faust,2002
+Fennel,2016
+Filebench WML,
+Filterscript,
+Flix,
+Fluent,
+Forth,1970
+Fortran,1957
+Fortran Free Form,1991
+FreeBASIC,2004
+FreeMarker,2003
+Frege,2011
+Futhark,2014
+G-code,
+GAML,
+GAMS,1976
+GAP,1986
+GCC Machine Description,1987
+GDB,1986
+GDScript,2014
+GDShader,2018
+GLSL,2004
+GSC,
+Game Maker Language,1999
+Genero 4gl,
+Genie,
+Genshi,2006
+Gentoo Ebuild,2002
+Gentoo Eclass,2002
+Gherkin,2008
+Gleam,2019
+Glimmer JS,
+Glimmer TS,
+Glyph,
+Gno,2022
+Gnuplot,1986
+Go,2009
+Golo,
+Gosu,
+Grace,
+Grammatical Framework,
+Groovy,2003
+Groovy Server Pages,
+HCL,2014
+HIP,2016
+HLSL,2002
+Hack,2014
+Harbour,1999
+Hare,2022
+Haskell,1990
+Haxe,2005
+HiveQL,2009
+HolyC,
+Hurl,2021
+Hy,2013
+HyPhy,
+IDL,1977
+IGOR Pro,1989
+IL Assembly,2002
+ISPC,2011
+Idris,2009
+ImHex Pattern Language,2021
+ImageJ Macro,1997
+Imba,
+Inform 7,2006
+Ink,2016
+Inno Setup,1997
+Io,2002
+Ioke,2008
+Isabelle,1986
+Isabelle ROOT,1986
+J,1990
+JASS,2002
+JCL,1964
+JFlex,
+JSONiq,2013
+Jac,
+Jai,
+Janet,2017
+Jasmin,
+Java,1995
+Java Server Pages,1999
+Java Template Engine,
+JavaScript,1995
+JavaScript+ERB,
+JetBrains MPS,2009
+Jison,2010
+Jison Lex,2010
+Jolie,
+Jsonnet,2014
+Julia,2012
+Julia REPL,2012
+Just,2016
+KCL,
+KFramework,
+KRL,
+Kaitai Struct,2015
+KakouneScript,
+KerboScript,
+KoLmafia ASH,
+Koka,2012
+Kotlin,2011
+LFE,2008
+LLVM,2003
+LLVM TableGen,2003
+LOLCODE,2007
+LSL,2003
+LabVIEW,1986
+Lambdapi,
+Langium,2021
+Lasso,1996
+Lean,2013
+Lean 4,2021
+Leo,2021
+Lex,1975
+LigoLANG,2019
+LilyPond,1996
+Limbo,1996
+Linear Programming,
+Linker Script,
+Liquidsoap,2007
+Literate Agda,
+Literate CoffeeScript,
+Literate Haskell,
+LiveCode Script,
+LiveScript,2011
+Lobster,2015
+Logos,
+Logtalk,1998
+LookML,2013
+LoomScript,
+Lua,1993
+Luau,2021
+M,1966
+M4,1977
+M4Sugar,
+MATLAB,1984
+MAXScript,1996
+MLIR,2019
+MQL4,2005
+MQL5,2010
+MUF,
+Macaulay2,1993
+Makefile,1976
+Mako,2006
+Mathematical Programming System,
+Max,1990
+MeTTa,2023
+Mercury,1995
+Meson,2013
+Metal,2014
+MiniD,2006
+MiniScript,2017
+MiniZinc,2008
+Mint,
+Mirah,2008
+Modelica,1997
+Modula-2,1978
+Modula-3,1988
+Module Management System,
+Mojo,2023
+Monkey,2011
+Monkey C,2016
+Moocode,
+MoonBit,2023
+MoonScript,2011
+Motoko,2019
+Motorola 68K Assembly,1979
+Move,2019
+Myghty,2005
+NASL,1998
+NCL,
+NMODL,
+NSIS,2000
+NWScript,2002
+Nasal,
+Nearley,2014
+Nemerle,2003
+NetLinx,
+NetLinx+ERB,
+NetLogo,1999
+NewLisp,1991
+Nextflow,2013
+Nickel,2021
+Nim,2008
+Nit,
+Nix,2004
+Noir,2022
+Nu,2019
+NumPy,2006
+Nushell,2019
+OCaml,1996
+OMNeT++ MSG,1997
+OMNeT++ NED,1997
+Oberon,1987
+ObjectScript,1997
+Objective-C,1984
+Objective-C++,
+Objective-J,2008
+Odin,2016
+Omgrofl,2006
+Opa,2010
+Opal,2011
+Open Policy Agent,2016
+OpenCL,2009
+OpenEdge ABL,1984
+OpenQASM,2017
+OpenRC runscript,2007
+OpenSCAD,2010
+OverPy,
+OverpassQL,2012
+Ox,
+Oxygene,2005
+Oz,1995
+P4,2014
+PDDL,1998
+PEG.js,2010
+PHP,1995
+PLSQL,1992
+PLpgSQL,1998
+POV-Ray SDL,1991
+Pact,2017
+Pan,
+Papyrus,2011
+Parrot,2002
+Parrot Assembly,2002
+Parrot Internal Representation,2002
+Pascal,1970
+Pawn,1998
+Pep8,
+Perl,1987
+PicoLisp,1988
+PigLatin,2008
+Pike,1994
+Pkl,2024
+PogoScript,
+Polar,2020
+Pony,2014
+Portugol,
+Power Query,2013
+PowerBuilder,1991
+PowerShell,2006
+Praat,1992
+Pro*C,
+Processing,2001
+Procfile,2011
+Prolog,1972
+Promela,1991
+Propeller Spin,2006
+Puppet,2005
+PureBasic,1998
+PureScript,2013
+Pyret,2013
+Python,1991
+Python console,1991
+Q#,2017
+QML,2010
+QMake,2000
+Qt Script,2007
+Quake,
+QuakeC,1996
+QuickBASIC,1985
+Quint,2022
+R,1993
+RAScript,
+REALbasic,1998
+REXX,1979
+RPC,
+RPGLE,1994
+Racket,1995
+Ragel,2002
+Raku,2005
+Rascal,2009
+ReScript,2020
+Reason,2016
+ReasonLIGO,
+Rebol,1997
+Red,2011
+Redcode,1984
+Redscript,
+Ren'Py,2004
+RenderScript,2011
+Rez,2012
+Rhai,2019
+Ring,2016
+RobotFramework,2008
+Roc,2020
+Rocq Prover,1989
+Rouge,2013
+RouterOS Script,
+Ruby,1995
+Rust,2010
+SAS,1976
+SIP,
+SMT,2004
+SQF,2001
+SQLPL,1998
+SWIG,1996
+Sage,2005
+Sail,2014
+Salt,2011
+Scala,2003
+Scenic,2018
+Scheme,1975
+Scilab,1990
+Self,1990
+ShaderLab,2005
+Shell,1977
+ShellSession,1977
+Shen,2010
+Sieve,2001
+Singularity,2015
+Slang,
+Slash,
+Slice,2002
+SmPL,2008
+Smali,2010
+Smalltalk,1980
+Smarty,2002
+Smithy,2019
+Snakemake,2012
+Solidity,2014
+SourcePawn,2004
+Squirrel,2003
+Stan,2012
+Standard ML,1984
+Starlark,2017
+Stata,1985
+SuperCollider,1996
+SurrealQL,2021
+Sway,2021
+Swift,2014
+SystemVerilog,2002
+TI Program,1990
+TL-Verilog,2017
+TLA,1999
+TSQL,1987
+TSX,2015
+TXL,1988
+Tact,2022
+Talon,
+Tape,
+Tcl,1988
+Tcsh,1983
+Teal,2019
+Terra,2013
+Thrift,2007
+Toit,2020
+Tolk,2023
+Tree-sitter Query,2018
+Turing,1982
+TypeScript,2012
+TypeSpec,2023
+Typst,2023
+Unified Parallel C,1999
+Unix Assembly,
+Uno,2011
+UnrealScript,1998
+Untyped Plutus Core,2021
+UrWeb,2008
+V,2019
+VBA,1993
+VBScript,1996
+VCL,2006
+VHDL,1983
+Vala,2006
+Verilog,1984
+Verse,2023
+Vim script,1991
+Visual Basic .NET,2001
+Visual Basic 6.0,1998
+Volt,
+Vyper,2017
+WDL,2014
+WGSL,2020
+WebAssembly,2017
+WebIDL,
+Whiley,2010
+Witcher Script,
+Wolfram Language,1988
+Wollok,
+Wren,2015
+X10,2005
+XC,2005
+XProc,2010
+XQuery,2007
+XS,
+XSLT,1999
+Xmake,2015
+Xojo,2013
+Xonsh,2015
+Xtend,2011
+YARA,2008
+Yacc,1975
+Yul,2016
+ZAP,
+ZIL,1979
+Zeek,1998
+ZenScript,2015
+Zephir,2013
+Zig,2016
+Zimpl,2004
+eC,2005
+fish,2005
+hoon,2013
+jq,2012
+mIRC Script,1995
+mcfunction,2017
+mupad,1989
+nesC,2003
+ooc,2009
+q,2003
+sed,1974
+ucode,
+wisp,
+xBase,1979
