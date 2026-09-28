@@ -35,7 +35,7 @@ class AgeModelTest(unittest.TestCase):
         self.assertGreater(update.effective_age(2026, 2026.5), 0)
         self.assertEqual(
             update.predict(1000, update.effective_age(2026, 2026.5), 1),
-            round(1000 * (1 + 1 / update.effective_age(2026, 2026.5)) ** 1.3),
+            round(1000 * (1 + 1 / update.effective_age(2026, 2026.5)) ** update.ALPHA),
         )
 
     def test_fractional_year(self):
@@ -45,12 +45,15 @@ class AgeModelTest(unittest.TestCase):
         self.assertAlmostEqual(mid, 2026.5, places=2)
 
     def test_predict_math(self):
-        # N * (1 + dt/A) ** 1.3 with A = 18.4
+        # N * (1 + dt/A) ** ALPHA with A = 18.4 (uses the live constant,
+        # so tuning ALPHA never breaks this test)
         self.assertEqual(
-            update.predict(100_000, 18.4, 1), round(100_000 * (1 + 1 / 18.4) ** 1.3)
+            update.predict(100_000, 18.4, 1),
+            round(100_000 * (1 + 1 / 18.4) ** update.ALPHA),
         )
         self.assertEqual(
-            update.predict(100_000, 18.4, 5), round(100_000 * (1 + 5 / 18.4) ** 1.3)
+            update.predict(100_000, 18.4, 5),
+            round(100_000 * (1 + 5 / 18.4) ** update.ALPHA),
         )
 
     def test_zero_count_stays_zero(self):
