@@ -43,7 +43,7 @@ DATES_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "language_d
 # where A = t_now - t_0 is the language's effective age in years on GitHub
 # and t_0 = max(first_public_year, GITHUB_LAUNCH). Repos can only accumulate
 # since GitHub exists, so pre-2008 languages all count from launch.
-ALPHA = 3.0
+ALPHA = 4.0
 PREDICT_HORIZONS = (1, 5)  # years ahead; rendered as pred_1y / pred_5y
 GITHUB_LAUNCH = 2008 + (4 - 1) / 12  # April 2008, i.e. 2008.25
 MIN_EFFECTIVE_AGE = 1 / 12  # one month; guards against division by zero
