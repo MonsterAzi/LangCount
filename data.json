@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T04:29:20Z",
+  "last_updated": "2026-10-12T04:48:11Z",
   "total_languages": 563,
   "model": {
     "formula": "N_future = N_now * (1 + dt/A) ** alpha",
@@ -15,786 +15,786 @@
     {
       "rank": 1,
       "language": "JavaScript",
-      "count": 47967504,
+      "count": 47992815,
       "first_public": 1995,
-      "pred_1y": 59193568,
-      "pred_5y": 124743117
+      "pred_1y": 59222986,
+      "pred_5y": 124793048
     },
     {
       "rank": 2,
       "language": "Python",
-      "count": 34619382,
+      "count": 34657217,
       "first_public": 1991,
-      "pred_1y": 42721522,
-      "pred_5y": 90030317
+      "pred_1y": 42766899,
+      "pred_5y": 90117234
     },
     {
       "rank": 3,
       "language": "Java",
-      "count": 21817233,
+      "count": 21824545,
       "first_public": 1995,
-      "pred_1y": 26923224,
-      "pred_5y": 56737362
+      "pred_1y": 26931421,
+      "pred_5y": 56749151
     },
     {
       "rank": 4,
       "language": "TypeScript",
-      "count": 19131718,
+      "count": 19150334,
       "first_public": 2012,
-      "pred_1y": 24860819,
-      "pred_5y": 61388331
+      "pred_1y": 24883825,
+      "pred_5y": 61436396
     },
     {
       "rank": 5,
       "language": "C#",
-      "count": 7741565,
+      "count": 7744759,
       "first_public": 2000,
-      "pred_1y": 9553360,
-      "pred_5y": 20132524
+      "pred_1y": 9557009,
+      "pred_5y": 20138266
     },
     {
       "rank": 6,
       "language": "C++",
-      "count": 7200982,
+      "count": 7205099,
       "first_public": 1985,
-      "pred_1y": 8886262,
-      "pred_5y": 18726697
+      "pred_1y": 8891070,
+      "pred_5y": 18735018
     },
     {
       "rank": 7,
       "language": "PHP",
-      "count": 6433889,
+      "count": 6435730,
       "first_public": 1995,
-      "pred_1y": 7939643,
-      "pred_5y": 16731814
+      "pred_1y": 7941671,
+      "pred_5y": 16734471
     },
     {
       "rank": 8,
       "language": "C",
-      "count": 4376488,
+      "count": 4378841,
       "first_public": 1972,
-      "pred_1y": 5400738,
-      "pred_5y": 11381388
+      "pred_1y": 5403476,
+      "pred_5y": 11386057
     },
     {
       "rank": 9,
       "language": "Shell",
-      "count": 3339690,
+      "count": 3341575,
       "first_public": 1977,
-      "pred_1y": 4121294,
-      "pred_5y": 8685116
+      "pred_1y": 4123493,
+      "pred_5y": 8688912
     },
     {
       "rank": 10,
       "language": "Ruby",
-      "count": 2971712,
+      "count": 2971819,
       "first_public": 1995,
-      "pred_1y": 3667196,
-      "pred_5y": 7728161
+      "pred_1y": 3667215,
+      "pred_5y": 7727456
     },
     {
       "rank": 11,
       "language": "Go",
-      "count": 2562331,
+      "count": 2560288,
       "first_public": 2009,
-      "pred_1y": 3189425,
-      "pred_5y": 6905783
+      "pred_1y": 3186776,
+      "pred_5y": 6899331
     },
     {
       "rank": 12,
       "language": "Kotlin",
-      "count": 2384882,
+      "count": 2387561,
       "first_public": 2011,
-      "pred_1y": 3049539,
-      "pred_5y": 7173515
+      "pred_1y": 3052837,
+      "pred_5y": 7180357
     },
     {
       "rank": 13,
       "language": "Dart",
-      "count": 2149532,
+      "count": 2150923,
       "first_public": 2011,
-      "pred_1y": 2748598,
-      "pred_5y": 6465603
+      "pred_1y": 2750261,
+      "pred_5y": 6468692
     },
     {
       "rank": 14,
       "language": "Swift",
-      "count": 1717639,
+      "count": 1718770,
       "first_public": 2014,
-      "pred_1y": 2321917,
-      "pred_5y": 6437179
+      "pred_1y": 2323299,
+      "pred_5y": 6439844
     },
     {
       "rank": 15,
       "language": "Rust",
-      "count": 1392691,
+      "count": 1395140,
       "first_public": 2010,
-      "pred_1y": 1755652,
-      "pred_5y": 3953830
+      "pred_1y": 1758673,
+      "pred_5y": 3960181
     },
     {
       "rank": 16,
       "language": "R",
-      "count": 1139189,
+      "count": 1139507,
       "first_public": 1993,
-      "pred_1y": 1405799,
-      "pred_5y": 2962547
+      "pred_1y": 1406148,
+      "pred_5y": 2962997
     },
     {
       "rank": 17,
       "language": "Lua",
-      "count": 756423,
+      "count": 757443,
       "first_public": 1993,
-      "pred_1y": 933452,
-      "pred_5y": 1967135
+      "pred_1y": 934682,
+      "pred_5y": 1969537
     },
     {
       "rank": 18,
       "language": "Dockerfile",
-      "count": 701372,
+      "count": 701523,
       "first_public": 2013,
-      "pred_1y": 928293,
-      "pred_5y": 2420329
+      "pred_1y": 928442,
+      "pred_5y": 2420331
     },
     {
       "rank": 19,
       "language": "HCL",
-      "count": 686448,
+      "count": 693620,
       "first_public": 2014,
-      "pred_1y": 927945,
-      "pred_5y": 2572595
+      "pred_1y": 937581,
+      "pred_5y": 2598838
     },
     {
       "rank": 20,
       "language": "Objective-C",
-      "count": 543190,
+      "count": 543216,
       "first_public": 1984,
-      "pred_1y": 670315,
-      "pred_5y": 1412607
+      "pred_1y": 670327,
+      "pred_5y": 1412494
     },
     {
       "rank": 21,
       "language": "MATLAB",
-      "count": 502526,
+      "count": 502691,
       "first_public": 1984,
-      "pred_1y": 620135,
-      "pred_5y": 1306857
+      "pred_1y": 620319,
+      "pred_5y": 1307119
     },
     {
       "rank": 22,
       "language": "Makefile",
-      "count": 435034,
+      "count": 435115,
       "first_public": 1976,
-      "pred_1y": 536847,
-      "pred_5y": 1131339
+      "pred_1y": 536931,
+      "pred_5y": 1131405
     },
     {
       "rank": 23,
       "language": "PowerShell",
-      "count": 378029,
+      "count": 378500,
       "first_public": 2006,
-      "pred_1y": 466501,
-      "pred_5y": 983093
+      "pred_1y": 467068,
+      "pred_5y": 984193
     },
     {
       "rank": 24,
       "language": "Solidity",
-      "count": 298044,
+      "count": 298156,
       "first_public": 2014,
-      "pred_1y": 402898,
-      "pred_5y": 1116977
+      "pred_1y": 403024,
+      "pred_5y": 1117123
     },
     {
       "rank": 25,
       "language": "Scala",
-      "count": 260497,
+      "count": 260500,
       "first_public": 2003,
-      "pred_1y": 321462,
-      "pred_5y": 677442
+      "pred_1y": 321456,
+      "pred_5y": 677364
     },
     {
       "rank": 26,
       "language": "ShaderLab",
-      "count": 254936,
+      "count": 255097,
       "first_public": 2005,
-      "pred_1y": 314600,
-      "pred_5y": 662980
+      "pred_1y": 314789,
+      "pred_5y": 663315
     },
     {
       "rank": 27,
       "language": "GDScript",
-      "count": 236313,
+      "count": 236747,
       "first_public": 2014,
-      "pred_1y": 319450,
-      "pred_5y": 885628
+      "pred_1y": 320016,
+      "pred_5y": 887038
     },
     {
       "rank": 28,
       "language": "Assembly",
-      "count": 215805,
+      "count": 215901,
       "first_public": 1949,
-      "pred_1y": 266311,
-      "pred_5y": 561217
+      "pred_1y": 266421,
+      "pred_5y": 561395
     },
     {
       "rank": 29,
       "language": "Perl",
-      "count": 188783,
+      "count": 188793,
       "first_public": 1987,
-      "pred_1y": 232965,
-      "pred_5y": 490944
+      "pred_1y": 232970,
+      "pred_5y": 490908
     },
     {
       "rank": 30,
       "language": "Batchfile",
-      "count": 179717,
+      "count": 179809,
       "first_public": 1981,
-      "pred_1y": 221777,
-      "pred_5y": 467368
+      "pred_1y": 221884,
+      "pred_5y": 467547
     },
     {
       "rank": 31,
       "language": "TSQL",
-      "count": 170989,
+      "count": 171091,
       "first_public": 1987,
-      "pred_1y": 211006,
-      "pred_5y": 444670
+      "pred_1y": 211126,
+      "pred_5y": 444878
     },
     {
       "rank": 32,
       "language": "Verilog",
-      "count": 167801,
+      "count": 167973,
       "first_public": 1984,
-      "pred_1y": 207072,
-      "pred_5y": 436379
+      "pred_1y": 207278,
+      "pred_5y": 436771
     },
     {
       "rank": 33,
       "language": "Vim script",
-      "count": 165149,
+      "count": 165138,
       "first_public": 1991,
-      "pred_1y": 203800,
-      "pred_5y": 429482
+      "pred_1y": 203780,
+      "pred_5y": 429399
     },
     {
       "rank": 34,
       "language": "Haskell",
-      "count": 164525,
+      "count": 164541,
       "first_public": 1990,
-      "pred_1y": 203030,
-      "pred_5y": 427860
+      "pred_1y": 203043,
+      "pred_5y": 427847
     },
     {
       "rank": 35,
       "language": "Hack",
-      "count": 152625,
+      "count": 152651,
       "first_public": 2014,
-      "pred_1y": 206320,
-      "pred_5y": 571991
+      "pred_1y": 206342,
+      "pred_5y": 571949
     },
     {
       "rank": 36,
       "language": "CMake",
-      "count": 138703,
+      "count": 139368,
       "first_public": 2000,
-      "pred_1y": 171164,
-      "pred_5y": 360708
+      "pred_1y": 171980,
+      "pred_5y": 362391
     },
     {
       "rank": 37,
       "language": "Elixir",
-      "count": 132727,
+      "count": 132761,
       "first_public": 2011,
-      "pred_1y": 169717,
-      "pred_5y": 399231
+      "pred_1y": 169754,
+      "pred_5y": 399266
     },
     {
       "rank": 38,
       "language": "Visual Basic .NET",
-      "count": 113605,
+      "count": 113615,
       "first_public": 2001,
-      "pred_1y": 140193,
-      "pred_5y": 295438
+      "pred_1y": 140201,
+      "pred_5y": 295427
     },
     {
       "rank": 39,
       "language": "Groovy",
-      "count": 111275,
+      "count": 111296,
       "first_public": 2003,
-      "pred_1y": 137317,
-      "pred_5y": 289379
+      "pred_1y": 137339,
+      "pred_5y": 289397
     },
     {
       "rank": 40,
       "language": "Processing",
-      "count": 102311,
+      "count": 102305,
       "first_public": 2001,
-      "pred_1y": 126255,
-      "pred_5y": 266067
+      "pred_1y": 126244,
+      "pred_5y": 266018
     },
     {
       "rank": 41,
       "language": "Clojure",
-      "count": 97560,
+      "count": 97565,
       "first_public": 2007,
-      "pred_1y": 120392,
-      "pred_5y": 253712
+      "pred_1y": 120395,
+      "pred_5y": 253693
     },
     {
       "rank": 42,
       "language": "Julia",
-      "count": 94817,
+      "count": 94825,
       "first_public": 2012,
-      "pred_1y": 123210,
-      "pred_5y": 304241
+      "pred_1y": 123215,
+      "pred_5y": 304209
     },
     {
       "rank": 43,
       "language": "Nix",
-      "count": 87041,
+      "count": 87099,
       "first_public": 2004,
-      "pred_1y": 107412,
-      "pred_5y": 226357
+      "pred_1y": 107480,
+      "pred_5y": 226479
     },
     {
       "rank": 44,
       "language": "PLpgSQL",
-      "count": 83153,
+      "count": 83341,
       "first_public": 1998,
-      "pred_1y": 102614,
-      "pred_5y": 216246
+      "pred_1y": 102843,
+      "pred_5y": 216707
     },
     {
       "rank": 45,
       "language": "Pascal",
-      "count": 79052,
+      "count": 79083,
       "first_public": 1970,
-      "pred_1y": 97553,
-      "pred_5y": 205581
+      "pred_1y": 97588,
+      "pred_5y": 205635
     },
     {
       "rank": 46,
       "language": "Emacs Lisp",
-      "count": 77187,
+      "count": 77193,
       "first_public": 1985,
-      "pred_1y": 95251,
-      "pred_5y": 200731
+      "pred_1y": 95256,
+      "pred_5y": 200721
     },
     {
       "rank": 47,
       "language": "Wolfram Language",
-      "count": 68489,
+      "count": 68509,
       "first_public": 1988,
-      "pred_1y": 84518,
-      "pred_5y": 178111
+      "pred_1y": 84540,
+      "pred_5y": 178140
     },
     {
       "rank": 48,
       "language": "VHDL",
-      "count": 66470,
+      "count": 66494,
       "first_public": 1983,
-      "pred_1y": 82026,
-      "pred_5y": 172860
+      "pred_1y": 82053,
+      "pred_5y": 172901
     },
     {
       "rank": 49,
       "language": "CoffeeScript",
       "count": 63619,
       "first_public": 2009,
-      "pred_1y": 79189,
-      "pred_5y": 171461
+      "pred_1y": 79186,
+      "pred_5y": 171437
     },
     {
       "rank": 50,
       "language": "ASP.NET",
-      "count": 63270,
+      "count": 63290,
       "first_public": 2002,
-      "pred_1y": 78077,
-      "pred_5y": 164538
+      "pred_1y": 78100,
+      "pred_5y": 164569
     },
     {
       "rank": 51,
       "language": "Smarty",
-      "count": 59992,
+      "count": 59980,
       "first_public": 2002,
-      "pred_1y": 74032,
-      "pred_5y": 156014
+      "pred_1y": 74015,
+      "pred_5y": 155963
     },
     {
       "rank": 52,
       "language": "SystemVerilog",
-      "count": 52212,
+      "count": 52294,
       "first_public": 2002,
-      "pred_1y": 64431,
-      "pred_5y": 135781
+      "pred_1y": 64531,
+      "pred_5y": 135977
     },
     {
       "rank": 53,
       "language": "Fortran",
-      "count": 46254,
+      "count": 46264,
       "first_public": 1957,
-      "pred_1y": 57079,
-      "pred_5y": 120287
+      "pred_1y": 57090,
+      "pred_5y": 120298
     },
     {
       "rank": 54,
       "language": "Classic ASP",
-      "count": 46088,
+      "count": 46087,
       "first_public": 1996,
-      "pred_1y": 56874,
-      "pred_5y": 119855
+      "pred_1y": 56871,
+      "pred_5y": 119837
     },
     {
       "rank": 55,
       "language": "Apex",
-      "count": 44699,
+      "count": 44722,
       "first_public": 2007,
-      "pred_1y": 55160,
-      "pred_5y": 116243
+      "pred_1y": 55187,
+      "pred_5y": 116288
     },
     {
       "rank": 56,
       "language": "OCaml",
-      "count": 43700,
+      "count": 43714,
       "first_public": 1996,
-      "pred_1y": 53927,
-      "pred_5y": 113645
+      "pred_1y": 53943,
+      "pred_5y": 113667
     },
     {
       "rank": 57,
       "language": "QML",
-      "count": 42907,
+      "count": 43020,
       "first_public": 2010,
-      "pred_1y": 54089,
-      "pred_5y": 121812
+      "pred_1y": 54230,
+      "pred_5y": 122115
     },
     {
       "rank": 58,
       "language": "Cuda",
-      "count": 42761,
+      "count": 42782,
       "first_public": 2007,
-      "pred_1y": 52769,
-      "pred_5y": 111203
+      "pred_1y": 52793,
+      "pred_5y": 111244
     },
     {
       "rank": 59,
       "language": "Zig",
-      "count": 39073,
+      "count": 39129,
       "first_public": 2016,
-      "pred_1y": 55724,
-      "pred_5y": 179491
+      "pred_1y": 55799,
+      "pred_5y": 179690
     },
     {
       "rank": 60,
       "language": "Prolog",
-      "count": 38777,
+      "count": 38811,
       "first_public": 1972,
-      "pred_1y": 47852,
-      "pred_5y": 100843
+      "pred_1y": 47893,
+      "pred_5y": 100918
     },
     {
       "rank": 61,
       "language": "PLSQL",
-      "count": 35883,
+      "count": 35956,
       "first_public": 1992,
-      "pred_1y": 44281,
-      "pred_5y": 93316
+      "pred_1y": 44370,
+      "pred_5y": 93494
     },
     {
       "rank": 62,
       "language": "F#",
-      "count": 35055,
+      "count": 35062,
       "first_public": 2005,
-      "pred_1y": 43259,
-      "pred_5y": 91163
+      "pred_1y": 43266,
+      "pred_5y": 91170
     },
     {
       "rank": 63,
       "language": "Erlang",
-      "count": 34331,
+      "count": 34337,
       "first_public": 1986,
-      "pred_1y": 42366,
-      "pred_5y": 89280
+      "pred_1y": 42372,
+      "pred_5y": 89285
     },
     {
       "rank": 64,
       "language": "XSLT",
       "count": 33223,
       "first_public": 1999,
-      "pred_1y": 40998,
-      "pred_5y": 86399
+      "pred_1y": 40997,
+      "pred_5y": 86388
     },
     {
       "rank": 65,
       "language": "Rebol",
-      "count": 33185,
+      "count": 33183,
       "first_public": 1997,
-      "pred_1y": 40951,
-      "pred_5y": 86300
+      "pred_1y": 40948,
+      "pred_5y": 86284
     },
     {
       "rank": 66,
       "language": "Common Lisp",
-      "count": 32716,
+      "count": 32731,
       "first_public": 1984,
-      "pred_1y": 40373,
-      "pred_5y": 85080
+      "pred_1y": 40390,
+      "pred_5y": 85109
     },
     {
       "rank": 67,
       "language": "Tcl",
-      "count": 30849,
+      "count": 30873,
       "first_public": 1988,
-      "pred_1y": 38069,
-      "pred_5y": 80225
+      "pred_1y": 38097,
+      "pred_5y": 80277
     },
     {
       "rank": 68,
       "language": "AutoHotkey",
-      "count": 26560,
+      "count": 26557,
       "first_public": 2003,
-      "pred_1y": 32776,
-      "pred_5y": 69071
+      "pred_1y": 32771,
+      "pred_5y": 69055
     },
     {
       "rank": 69,
       "language": "VBA",
-      "count": 25937,
+      "count": 25946,
       "first_public": 1993,
-      "pred_1y": 32007,
-      "pred_5y": 67451
+      "pred_1y": 32017,
+      "pred_5y": 67466
     },
     {
       "rank": 70,
       "language": "Haxe",
-      "count": 25887,
+      "count": 25903,
       "first_public": 2005,
-      "pred_1y": 31945,
-      "pred_5y": 67321
+      "pred_1y": 31964,
+      "pred_5y": 67354
     },
     {
       "rank": 71,
       "language": "GLSL",
-      "count": 25449,
+      "count": 25467,
       "first_public": 2004,
-      "pred_1y": 31405,
-      "pred_5y": 66182
+      "pred_1y": 31426,
+      "pred_5y": 66220
     },
     {
       "rank": 72,
       "language": "ActionScript",
-      "count": 25382,
+      "count": 25386,
       "first_public": 1999,
-      "pred_1y": 31322,
-      "pred_5y": 66008
+      "pred_1y": 31326,
+      "pred_5y": 66010
     },
     {
       "rank": 73,
       "language": "Racket",
-      "count": 23715,
+      "count": 23727,
       "first_public": 1995,
-      "pred_1y": 29265,
-      "pred_5y": 61673
+      "pred_1y": 29279,
+      "pred_5y": 61696
     },
     {
       "rank": 74,
       "language": "Puppet",
       "count": 23518,
       "first_public": 2005,
-      "pred_1y": 29022,
-      "pred_5y": 61160
+      "pred_1y": 29021,
+      "pred_5y": 61153
     },
     {
       "rank": 75,
       "language": "Elm",
-      "count": 22790,
+      "count": 22787,
       "first_public": 2012,
-      "pred_1y": 29615,
-      "pred_5y": 73127
+      "pred_1y": 29609,
+      "pred_5y": 73103
     },
     {
       "rank": 76,
       "language": "Scheme",
-      "count": 21807,
+      "count": 21810,
       "first_public": 1975,
-      "pred_1y": 26911,
+      "pred_1y": 26913,
       "pred_5y": 56711
     },
     {
       "rank": 77,
       "language": "ColdFusion",
-      "count": 21222,
+      "count": 21220,
       "first_public": 1995,
-      "pred_1y": 26189,
-      "pred_5y": 55189
+      "pred_1y": 26185,
+      "pred_5y": 55177
     },
     {
       "rank": 78,
       "language": "Visual Basic 6.0",
-      "count": 19740,
+      "count": 19739,
       "first_public": 1998,
-      "pred_1y": 24360,
-      "pred_5y": 51335
+      "pred_1y": 24358,
+      "pred_5y": 51326
     },
     {
       "rank": 79,
       "language": "OpenSCAD",
-      "count": 19312,
+      "count": 19341,
       "first_public": 2010,
-      "pred_1y": 24345,
-      "pred_5y": 54826
+      "pred_1y": 24381,
+      "pred_5y": 54900
     },
     {
       "rank": 80,
       "language": "Stata",
-      "count": 19134,
+      "count": 19144,
       "first_public": 1985,
-      "pred_1y": 23612,
-      "pred_5y": 49759
+      "pred_1y": 23624,
+      "pred_5y": 49779
     },
     {
       "rank": 81,
       "language": "Yacc",
-      "count": 19075,
+      "count": 19078,
       "first_public": 1975,
-      "pred_1y": 23539,
-      "pred_5y": 49606
+      "pred_1y": 23542,
+      "pred_5y": 49607
     },
     {
       "rank": 82,
       "language": "Lean",
-      "count": 18335,
+      "count": 18436,
       "first_public": 2013,
-      "pred_1y": 24267,
-      "pred_5y": 63271
+      "pred_1y": 24399,
+      "pred_5y": 63606
     },
     {
       "rank": 83,
       "language": "Game Maker Language",
-      "count": 18254,
+      "count": 18272,
       "first_public": 1999,
-      "pred_1y": 22526,
-      "pred_5y": 47471
+      "pred_1y": 22548,
+      "pred_5y": 47512
     },
     {
       "rank": 84,
       "language": "Bicep",
-      "count": 18139,
+      "count": 18147,
       "first_public": 2020,
-      "pred_1y": 31459,
-      "pred_5y": 165475
+      "pred_1y": 31467,
+      "pred_5y": 165433
     },
     {
       "rank": 85,
       "language": "RobotFramework",
-      "count": 17965,
+      "count": 17969,
       "first_public": 2008,
-      "pred_1y": 22169,
-      "pred_5y": 46719
+      "pred_1y": 22174,
+      "pred_5y": 46724
     },
     {
       "rank": 86,
       "language": "Gherkin",
-      "count": 17392,
+      "count": 17402,
       "first_public": 2008,
-      "pred_1y": 21462,
-      "pred_5y": 45229
+      "pred_1y": 21474,
+      "pred_5y": 45249
     },
     {
       "rank": 87,
       "language": "Luau",
-      "count": 16962,
+      "count": 17077,
       "first_public": 2021,
-      "pred_1y": 32127,
-      "pred_5y": 205506
+      "pred_1y": 32336,
+      "pred_5y": 206715
     },
     {
       "rank": 88,
       "language": "D",
-      "count": 16387,
+      "count": 16391,
       "first_public": 2001,
-      "pred_1y": 20222,
-      "pred_5y": 42616
+      "pred_1y": 20226,
+      "pred_5y": 42621
     },
     {
       "rank": 89,
       "language": "PureBasic",
-      "count": 15389,
+      "count": 15391,
       "first_public": 1998,
-      "pred_1y": 18991,
+      "pred_1y": 18992,
       "pred_5y": 40020
     },
     {
       "rank": 90,
       "language": "Smalltalk",
-      "count": 14808,
+      "count": 14803,
       "first_public": 1980,
-      "pred_1y": 18274,
-      "pred_5y": 38509
+      "pred_1y": 18267,
+      "pred_5y": 38491
     },
     {
       "rank": 91,
       "language": "ABAP",
-      "count": 14791,
+      "count": 14797,
       "first_public": 1983,
-      "pred_1y": 18253,
-      "pred_5y": 38465
+      "pred_1y": 18259,
+      "pred_5y": 38476
     },
     {
       "rank": 92,
       "language": "Nim",
-      "count": 14009,
+      "count": 14015,
       "first_public": 2008,
-      "pred_1y": 17288,
-      "pred_5y": 36431
+      "pred_1y": 17294,
+      "pred_5y": 36442
     },
     {
       "rank": 93,
       "language": "SAS",
       "count": 13963,
       "first_public": 1976,
-      "pred_1y": 17231,
-      "pred_5y": 36312
+      "pred_1y": 17230,
+      "pred_5y": 36307
     },
     {
       "rank": 94,
       "language": "Typst",
-      "count": 13906,
+      "count": 13924,
       "first_public": 2023,
-      "pred_1y": 35592,
-      "pred_5y": 405798
+      "pred_1y": 35616,
+      "pred_5y": 405644
     },
     {
       "rank": 95,
       "language": "Papyrus",
-      "count": 13669,
+      "count": 13670,
       "first_public": 2011,
-      "pred_1y": 17478,
-      "pred_5y": 41115
+      "pred_1y": 17479,
+      "pred_5y": 41111
     },
     {
       "rank": 96,
       "language": "Portugol",
-      "count": 12684,
+      "count": 12687,
       "first_public": null,
-      "pred_1y": 15652,
-      "pred_5y": 32986
+      "pred_1y": 15656,
+      "pred_5y": 32989
     },
     {
       "rank": 97,
       "language": "mcfunction",
-      "count": 11892,
+      "count": 11912,
       "first_public": 2017,
-      "pred_1y": 17557,
-      "pred_5y": 62065
+      "pred_1y": 17584,
+      "pred_5y": 62146
     },
     {
       "rank": 98,
       "language": "DIGITAL Command Language",
-      "count": 11701,
+      "count": 11706,
       "first_public": 1977,
-      "pred_1y": 14439,
-      "pred_5y": 30429
+      "pred_1y": 14445,
+      "pred_5y": 30438
     },
     {
       "rank": 99,
@@ -802,391 +802,391 @@
       "count": 11350,
       "first_public": 1996,
       "pred_1y": 14006,
-      "pred_5y": 29517
+      "pred_5y": 29513
     },
     {
       "rank": 100,
       "language": "SourcePawn",
-      "count": 10951,
+      "count": 10958,
       "first_public": 2004,
-      "pred_1y": 13514,
-      "pred_5y": 28479
+      "pred_1y": 13522,
+      "pred_5y": 28493
     },
     {
       "rank": 101,
       "language": "G-code",
-      "count": 10734,
+      "count": 10741,
       "first_public": null,
-      "pred_1y": 13246,
-      "pred_5y": 27915
+      "pred_1y": 13254,
+      "pred_5y": 27929
     },
     {
       "rank": 102,
       "language": "Nextflow",
-      "count": 10497,
+      "count": 10499,
       "first_public": 2013,
-      "pred_1y": 13893,
-      "pred_5y": 36224
+      "pred_1y": 13895,
+      "pred_5y": 36223
     },
     {
       "rank": 103,
       "language": "Crystal",
-      "count": 10494,
+      "count": 10496,
       "first_public": 2014,
-      "pred_1y": 14186,
-      "pred_5y": 39328
+      "pred_1y": 14188,
+      "pred_5y": 39326
     },
     {
       "rank": 104,
       "language": "Move",
-      "count": 10479,
+      "count": 10482,
       "first_public": 2019,
-      "pred_1y": 17001,
-      "pred_5y": 76364
+      "pred_1y": 17004,
+      "pred_5y": 76344
     },
     {
       "rank": 105,
       "language": "Ada",
-      "count": 10450,
+      "count": 10455,
       "first_public": 1980,
-      "pred_1y": 12896,
-      "pred_5y": 27176
+      "pred_1y": 12901,
+      "pred_5y": 27186
     },
     {
       "rank": 106,
       "language": "AMPL",
-      "count": 10195,
+      "count": 10200,
       "first_public": 1985,
-      "pred_1y": 12581,
-      "pred_5y": 26513
+      "pred_1y": 12587,
+      "pred_5y": 26522
     },
     {
       "rank": 107,
       "language": "LLVM",
-      "count": 10182,
+      "count": 10187,
       "first_public": 2003,
-      "pred_1y": 12565,
-      "pred_5y": 26479
+      "pred_1y": 12571,
+      "pred_5y": 26489
     },
     {
       "rank": 108,
       "language": "Starlark",
-      "count": 9949,
+      "count": 9953,
       "first_public": 2017,
-      "pred_1y": 14688,
-      "pred_5y": 51925
+      "pred_1y": 14693,
+      "pred_5y": 51926
     },
     {
       "rank": 109,
       "language": "Clarity",
-      "count": 9738,
+      "count": 9739,
       "first_public": null,
-      "pred_1y": 12017,
+      "pred_1y": 12018,
       "pred_5y": 25324
     },
     {
       "rank": 110,
       "language": "Ren'Py",
-      "count": 9632,
+      "count": 9640,
       "first_public": 2004,
-      "pred_1y": 11886,
-      "pred_5y": 25049
+      "pred_1y": 11896,
+      "pred_5y": 25066
     },
     {
       "rank": 111,
       "language": "BitBake",
-      "count": 9548,
+      "count": 9553,
       "first_public": 2003,
-      "pred_1y": 11783,
-      "pred_5y": 24830
+      "pred_1y": 11788,
+      "pred_5y": 24840
     },
     {
       "rank": 112,
       "language": "COBOL",
-      "count": 9521,
+      "count": 9530,
       "first_public": 1959,
-      "pred_1y": 11749,
-      "pred_5y": 24760
+      "pred_1y": 11760,
+      "pred_5y": 24780
     },
     {
       "rank": 113,
       "language": "Max",
-      "count": 9445,
+      "count": 9450,
       "first_public": 1990,
-      "pred_1y": 11655,
-      "pred_5y": 24562
+      "pred_1y": 11661,
+      "pred_5y": 24572
     },
     {
       "rank": 114,
       "language": "Standard ML",
-      "count": 9001,
+      "count": 9019,
       "first_public": 1984,
-      "pred_1y": 11108,
-      "pred_5y": 23408
+      "pred_1y": 11129,
+      "pred_5y": 23452
     },
     {
       "rank": 115,
       "language": "Wollok",
-      "count": 8962,
+      "count": 8976,
       "first_public": null,
-      "pred_1y": 11059,
-      "pred_5y": 23306
+      "pred_1y": 11076,
+      "pred_5y": 23340
     },
     {
       "rank": 116,
       "language": "Logos",
-      "count": 8774,
+      "count": 8791,
       "first_public": null,
-      "pred_1y": 10827,
-      "pred_5y": 22817
+      "pred_1y": 10848,
+      "pred_5y": 22859
     },
     {
       "rank": 117,
       "language": "Rocq Prover",
-      "count": 8741,
+      "count": 8746,
       "first_public": 1989,
-      "pred_1y": 10787,
-      "pred_5y": 22732
+      "pred_1y": 10793,
+      "pred_5y": 22742
     },
     {
       "rank": 118,
       "language": "LabVIEW",
-      "count": 8554,
+      "count": 8556,
       "first_public": 1986,
-      "pred_1y": 10556,
-      "pred_5y": 22245
+      "pred_1y": 10558,
+      "pred_5y": 22248
     },
     {
       "rank": 119,
       "language": "Odin",
-      "count": 8287,
+      "count": 8299,
       "first_public": 2016,
-      "pred_1y": 11818,
-      "pred_5y": 38068
+      "pred_1y": 11835,
+      "pred_5y": 38111
     },
     {
       "rank": 120,
       "language": "Objective-C++",
-      "count": 7958,
+      "count": 7967,
       "first_public": null,
-      "pred_1y": 9820,
-      "pred_5y": 20695
+      "pred_1y": 9831,
+      "pred_5y": 20716
     },
     {
       "rank": 121,
       "language": "SWIG",
-      "count": 7916,
+      "count": 7925,
       "first_public": 1996,
-      "pred_1y": 9769,
-      "pred_5y": 20586
+      "pred_1y": 9779,
+      "pred_5y": 20607
     },
     {
       "rank": 122,
       "language": "ASL",
-      "count": 7865,
+      "count": 7880,
       "first_public": null,
-      "pred_1y": 9706,
-      "pred_5y": 20454
+      "pred_1y": 9724,
+      "pred_5y": 20490
     },
     {
       "rank": 123,
       "language": "LookML",
-      "count": 7729,
+      "count": 7728,
       "first_public": 2013,
-      "pred_1y": 10230,
-      "pred_5y": 26672
+      "pred_1y": 10228,
+      "pred_5y": 26662
     },
     {
       "rank": 124,
       "language": "Scilab",
-      "count": 7699,
+      "count": 7704,
       "first_public": 1990,
-      "pred_1y": 9501,
-      "pred_5y": 20022
+      "pred_1y": 9507,
+      "pred_5y": 20032
     },
     {
       "rank": 125,
       "language": "MQL5",
-      "count": 7411,
+      "count": 7414,
       "first_public": 2010,
-      "pred_1y": 9342,
-      "pred_5y": 21040
+      "pred_1y": 9346,
+      "pred_5y": 21045
     },
     {
       "rank": 126,
       "language": "SQF",
-      "count": 7254,
+      "count": 7253,
       "first_public": 2001,
-      "pred_1y": 8952,
-      "pred_5y": 18865
+      "pred_1y": 8950,
+      "pred_5y": 18860
     },
     {
       "rank": 127,
       "language": "SQLPL",
-      "count": 7235,
+      "count": 7234,
       "first_public": 1998,
-      "pred_1y": 8928,
-      "pred_5y": 18815
+      "pred_1y": 8927,
+      "pred_5y": 18810
     },
     {
       "rank": 128,
       "language": "FreeMarker",
-      "count": 7127,
+      "count": 7126,
       "first_public": 2003,
-      "pred_1y": 8795,
-      "pred_5y": 18534
+      "pred_1y": 8793,
+      "pred_5y": 18529
     },
     {
       "rank": 129,
       "language": "NSIS",
-      "count": 6934,
+      "count": 6938,
       "first_public": 2000,
-      "pred_1y": 8557,
-      "pred_5y": 18032
+      "pred_1y": 8561,
+      "pred_5y": 18040
     },
     {
       "rank": 130,
       "language": "PureScript",
-      "count": 6753,
+      "count": 6754,
       "first_public": 2013,
-      "pred_1y": 8938,
-      "pred_5y": 23304
+      "pred_1y": 8939,
+      "pred_5y": 23302
     },
     {
       "rank": 131,
       "language": "AGS Script",
-      "count": 6709,
+      "count": 6717,
       "first_public": 1997,
-      "pred_1y": 8279,
-      "pred_5y": 17447
+      "pred_1y": 8289,
+      "pred_5y": 17466
     },
     {
       "rank": 132,
       "language": "1C Enterprise",
-      "count": 6404,
+      "count": 6413,
       "first_public": null,
-      "pred_1y": 7903,
-      "pred_5y": 16654
+      "pred_1y": 7914,
+      "pred_5y": 16675
     },
     {
       "rank": 133,
       "language": "HLSL",
-      "count": 6315,
+      "count": 6317,
       "first_public": 2002,
-      "pred_1y": 7793,
-      "pred_5y": 16423
+      "pred_1y": 7795,
+      "pred_5y": 16426
     },
     {
       "rank": 134,
       "language": "AL",
-      "count": 6301,
+      "count": 6302,
       "first_public": 2018,
-      "pred_1y": 9702,
-      "pred_5y": 38259
+      "pred_1y": 9703,
+      "pred_5y": 38247
     },
     {
       "rank": 135,
       "language": "Pawn",
-      "count": 6158,
+      "count": 6165,
       "first_public": 1998,
-      "pred_1y": 7599,
-      "pred_5y": 16014
+      "pred_1y": 7608,
+      "pred_5y": 16031
     },
     {
       "rank": 136,
       "language": "Just",
-      "count": 6017,
+      "count": 6011,
       "first_public": 2016,
-      "pred_1y": 8581,
-      "pred_5y": 27641
+      "pred_1y": 8572,
+      "pred_5y": 27604
     },
     {
       "rank": 137,
       "language": "NetLogo",
-      "count": 5961,
+      "count": 5962,
       "first_public": 1999,
-      "pred_1y": 7356,
-      "pred_5y": 15502
+      "pred_1y": 7357,
+      "pred_5y": 15503
     },
     {
       "rank": 138,
       "language": "OpenEdge ABL",
-      "count": 5838,
+      "count": 5841,
       "first_public": 1984,
-      "pred_1y": 7204,
-      "pred_5y": 15182
+      "pred_1y": 7208,
+      "pred_5y": 15188
     },
     {
       "rank": 139,
-      "language": "AutoIt",
-      "count": 5713,
-      "first_public": 1999,
-      "pred_1y": 7050,
-      "pred_5y": 14857
+      "language": "Lex",
+      "count": 5718,
+      "first_public": 1975,
+      "pred_1y": 7056,
+      "pred_5y": 14868
     },
     {
       "rank": 140,
-      "language": "Lex",
-      "count": 5713,
-      "first_public": 1975,
-      "pred_1y": 7050,
-      "pred_5y": 14857
+      "language": "AutoIt",
+      "count": 5714,
+      "first_public": 1999,
+      "pred_1y": 7051,
+      "pred_5y": 14858
     },
     {
       "rank": 141,
       "language": "SuperCollider",
-      "count": 5637,
+      "count": 5638,
       "first_public": 1996,
-      "pred_1y": 6956,
-      "pred_5y": 14659
+      "pred_1y": 6957,
+      "pred_5y": 14660
     },
     {
       "rank": 142,
       "language": "CAP CDS",
-      "count": 5590,
+      "count": 5593,
       "first_public": null,
-      "pred_1y": 6898,
-      "pred_5y": 14537
+      "pred_1y": 6902,
+      "pred_5y": 14543
     },
     {
       "rank": 143,
       "language": "Ballerina",
-      "count": 5462,
+      "count": 5467,
       "first_public": 2017,
-      "pred_1y": 8064,
-      "pred_5y": 28507
+      "pred_1y": 8070,
+      "pred_5y": 28522
     },
     {
       "rank": 144,
       "language": "Cairo",
-      "count": 5348,
+      "count": 5347,
       "first_public": 2020,
-      "pred_1y": 9275,
-      "pred_5y": 48788
+      "pred_1y": 9272,
+      "pred_5y": 48745
     },
     {
       "rank": 145,
       "language": "GAP",
-      "count": 5244,
+      "count": 5243,
       "first_public": 1986,
-      "pred_1y": 6471,
-      "pred_5y": 13637
+      "pred_1y": 6470,
+      "pred_5y": 13633
     },
     {
       "rank": 146,
       "language": "Gleam",
-      "count": 5239,
+      "count": 5242,
       "first_public": 2019,
-      "pred_1y": 8500,
+      "pred_1y": 8503,
       "pred_5y": 38179
     },
     {
       "rank": 147,
       "language": "Smali",
-      "count": 5083,
+      "count": 5094,
       "first_public": 2010,
-      "pred_1y": 6408,
-      "pred_5y": 14431
+      "pred_1y": 6421,
+      "pred_5y": 14460
     },
     {
       "rank": 148,
@@ -1194,7 +1194,7 @@
       "count": 5073,
       "first_public": 2002,
       "pred_1y": 6260,
-      "pred_5y": 13193
+      "pred_5y": 13191
     },
     {
       "rank": 149,
@@ -1202,31 +1202,31 @@
       "count": 4743,
       "first_public": 2011,
       "pred_1y": 6065,
-      "pred_5y": 14267
+      "pred_5y": 14264
     },
     {
       "rank": 150,
       "language": "Raku",
-      "count": 4632,
+      "count": 4638,
       "first_public": 2005,
-      "pred_1y": 5716,
-      "pred_5y": 12046
+      "pred_1y": 5723,
+      "pred_5y": 12060
     },
     {
       "rank": 151,
       "language": "xBase",
-      "count": 4557,
+      "count": 4558,
       "first_public": 1979,
-      "pred_1y": 5623,
-      "pred_5y": 11851
+      "pred_1y": 5625,
+      "pred_5y": 11852
     },
     {
       "rank": 152,
       "language": "Vala",
-      "count": 4519,
+      "count": 4523,
       "first_public": 2006,
-      "pred_1y": 5577,
-      "pred_5y": 11752
+      "pred_1y": 5581,
+      "pred_5y": 11761
     },
     {
       "rank": 153,
@@ -1234,31 +1234,31 @@
       "count": 4512,
       "first_public": 1993,
       "pred_1y": 5568,
-      "pred_5y": 11734
+      "pred_5y": 11732
     },
     {
       "rank": 154,
       "language": "Motoko",
-      "count": 4372,
+      "count": 4371,
       "first_public": 2019,
-      "pred_1y": 7093,
-      "pred_5y": 31860
+      "pred_1y": 7090,
+      "pred_5y": 31835
     },
     {
       "rank": 155,
       "language": "Awk",
-      "count": 4169,
+      "count": 4172,
       "first_public": 1977,
-      "pred_1y": 5145,
-      "pred_5y": 10842
+      "pred_1y": 5148,
+      "pred_5y": 10848
     },
     {
       "rank": 156,
       "language": "Procfile",
-      "count": 3992,
+      "count": 3994,
       "first_public": 2011,
-      "pred_1y": 5105,
-      "pred_5y": 12008
+      "pred_1y": 5107,
+      "pred_5y": 12012
     },
     {
       "rank": 157,
@@ -1266,135 +1266,135 @@
       "count": 3977,
       "first_public": 2000,
       "pred_1y": 4908,
-      "pred_5y": 10342
+      "pred_5y": 10341
     },
     {
       "rank": 158,
       "language": "ReScript",
-      "count": 3813,
+      "count": 3816,
       "first_public": 2020,
-      "pred_1y": 6613,
-      "pred_5y": 34784
+      "pred_1y": 6617,
+      "pred_5y": 34788
     },
     {
       "rank": 159,
       "language": "CodeQL",
       "count": 3682,
       "first_public": 2019,
-      "pred_1y": 5974,
-      "pred_5y": 26832
+      "pred_1y": 5973,
+      "pred_5y": 26817
     },
     {
       "rank": 160,
       "language": "Gnuplot",
-      "count": 3576,
+      "count": 3575,
       "first_public": 1986,
-      "pred_1y": 4413,
-      "pred_5y": 9300
+      "pred_1y": 4412,
+      "pred_5y": 9296
     },
     {
       "rank": 161,
       "language": "M",
-      "count": 3521,
+      "count": 3522,
       "first_public": 1966,
-      "pred_1y": 4345,
-      "pred_5y": 9157
+      "pred_1y": 4346,
+      "pred_5y": 9158
     },
     {
       "rank": 162,
       "language": "Open Policy Agent",
-      "count": 3502,
+      "count": 3506,
       "first_public": 2016,
-      "pred_1y": 4994,
-      "pred_5y": 16087
+      "pred_1y": 5000,
+      "pred_5y": 16100
     },
     {
       "rank": 163,
       "language": "Agda",
-      "count": 3347,
+      "count": 3348,
       "first_public": 1999,
-      "pred_1y": 4130,
-      "pred_5y": 8704
+      "pred_1y": 4131,
+      "pred_5y": 8706
     },
     {
       "rank": 164,
       "language": "V",
-      "count": 3305,
+      "count": 3309,
       "first_public": 2019,
-      "pred_1y": 5362,
-      "pred_5y": 24085
+      "pred_1y": 5368,
+      "pred_5y": 24100
     },
     {
       "rank": 165,
       "language": "Jsonnet",
-      "count": 3300,
+      "count": 3299,
       "first_public": 2014,
-      "pred_1y": 4461,
-      "pred_5y": 12367
+      "pred_1y": 4459,
+      "pred_5y": 12361
     },
     {
       "rank": 166,
       "language": "DM",
-      "count": 3222,
+      "count": 3225,
       "first_public": 1996,
-      "pred_1y": 3976,
-      "pred_5y": 8379
+      "pred_1y": 3980,
+      "pred_5y": 8386
     },
     {
       "rank": 167,
       "language": "LilyPond",
-      "count": 3210,
+      "count": 3217,
       "first_public": 1996,
-      "pred_1y": 3961,
-      "pred_5y": 8348
+      "pred_1y": 3970,
+      "pred_5y": 8365
     },
     {
       "rank": 168,
-      "language": "Monkey C",
-      "count": 3078,
-      "first_public": 2016,
-      "pred_1y": 4390,
-      "pred_5y": 14140
+      "language": "MoonBit",
+      "count": 3085,
+      "first_public": 2023,
+      "pred_1y": 7891,
+      "pred_5y": 89874
     },
     {
       "rank": 169,
+      "language": "Monkey C",
+      "count": 3083,
+      "first_public": 2016,
+      "pred_1y": 4396,
+      "pred_5y": 14158
+    },
+    {
+      "rank": 170,
       "language": "M4",
       "count": 3073,
       "first_public": 1977,
       "pred_1y": 3792,
-      "pred_5y": 7992
-    },
-    {
-      "rank": 170,
-      "language": "MoonBit",
-      "count": 3070,
-      "first_public": 2023,
-      "pred_1y": 7858,
-      "pred_5y": 89587
+      "pred_5y": 7991
     },
     {
       "rank": 171,
       "language": "MAXScript",
-      "count": 2929,
+      "count": 2934,
       "first_public": 1996,
-      "pred_1y": 3614,
-      "pred_5y": 7617
+      "pred_1y": 3621,
+      "pred_5y": 7629
     },
     {
       "rank": 172,
       "language": "DataWeave",
-      "count": 2900,
+      "count": 2902,
       "first_public": 2015,
-      "pred_1y": 4018,
-      "pred_5y": 11945
+      "pred_1y": 4020,
+      "pred_5y": 11949
     },
     {
       "rank": 173,
       "language": "CLIPS",
-      "count": 2853,
+      "count": 2856,
       "first_public": 1986,
-      "pred_1y": 3521,
-      "pred_5y": 7419
+      "pred_1y": 3524,
+      "pred_5y": 7426
     },
     {
       "rank": 174,
@@ -1402,55 +1402,55 @@
       "count": 2843,
       "first_public": 2005,
       "pred_1y": 3508,
-      "pred_5y": 7393
+      "pred_5y": 7392
     },
     {
       "rank": 175,
+      "language": "YARA",
+      "count": 2830,
+      "first_public": 2008,
+      "pred_1y": 3492,
+      "pred_5y": 7359
+    },
+    {
+      "rank": 176,
       "language": "IDL",
       "count": 2829,
       "first_public": 1977,
       "pred_1y": 3491,
-      "pred_5y": 7357
-    },
-    {
-      "rank": 176,
-      "language": "YARA",
-      "count": 2828,
-      "first_public": 2008,
-      "pred_1y": 3490,
-      "pred_5y": 7354
+      "pred_5y": 7356
     },
     {
       "rank": 177,
       "language": "WebAssembly",
-      "count": 2787,
+      "count": 2786,
       "first_public": 2017,
-      "pred_1y": 4115,
-      "pred_5y": 14546
+      "pred_1y": 4113,
+      "pred_5y": 14535
     },
     {
       "rank": 178,
       "language": "nesC",
-      "count": 2783,
+      "count": 2782,
       "first_public": 2003,
-      "pred_1y": 3434,
-      "pred_5y": 7237
+      "pred_1y": 3433,
+      "pred_5y": 7234
     },
     {
       "rank": 179,
       "language": "ImageJ Macro",
-      "count": 2706,
+      "count": 2709,
       "first_public": 1997,
-      "pred_1y": 3339,
-      "pred_5y": 7037
+      "pred_1y": 3343,
+      "pred_5y": 7044
     },
     {
       "rank": 180,
       "language": "Brainfuck",
-      "count": 2690,
+      "count": 2692,
       "first_public": 1993,
-      "pred_1y": 3320,
-      "pred_5y": 6996
+      "pred_1y": 3322,
+      "pred_5y": 7000
     },
     {
       "rank": 181,
@@ -1458,7 +1458,7 @@
       "count": 2667,
       "first_public": 2003,
       "pred_1y": 3291,
-      "pred_5y": 6936
+      "pred_5y": 6935
     },
     {
       "rank": 182,
@@ -1466,7 +1466,7 @@
       "count": 2553,
       "first_public": 1997,
       "pred_1y": 3150,
-      "pred_5y": 6639
+      "pred_5y": 6638
     },
     {
       "rank": 183,
@@ -1474,23 +1474,23 @@
       "count": 2495,
       "first_public": 2009,
       "pred_1y": 3106,
-      "pred_5y": 6724
+      "pred_5y": 6723
     },
     {
       "rank": 184,
       "language": "ANTLR",
-      "count": 2476,
+      "count": 2474,
       "first_public": null,
-      "pred_1y": 3055,
-      "pred_5y": 6439
+      "pred_1y": 3053,
+      "pred_5y": 6433
     },
     {
       "rank": 185,
       "language": "ZenScript",
-      "count": 2461,
+      "count": 2462,
       "first_public": 2015,
-      "pred_1y": 3410,
-      "pred_5y": 10136
+      "pred_1y": 3411,
+      "pred_5y": 10138
     },
     {
       "rank": 186,
@@ -1498,47 +1498,47 @@
       "count": 2456,
       "first_public": 1970,
       "pred_1y": 3031,
-      "pred_5y": 6387
+      "pred_5y": 6386
     },
     {
       "rank": 187,
       "language": "AngelScript",
-      "count": 2415,
+      "count": 2417,
       "first_public": 2003,
-      "pred_1y": 2980,
-      "pred_5y": 6280
+      "pred_1y": 2983,
+      "pred_5y": 6285
     },
     {
       "rank": 188,
       "language": "BASIC",
-      "count": 2412,
+      "count": 2415,
       "first_public": 1964,
-      "pred_1y": 2976,
-      "pred_5y": 6273
+      "pred_1y": 2980,
+      "pred_5y": 6280
     },
     {
       "rank": 189,
       "language": "Cypher",
-      "count": 2248,
+      "count": 2251,
       "first_public": 2011,
-      "pred_1y": 2875,
-      "pred_5y": 6762
+      "pred_1y": 2878,
+      "pred_5y": 6770
     },
     {
       "rank": 190,
       "language": "RouterOS Script",
-      "count": 2243,
+      "count": 2246,
       "first_public": null,
-      "pred_1y": 2768,
-      "pred_5y": 5833
+      "pred_1y": 2772,
+      "pred_5y": 5840
     },
     {
       "rank": 191,
       "language": "LiveScript",
-      "count": 2233,
+      "count": 2234,
       "first_public": 2011,
-      "pred_1y": 2855,
-      "pred_5y": 6717
+      "pred_1y": 2856,
+      "pred_5y": 6719
     },
     {
       "rank": 192,
@@ -1546,23 +1546,23 @@
       "count": 2228,
       "first_public": 2007,
       "pred_1y": 2749,
-      "pred_5y": 5794
+      "pred_5y": 5793
     },
     {
       "rank": 193,
       "language": "ObjectScript",
-      "count": 2121,
+      "count": 2123,
       "first_public": 1997,
-      "pred_1y": 2617,
-      "pred_5y": 5516
+      "pred_1y": 2620,
+      "pred_5y": 5520
     },
     {
       "rank": 194,
       "language": "Nushell",
-      "count": 2120,
+      "count": 2122,
       "first_public": 2019,
-      "pred_1y": 3440,
-      "pred_5y": 15449
+      "pred_1y": 3442,
+      "pred_5y": 15455
     },
     {
       "rank": 195,
@@ -1578,31 +1578,31 @@
       "count": 2103,
       "first_public": 2016,
       "pred_1y": 2999,
-      "pred_5y": 9661
+      "pred_5y": 9657
     },
     {
       "rank": 197,
       "language": "ABAP CDS",
-      "count": 2101,
+      "count": 2102,
       "first_public": 2013,
-      "pred_1y": 2781,
-      "pred_5y": 7250
+      "pred_1y": 2782,
+      "pred_5y": 7252
     },
     {
       "rank": 198,
       "language": "UnrealScript",
-      "count": 2067,
+      "count": 2065,
       "first_public": 1998,
-      "pred_1y": 2551,
-      "pred_5y": 5375
+      "pred_1y": 2548,
+      "pred_5y": 5370
     },
     {
       "rank": 199,
       "language": "Tree-sitter Query",
-      "count": 1988,
+      "count": 1990,
       "first_public": 2018,
-      "pred_1y": 3061,
-      "pred_5y": 12071
+      "pred_1y": 3064,
+      "pred_5y": 12077
     },
     {
       "rank": 200,
@@ -1615,10 +1615,10 @@
     {
       "rank": 201,
       "language": "Modelica",
-      "count": 1791,
+      "count": 1793,
       "first_public": 1997,
-      "pred_1y": 2210,
-      "pred_5y": 4658
+      "pred_1y": 2213,
+      "pred_5y": 4662
     },
     {
       "rank": 202,
@@ -1626,39 +1626,39 @@
       "count": 1791,
       "first_public": 2014,
       "pred_1y": 2421,
-      "pred_5y": 6712
+      "pred_5y": 6710
     },
     {
       "rank": 203,
+      "language": "PigLatin",
+      "count": 1675,
+      "first_public": 2008,
+      "pred_1y": 2067,
+      "pred_5y": 4355
+    },
+    {
+      "rank": 204,
       "language": "Sage",
       "count": 1675,
       "first_public": 2005,
       "pred_1y": 2067,
-      "pred_5y": 4356
-    },
-    {
-      "rank": 204,
-      "language": "PigLatin",
-      "count": 1673,
-      "first_public": 2008,
-      "pred_1y": 2065,
-      "pred_5y": 4351
+      "pred_5y": 4355
     },
     {
       "rank": 205,
       "language": "PDDL",
-      "count": 1587,
+      "count": 1588,
       "first_public": 1998,
-      "pred_1y": 1958,
-      "pred_5y": 4127
+      "pred_1y": 1960,
+      "pred_5y": 4129
     },
     {
       "rank": 206,
       "language": "Meson",
-      "count": 1579,
+      "count": 1581,
       "first_public": 2013,
-      "pred_1y": 2090,
-      "pred_5y": 5449
+      "pred_1y": 2092,
+      "pred_5y": 5455
     },
     {
       "rank": 207,
@@ -1671,26 +1671,26 @@
     {
       "rank": 208,
       "language": "Zeek",
-      "count": 1561,
+      "count": 1560,
       "first_public": 1998,
-      "pred_1y": 1926,
-      "pred_5y": 4059
+      "pred_1y": 1925,
+      "pred_5y": 4056
     },
     {
       "rank": 209,
       "language": "BibTeX Style",
-      "count": 1533,
+      "count": 1534,
       "first_public": 1985,
-      "pred_1y": 1892,
-      "pred_5y": 3987
+      "pred_1y": 1893,
+      "pred_5y": 3989
     },
     {
       "rank": 210,
       "language": "TLA",
-      "count": 1503,
+      "count": 1504,
       "first_public": 1999,
-      "pred_1y": 1855,
-      "pred_5y": 3909
+      "pred_1y": 1856,
+      "pred_5y": 3911
     },
     {
       "rank": 211,
@@ -1698,31 +1698,31 @@
       "count": 1501,
       "first_public": 2011,
       "pred_1y": 1919,
-      "pred_5y": 4515
+      "pred_5y": 4514
     },
     {
       "rank": 212,
       "language": "Brightscript",
-      "count": 1490,
+      "count": 1491,
       "first_public": 2008,
-      "pred_1y": 1839,
-      "pred_5y": 3875
+      "pred_1y": 1840,
+      "pred_5y": 3877
     },
     {
       "rank": 213,
       "language": "Isabelle",
-      "count": 1477,
+      "count": 1479,
       "first_public": 1986,
-      "pred_1y": 1823,
-      "pred_5y": 3841
+      "pred_1y": 1825,
+      "pred_5y": 3846
     },
     {
       "rank": 214,
       "language": "Stan",
-      "count": 1469,
+      "count": 1468,
       "first_public": 2012,
-      "pred_1y": 1909,
-      "pred_5y": 4714
+      "pred_1y": 1908,
+      "pred_5y": 4710
     },
     {
       "rank": 215,
@@ -1738,7 +1738,7 @@
       "count": 1435,
       "first_public": 2019,
       "pred_1y": 2328,
-      "pred_5y": 10457
+      "pred_5y": 10452
     },
     {
       "rank": 217,
@@ -1754,39 +1754,39 @@
       "count": 1430,
       "first_public": null,
       "pred_1y": 1765,
-      "pred_5y": 3719
+      "pred_5y": 3718
     },
     {
       "rank": 219,
       "language": "Objective-J",
-      "count": 1409,
+      "count": 1408,
       "first_public": 2008,
-      "pred_1y": 1739,
-      "pred_5y": 3664
+      "pred_1y": 1737,
+      "pred_5y": 3661
     },
     {
       "rank": 220,
       "language": "Mojo",
-      "count": 1375,
+      "count": 1376,
       "first_public": 2023,
-      "pred_1y": 3519,
-      "pred_5y": 40125
+      "pred_1y": 3520,
+      "pred_5y": 40087
     },
     {
       "rank": 221,
       "language": "FreeBASIC",
-      "count": 1373,
+      "count": 1375,
       "first_public": 2004,
-      "pred_1y": 1694,
-      "pred_5y": 3571
+      "pred_1y": 1697,
+      "pred_5y": 3575
     },
     {
       "rank": 222,
       "language": "P4",
-      "count": 1342,
+      "count": 1344,
       "first_public": 2014,
-      "pred_1y": 1814,
-      "pred_5y": 5029
+      "pred_1y": 1817,
+      "pred_5y": 5036
     },
     {
       "rank": 223,
@@ -1799,10 +1799,10 @@
     {
       "rank": 224,
       "language": "SMT",
-      "count": 1306,
+      "count": 1309,
       "first_public": 2004,
-      "pred_1y": 1612,
-      "pred_5y": 3396
+      "pred_1y": 1615,
+      "pred_5y": 3404
     },
     {
       "rank": 225,
@@ -1810,39 +1810,39 @@
       "count": 1189,
       "first_public": 2014,
       "pred_1y": 1607,
-      "pred_5y": 4456
+      "pred_5y": 4455
     },
     {
       "rank": 226,
       "language": "GDShader",
-      "count": 1176,
+      "count": 1177,
       "first_public": 2018,
-      "pred_1y": 1811,
-      "pred_5y": 7140
+      "pred_1y": 1812,
+      "pred_5y": 7143
     },
     {
       "rank": 227,
       "language": "Eiffel",
-      "count": 1163,
+      "count": 1164,
       "first_public": 1986,
-      "pred_1y": 1435,
-      "pred_5y": 3024
+      "pred_1y": 1436,
+      "pred_5y": 3027
     },
     {
       "rank": 228,
       "language": "RenderScript",
-      "count": 1128,
+      "count": 1129,
       "first_public": 2011,
-      "pred_1y": 1442,
-      "pred_5y": 3393
+      "pred_1y": 1444,
+      "pred_5y": 3395
     },
     {
       "rank": 229,
       "language": "Linker Script",
-      "count": 1126,
+      "count": 1127,
       "first_public": null,
-      "pred_1y": 1390,
-      "pred_5y": 2928
+      "pred_1y": 1391,
+      "pred_5y": 2930
     },
     {
       "rank": 230,
@@ -1855,10 +1855,10 @@
     {
       "rank": 231,
       "language": "HiveQL",
-      "count": 1091,
+      "count": 1092,
       "first_public": 2009,
-      "pred_1y": 1358,
-      "pred_5y": 2940
+      "pred_1y": 1359,
+      "pred_5y": 2943
     },
     {
       "rank": 232,
@@ -1871,10 +1871,10 @@
     {
       "rank": 233,
       "language": "LSL",
-      "count": 1051,
+      "count": 1052,
       "first_public": 2003,
-      "pred_1y": 1297,
-      "pred_5y": 2733
+      "pred_1y": 1298,
+      "pred_5y": 2735
     },
     {
       "rank": 234,
@@ -1890,7 +1890,7 @@
       "count": 1026,
       "first_public": 2017,
       "pred_1y": 1515,
-      "pred_5y": 5355
+      "pred_5y": 5353
     },
     {
       "rank": 236,
@@ -1898,7 +1898,7 @@
       "count": 1006,
       "first_public": 2019,
       "pred_1y": 1632,
-      "pred_5y": 7331
+      "pred_5y": 7327
     },
     {
       "rank": 237,
@@ -1906,31 +1906,31 @@
       "count": 982,
       "first_public": 2009,
       "pred_1y": 1222,
-      "pred_5y": 2647
+      "pred_5y": 2646
     },
     {
       "rank": 238,
       "language": "Limbo",
-      "count": 979,
+      "count": 978,
       "first_public": 1996,
-      "pred_1y": 1208,
-      "pred_5y": 2546
+      "pred_1y": 1207,
+      "pred_5y": 2543
     },
     {
       "rank": 239,
       "language": "Lasso",
-      "count": 965,
+      "count": 966,
       "first_public": 1996,
-      "pred_1y": 1191,
-      "pred_5y": 2510
+      "pred_1y": 1192,
+      "pred_5y": 2512
     },
     {
       "rank": 240,
       "language": "XS",
-      "count": 957,
+      "count": 956,
       "first_public": null,
-      "pred_1y": 1181,
-      "pred_5y": 2489
+      "pred_1y": 1180,
+      "pred_5y": 2486
     },
     {
       "rank": 241,
@@ -1943,10 +1943,10 @@
     {
       "rank": 242,
       "language": "Circom",
-      "count": 911,
+      "count": 910,
       "first_public": 2020,
-      "pred_1y": 1580,
-      "pred_5y": 8311
+      "pred_1y": 1578,
+      "pred_5y": 8296
     },
     {
       "rank": 243,
@@ -1954,7 +1954,7 @@
       "count": 904,
       "first_public": 2013,
       "pred_1y": 1196,
-      "pred_5y": 3120
+      "pred_5y": 3119
     },
     {
       "rank": 244,
@@ -1970,23 +1970,23 @@
       "count": 887,
       "first_public": null,
       "pred_1y": 1095,
-      "pred_5y": 2307
+      "pred_5y": 2306
     },
     {
       "rank": 246,
       "language": "Rascal",
-      "count": 872,
+      "count": 873,
       "first_public": 2009,
-      "pred_1y": 1085,
-      "pred_5y": 2350
+      "pred_1y": 1087,
+      "pred_5y": 2353
     },
     {
       "rank": 247,
       "language": "RPGLE",
-      "count": 864,
+      "count": 865,
       "first_public": 1994,
-      "pred_1y": 1066,
-      "pred_5y": 2247
+      "pred_1y": 1067,
+      "pred_5y": 2249
     },
     {
       "rank": 248,
@@ -1999,18 +1999,18 @@
     {
       "rank": 249,
       "language": "DTrace",
-      "count": 845,
+      "count": 846,
       "first_public": 2005,
-      "pred_1y": 1043,
-      "pred_5y": 2197
+      "pred_1y": 1044,
+      "pred_5y": 2200
     },
     {
       "rank": 250,
       "language": "QuickBASIC",
-      "count": 832,
+      "count": 834,
       "first_public": 1985,
-      "pred_1y": 1027,
-      "pred_5y": 2164
+      "pred_1y": 1029,
+      "pred_5y": 2169
     },
     {
       "rank": 251,
@@ -2018,7 +2018,7 @@
       "count": 812,
       "first_public": 2003,
       "pred_1y": 1002,
-      "pred_5y": 2112
+      "pred_5y": 2111
     },
     {
       "rank": 252,
@@ -2031,10 +2031,10 @@
     {
       "rank": 253,
       "language": "OpenQASM",
-      "count": 797,
+      "count": 796,
       "first_public": 2017,
-      "pred_1y": 1177,
-      "pred_5y": 4160
+      "pred_1y": 1175,
+      "pred_5y": 4153
     },
     {
       "rank": 254,
@@ -2050,23 +2050,23 @@
       "count": 782,
       "first_public": 2009,
       "pred_1y": 973,
-      "pred_5y": 2108
+      "pred_5y": 2107
     },
     {
       "rank": 256,
       "language": "RPC",
-      "count": 781,
+      "count": 779,
       "first_public": null,
-      "pred_1y": 964,
-      "pred_5y": 2031
+      "pred_1y": 961,
+      "pred_5y": 2026
     },
     {
       "rank": 257,
       "language": "GAML",
-      "count": 776,
+      "count": 775,
       "first_public": null,
-      "pred_1y": 958,
-      "pred_5y": 2018
+      "pred_1y": 956,
+      "pred_5y": 2015
     },
     {
       "rank": 258,
@@ -2087,10 +2087,10 @@
     {
       "rank": 260,
       "language": "Cangjie",
-      "count": 723,
+      "count": 724,
       "first_public": 2024,
-      "pred_1y": 2475,
-      "pred_5y": 44521
+      "pred_1y": 2476,
+      "pred_5y": 44468
     },
     {
       "rank": 261,
@@ -2098,7 +2098,7 @@
       "count": 719,
       "first_public": 2014,
       "pred_1y": 972,
-      "pred_5y": 2695
+      "pred_5y": 2694
     },
     {
       "rank": 262,
@@ -2106,15 +2106,15 @@
       "count": 717,
       "first_public": 2011,
       "pred_1y": 917,
-      "pred_5y": 2157
+      "pred_5y": 2156
     },
     {
       "rank": 263,
       "language": "Slash",
-      "count": 712,
+      "count": 715,
       "first_public": null,
-      "pred_1y": 879,
-      "pred_5y": 1852
+      "pred_1y": 882,
+      "pred_5y": 1859
     },
     {
       "rank": 264,
@@ -2138,7 +2138,7 @@
       "count": 681,
       "first_public": 2017,
       "pred_1y": 1005,
-      "pred_5y": 3554
+      "pred_5y": 3553
     },
     {
       "rank": 267,
@@ -2146,31 +2146,31 @@
       "count": 672,
       "first_public": null,
       "pred_1y": 829,
-      "pred_5y": 1748
+      "pred_5y": 1747
     },
     {
       "rank": 268,
       "language": "Jai",
-      "count": 662,
+      "count": 663,
       "first_public": null,
-      "pred_1y": 817,
-      "pred_5y": 1722
+      "pred_1y": 818,
+      "pred_5y": 1724
     },
     {
       "rank": 269,
       "language": "Promela",
-      "count": 652,
+      "count": 653,
       "first_public": 1991,
-      "pred_1y": 805,
-      "pred_5y": 1696
+      "pred_1y": 806,
+      "pred_5y": 1698
     },
     {
       "rank": 270,
       "language": "Fluent",
-      "count": 649,
+      "count": 651,
       "first_public": null,
-      "pred_1y": 801,
-      "pred_5y": 1688
+      "pred_1y": 803,
+      "pred_5y": 1693
     },
     {
       "rank": 271,
@@ -2186,15 +2186,15 @@
       "count": 635,
       "first_public": 2017,
       "pred_1y": 937,
-      "pred_5y": 3314
+      "pred_5y": 3313
     },
     {
       "rank": 273,
       "language": "APL",
-      "count": 628,
+      "count": 629,
       "first_public": 1964,
-      "pred_1y": 775,
-      "pred_5y": 1633
+      "pred_1y": 776,
+      "pred_5y": 1636
     },
     {
       "rank": 274,
@@ -2207,10 +2207,10 @@
     {
       "rank": 275,
       "language": "MLIR",
-      "count": 614,
+      "count": 618,
       "first_public": 2019,
-      "pred_1y": 996,
-      "pred_5y": 4474
+      "pred_1y": 1002,
+      "pred_5y": 4501
     },
     {
       "rank": 276,
@@ -2218,7 +2218,7 @@
       "count": 612,
       "first_public": 1993,
       "pred_1y": 755,
-      "pred_5y": 1592
+      "pred_5y": 1591
     },
     {
       "rank": 277,
@@ -2226,15 +2226,15 @@
       "count": 612,
       "first_public": 2022,
       "pred_1y": 1309,
-      "pred_5y": 10744
+      "pred_5y": 10731
     },
     {
       "rank": 278,
       "language": "CartoCSS",
-      "count": 611,
+      "count": 610,
       "first_public": null,
-      "pred_1y": 754,
-      "pred_5y": 1589
+      "pred_1y": 753,
+      "pred_5y": 1586
     },
     {
       "rank": 279,
@@ -2247,18 +2247,18 @@
     {
       "rank": 280,
       "language": "Pkl",
-      "count": 590,
+      "count": 593,
       "first_public": 2024,
-      "pred_1y": 2020,
-      "pred_5y": 36331
+      "pred_1y": 2028,
+      "pred_5y": 36422
     },
     {
       "rank": 281,
       "language": "Janet",
-      "count": 586,
+      "count": 587,
       "first_public": 2017,
-      "pred_1y": 865,
-      "pred_5y": 3058
+      "pred_1y": 867,
+      "pred_5y": 3062
     },
     {
       "rank": 282,
@@ -2298,15 +2298,15 @@
       "count": 567,
       "first_public": 2006,
       "pred_1y": 700,
-      "pred_5y": 1475
+      "pred_5y": 1474
     },
     {
       "rank": 287,
       "language": "Metal",
-      "count": 557,
+      "count": 559,
       "first_public": 2014,
-      "pred_1y": 753,
-      "pred_5y": 2087
+      "pred_1y": 756,
+      "pred_5y": 2094
     },
     {
       "rank": 288,
@@ -2330,7 +2330,7 @@
       "count": 547,
       "first_public": 1974,
       "pred_1y": 675,
-      "pred_5y": 1423
+      "pred_5y": 1422
     },
     {
       "rank": 291,
@@ -2346,31 +2346,31 @@
       "count": 544,
       "first_public": 2016,
       "pred_1y": 776,
-      "pred_5y": 2499
+      "pred_5y": 2498
     },
     {
       "rank": 293,
       "language": "E",
-      "count": 525,
+      "count": 526,
       "first_public": null,
-      "pred_1y": 648,
-      "pred_5y": 1365
+      "pred_1y": 649,
+      "pred_5y": 1368
     },
     {
       "rank": 294,
-      "language": "LOLCODE",
-      "count": 525,
-      "first_public": 2007,
-      "pred_1y": 648,
-      "pred_5y": 1365
+      "language": "Ink",
+      "count": 526,
+      "first_public": 2016,
+      "pred_1y": 750,
+      "pred_5y": 2416
     },
     {
       "rank": 295,
-      "language": "Ink",
-      "count": 524,
-      "first_public": 2016,
-      "pred_1y": 747,
-      "pred_5y": 2407
+      "language": "LOLCODE",
+      "count": 526,
+      "first_public": 2007,
+      "pred_1y": 649,
+      "pred_5y": 1368
     },
     {
       "rank": 296,
@@ -2378,15 +2378,15 @@
       "count": 518,
       "first_public": 2013,
       "pred_1y": 686,
-      "pred_5y": 1788
+      "pred_5y": 1787
     },
     {
       "rank": 297,
       "language": "JCL",
-      "count": 510,
+      "count": 511,
       "first_public": 1964,
-      "pred_1y": 629,
-      "pred_5y": 1326
+      "pred_1y": 631,
+      "pred_5y": 1329
     },
     {
       "rank": 298,
@@ -2399,10 +2399,10 @@
     {
       "rank": 299,
       "language": "Answer Set Programming",
-      "count": 505,
+      "count": 507,
       "first_public": null,
-      "pred_1y": 623,
-      "pred_5y": 1313
+      "pred_1y": 626,
+      "pred_5y": 1318
     },
     {
       "rank": 300,
@@ -2415,26 +2415,26 @@
     {
       "rank": 301,
       "language": "KerboScript",
-      "count": 488,
+      "count": 489,
       "first_public": null,
-      "pred_1y": 602,
-      "pred_5y": 1269
+      "pred_1y": 603,
+      "pred_5y": 1272
     },
     {
       "rank": 302,
       "language": "Oz",
       "count": 485,
       "first_public": 1995,
-      "pred_1y": 599,
+      "pred_1y": 598,
       "pred_5y": 1261
     },
     {
       "rank": 303,
       "language": "KakouneScript",
-      "count": 477,
+      "count": 478,
       "first_public": null,
-      "pred_1y": 589,
-      "pred_5y": 1240
+      "pred_1y": 590,
+      "pred_5y": 1243
     },
     {
       "rank": 304,
@@ -2455,18 +2455,18 @@
     {
       "rank": 306,
       "language": "Linear Programming",
-      "count": 434,
+      "count": 435,
       "first_public": null,
-      "pred_1y": 536,
-      "pred_5y": 1129
+      "pred_1y": 537,
+      "pred_5y": 1131
     },
     {
       "rank": 307,
       "language": "C3",
-      "count": 433,
+      "count": 434,
       "first_public": 2019,
-      "pred_1y": 703,
-      "pred_5y": 3155
+      "pred_1y": 704,
+      "pred_5y": 3161
     },
     {
       "rank": 308,
@@ -2479,32 +2479,32 @@
     {
       "rank": 309,
       "language": "Beef",
-      "count": 411,
+      "count": 413,
       "first_public": null,
-      "pred_1y": 507,
-      "pred_5y": 1069
+      "pred_1y": 510,
+      "pred_5y": 1074
     },
     {
       "rank": 310,
       "language": "WGSL",
-      "count": 411,
+      "count": 413,
       "first_public": 2020,
-      "pred_1y": 713,
-      "pred_5y": 3749
+      "pred_1y": 716,
+      "pred_5y": 3765
     },
     {
       "rank": 311,
-      "language": "NASL",
-      "count": 403,
-      "first_public": 1998,
-      "pred_1y": 497,
-      "pred_5y": 1048
-    },
-    {
-      "rank": 312,
       "language": "KRL",
       "count": 402,
       "first_public": null,
+      "pred_1y": 496,
+      "pred_5y": 1045
+    },
+    {
+      "rank": 312,
+      "language": "NASL",
+      "count": 402,
+      "first_public": 1998,
       "pred_1y": 496,
       "pred_5y": 1045
     },
@@ -2527,10 +2527,10 @@
     {
       "rank": 315,
       "language": "Witcher Script",
-      "count": 371,
+      "count": 376,
       "first_public": null,
-      "pred_1y": 458,
-      "pred_5y": 965
+      "pred_1y": 464,
+      "pred_5y": 978
     },
     {
       "rank": 316,
@@ -2538,7 +2538,7 @@
       "count": 369,
       "first_public": 2017,
       "pred_1y": 545,
-      "pred_5y": 1926
+      "pred_5y": 1925
     },
     {
       "rank": 317,
@@ -2551,42 +2551,42 @@
     {
       "rank": 318,
       "language": "Cirru",
-      "count": 365,
+      "count": 360,
       "first_public": null,
-      "pred_1y": 450,
-      "pred_5y": 949
+      "pred_1y": 444,
+      "pred_5y": 936
     },
     {
       "rank": 319,
       "language": "B4X",
-      "count": 355,
+      "count": 356,
       "first_public": null,
-      "pred_1y": 438,
-      "pred_5y": 923
+      "pred_1y": 439,
+      "pred_5y": 926
     },
     {
       "rank": 320,
       "language": "Nu",
-      "count": 353,
+      "count": 352,
       "first_public": 2019,
-      "pred_1y": 573,
-      "pred_5y": 2572
+      "pred_1y": 571,
+      "pred_5y": 2564
     },
     {
       "rank": 321,
-      "language": "Clean",
+      "language": "mIRC Script",
       "count": 350,
-      "first_public": null,
+      "first_public": 1995,
       "pred_1y": 432,
       "pred_5y": 910
     },
     {
       "rank": 322,
-      "language": "mIRC Script",
+      "language": "Clean",
       "count": 349,
-      "first_public": 1995,
+      "first_public": null,
       "pred_1y": 431,
-      "pred_5y": 908
+      "pred_5y": 907
     },
     {
       "rank": 323,
@@ -2610,7 +2610,7 @@
       "count": 330,
       "first_public": 2011,
       "pred_1y": 422,
-      "pred_5y": 993
+      "pred_5y": 992
     },
     {
       "rank": 326,
@@ -2634,7 +2634,7 @@
       "count": 319,
       "first_public": null,
       "pred_1y": 394,
-      "pred_5y": 830
+      "pred_5y": 829
     },
     {
       "rank": 329,
@@ -2650,15 +2650,15 @@
       "count": 314,
       "first_public": 1988,
       "pred_1y": 387,
-      "pred_5y": 817
+      "pred_5y": 816
     },
     {
       "rank": 331,
       "language": "Roc",
       "count": 314,
       "first_public": 2020,
-      "pred_1y": 545,
-      "pred_5y": 2864
+      "pred_1y": 544,
+      "pred_5y": 2863
     },
     {
       "rank": 332,
@@ -2695,18 +2695,18 @@
     {
       "rank": 336,
       "language": "Xmake",
-      "count": 289,
+      "count": 290,
       "first_public": 2015,
-      "pred_1y": 400,
-      "pred_5y": 1190
+      "pred_1y": 402,
+      "pred_5y": 1194
     },
     {
       "rank": 337,
       "language": "Berry",
-      "count": 284,
+      "count": 285,
       "first_public": null,
-      "pred_1y": 350,
-      "pred_5y": 739
+      "pred_1y": 352,
+      "pred_5y": 741
     },
     {
       "rank": 338,
@@ -2735,10 +2735,10 @@
     {
       "rank": 341,
       "language": "FLUX",
-      "count": 271,
+      "count": 273,
       "first_public": null,
-      "pred_1y": 334,
-      "pred_5y": 705
+      "pred_1y": 337,
+      "pred_5y": 710
     },
     {
       "rank": 342,
@@ -2746,7 +2746,7 @@
       "count": 269,
       "first_public": null,
       "pred_1y": 332,
-      "pred_5y": 700
+      "pred_5y": 699
     },
     {
       "rank": 343,
@@ -2759,26 +2759,26 @@
     {
       "rank": 344,
       "language": "Aiken",
-      "count": 259,
+      "count": 258,
       "first_public": 2022,
-      "pred_1y": 554,
-      "pred_5y": 4547
+      "pred_1y": 552,
+      "pred_5y": 4524
     },
     {
       "rank": 345,
       "language": "Power Query",
-      "count": 253,
+      "count": 257,
       "first_public": 2013,
-      "pred_1y": 335,
-      "pred_5y": 873
+      "pred_1y": 340,
+      "pred_5y": 887
     },
     {
       "rank": 346,
       "language": "EmberScript",
-      "count": 250,
+      "count": 251,
       "first_public": null,
-      "pred_1y": 309,
-      "pred_5y": 650
+      "pred_1y": 310,
+      "pred_5y": 653
     },
     {
       "rank": 347,
@@ -2786,7 +2786,7 @@
       "count": 247,
       "first_public": 2021,
       "pred_1y": 468,
-      "pred_5y": 2993
+      "pred_5y": 2990
     },
     {
       "rank": 348,
@@ -2794,7 +2794,7 @@
       "count": 244,
       "first_public": null,
       "pred_1y": 301,
-      "pred_5y": 635
+      "pred_5y": 634
     },
     {
       "rank": 349,
@@ -2810,7 +2810,7 @@
       "count": 234,
       "first_public": 2020,
       "pred_1y": 406,
-      "pred_5y": 2135
+      "pred_5y": 2133
     },
     {
       "rank": 351,
@@ -2823,10 +2823,10 @@
     {
       "rank": 352,
       "language": "CQL",
-      "count": 231,
+      "count": 230,
       "first_public": 2011,
-      "pred_1y": 295,
-      "pred_5y": 695
+      "pred_1y": 294,
+      "pred_5y": 692
     },
     {
       "rank": 353,
@@ -2846,19 +2846,19 @@
     },
     {
       "rank": 355,
+      "language": "TypeSpec",
+      "count": 225,
+      "first_public": 2023,
+      "pred_1y": 576,
+      "pred_5y": 6555
+    },
+    {
+      "rank": 356,
       "language": "Jolie",
       "count": 224,
       "first_public": null,
       "pred_1y": 276,
-      "pred_5y": 583
-    },
-    {
-      "rank": 356,
-      "language": "TypeSpec",
-      "count": 224,
-      "first_public": 2023,
-      "pred_1y": 573,
-      "pred_5y": 6537
+      "pred_5y": 582
     },
     {
       "rank": 357,
@@ -2866,7 +2866,7 @@
       "count": 223,
       "first_public": 2020,
       "pred_1y": 387,
-      "pred_5y": 2034
+      "pred_5y": 2033
     },
     {
       "rank": 358,
@@ -2887,10 +2887,10 @@
     {
       "rank": 360,
       "language": "QuakeC",
-      "count": 218,
+      "count": 219,
       "first_public": 1996,
-      "pred_1y": 269,
-      "pred_5y": 567
+      "pred_1y": 270,
+      "pred_5y": 569
     },
     {
       "rank": 361,
@@ -2898,7 +2898,7 @@
       "count": 214,
       "first_public": null,
       "pred_1y": 264,
-      "pred_5y": 557
+      "pred_5y": 556
     },
     {
       "rank": 362,
@@ -2930,15 +2930,15 @@
       "count": 208,
       "first_public": 2015,
       "pred_1y": 288,
-      "pred_5y": 857
+      "pred_5y": 856
     },
     {
       "rank": 366,
       "language": "HIP",
-      "count": 195,
+      "count": 196,
       "first_public": 2016,
-      "pred_1y": 278,
-      "pred_5y": 896
+      "pred_1y": 279,
+      "pred_5y": 900
     },
     {
       "rank": 367,
@@ -2970,7 +2970,7 @@
       "count": 188,
       "first_public": 2014,
       "pred_1y": 254,
-      "pred_5y": 705
+      "pred_5y": 704
     },
     {
       "rank": 371,
@@ -2982,6 +2982,14 @@
     },
     {
       "rank": 372,
+      "language": "Pike",
+      "count": 188,
+      "first_public": 1994,
+      "pred_1y": 232,
+      "pred_5y": 489
+    },
+    {
+      "rank": 373,
       "language": "ZIL",
       "count": 188,
       "first_public": 1979,
@@ -2989,7 +2997,7 @@
       "pred_5y": 489
     },
     {
-      "rank": 373,
+      "rank": 374,
       "language": "Asymptote",
       "count": 187,
       "first_public": 2004,
@@ -2997,18 +3005,10 @@
       "pred_5y": 486
     },
     {
-      "rank": 374,
+      "rank": 375,
       "language": "Dylan",
       "count": 187,
       "first_public": null,
-      "pred_1y": 231,
-      "pred_5y": 486
-    },
-    {
-      "rank": 375,
-      "language": "Pike",
-      "count": 187,
-      "first_public": 1994,
       "pred_1y": 231,
       "pred_5y": 486
     },
@@ -3111,10 +3111,10 @@
     {
       "rank": 388,
       "language": "Slang",
-      "count": 151,
+      "count": 152,
       "first_public": null,
-      "pred_1y": 186,
-      "pred_5y": 393
+      "pred_1y": 188,
+      "pred_5y": 395
     },
     {
       "rank": 389,
@@ -3150,7 +3150,7 @@
     },
     {
       "rank": 393,
-      "language": "Jasmin",
+      "language": "Moocode",
       "count": 145,
       "first_public": null,
       "pred_1y": 179,
@@ -3158,11 +3158,11 @@
     },
     {
       "rank": 394,
-      "language": "Moocode",
-      "count": 145,
+      "language": "Jasmin",
+      "count": 144,
       "first_public": null,
-      "pred_1y": 179,
-      "pred_5y": 377
+      "pred_1y": 178,
+      "pred_5y": 374
     },
     {
       "rank": 395,
@@ -3183,10 +3183,10 @@
     {
       "rank": 397,
       "language": "IL Assembly",
-      "count": 136,
+      "count": 135,
       "first_public": 2002,
-      "pred_1y": 168,
-      "pred_5y": 354
+      "pred_1y": 167,
+      "pred_5y": 351
     },
     {
       "rank": 398,
@@ -3210,7 +3210,7 @@
       "count": 134,
       "first_public": 2022,
       "pred_1y": 287,
-      "pred_5y": 2352
+      "pred_5y": 2350
     },
     {
       "rank": 401,
@@ -3218,7 +3218,7 @@
       "count": 133,
       "first_public": 2020,
       "pred_1y": 231,
-      "pred_5y": 1213
+      "pred_5y": 1212
     },
     {
       "rank": 402,
@@ -3290,7 +3290,7 @@
       "count": 111,
       "first_public": 2021,
       "pred_1y": 210,
-      "pred_5y": 1345
+      "pred_5y": 1344
     },
     {
       "rank": 411,
@@ -3310,6 +3310,14 @@
     },
     {
       "rank": 413,
+      "language": "MeTTa",
+      "count": 103,
+      "first_public": 2023,
+      "pred_1y": 263,
+      "pred_5y": 3001
+    },
+    {
+      "rank": 414,
       "language": "Rouge",
       "count": 103,
       "first_public": 2013,
@@ -3317,28 +3325,20 @@
       "pred_5y": 355
     },
     {
-      "rank": 414,
-      "language": "MeTTa",
-      "count": 102,
-      "first_public": 2023,
-      "pred_1y": 261,
-      "pred_5y": 2977
-    },
-    {
       "rank": 415,
-      "language": "Xonsh",
-      "count": 101,
-      "first_public": 2015,
-      "pred_1y": 140,
-      "pred_5y": 416
-    },
-    {
-      "rank": 416,
       "language": "Befunge",
       "count": 100,
       "first_public": 1993,
       "pred_1y": 123,
       "pred_5y": 260
+    },
+    {
+      "rank": 416,
+      "language": "Xonsh",
+      "count": 100,
+      "first_public": 2015,
+      "pred_1y": 139,
+      "pred_5y": 412
     },
     {
       "rank": 417,
@@ -3370,10 +3370,18 @@
       "count": 97,
       "first_public": 2015,
       "pred_1y": 134,
-      "pred_5y": 400
+      "pred_5y": 399
     },
     {
       "rank": 421,
+      "language": "Hare",
+      "count": 93,
+      "first_public": 2022,
+      "pred_1y": 199,
+      "pred_5y": 1631
+    },
+    {
+      "rank": 422,
       "language": "LFE",
       "count": 93,
       "first_public": 2008,
@@ -3381,20 +3389,12 @@
       "pred_5y": 242
     },
     {
-      "rank": 422,
+      "rank": 423,
       "language": "Pact",
       "count": 93,
       "first_public": 2017,
       "pred_1y": 137,
       "pred_5y": 485
-    },
-    {
-      "rank": 423,
-      "language": "Hare",
-      "count": 92,
-      "first_public": 2022,
-      "pred_1y": 197,
-      "pred_5y": 1615
     },
     {
       "rank": 424,
@@ -3447,10 +3447,10 @@
     {
       "rank": 430,
       "language": "Filebench WML",
-      "count": 82,
+      "count": 83,
       "first_public": null,
-      "pred_1y": 101,
-      "pred_5y": 213
+      "pred_1y": 102,
+      "pred_5y": 216
     },
     {
       "rank": 431,
@@ -3478,6 +3478,14 @@
     },
     {
       "rank": 434,
+      "language": "Redscript",
+      "count": 81,
+      "first_public": null,
+      "pred_1y": 100,
+      "pred_5y": 211
+    },
+    {
+      "rank": 435,
       "language": "Augeas",
       "count": 80,
       "first_public": 2007,
@@ -3485,28 +3493,20 @@
       "pred_5y": 208
     },
     {
-      "rank": 435,
+      "rank": 436,
       "language": "B",
-      "count": 79,
+      "count": 80,
       "first_public": 1969,
-      "pred_1y": 97,
-      "pred_5y": 205
+      "pred_1y": 99,
+      "pred_5y": 208
     },
     {
-      "rank": 436,
+      "rank": 437,
       "language": "Teal",
       "count": 79,
       "first_public": 2019,
       "pred_1y": 128,
-      "pred_5y": 576
-    },
-    {
-      "rank": 437,
-      "language": "Redscript",
-      "count": 78,
-      "first_public": null,
-      "pred_1y": 96,
-      "pred_5y": 203
+      "pred_5y": 575
     },
     {
       "rank": 438,
@@ -3526,6 +3526,14 @@
     },
     {
       "rank": 440,
+      "language": "ucode",
+      "count": 76,
+      "first_public": null,
+      "pred_1y": 94,
+      "pred_5y": 198
+    },
+    {
+      "rank": 441,
       "language": "Boogie",
       "count": 75,
       "first_public": null,
@@ -3533,7 +3541,7 @@
       "pred_5y": 195
     },
     {
-      "rank": 441,
+      "rank": 442,
       "language": "LiveCode Script",
       "count": 75,
       "first_public": null,
@@ -3541,20 +3549,12 @@
       "pred_5y": 195
     },
     {
-      "rank": 442,
+      "rank": 443,
       "language": "Yul",
       "count": 75,
       "first_public": 2016,
       "pred_1y": 107,
-      "pred_5y": 345
-    },
-    {
-      "rank": 443,
-      "language": "ucode",
-      "count": 75,
-      "first_public": null,
-      "pred_1y": 93,
-      "pred_5y": 195
+      "pred_5y": 344
     },
     {
       "rank": 444,
@@ -3567,10 +3567,10 @@
     {
       "rank": 445,
       "language": "Smithy",
-      "count": 72,
+      "count": 71,
       "first_public": 2019,
-      "pred_1y": 117,
-      "pred_5y": 525
+      "pred_1y": 115,
+      "pred_5y": 517
     },
     {
       "rank": 446,
@@ -3647,10 +3647,10 @@
     {
       "rank": 455,
       "language": "Sieve",
-      "count": 60,
+      "count": 61,
       "first_public": 2001,
-      "pred_1y": 74,
-      "pred_5y": 156
+      "pred_1y": 75,
+      "pred_5y": 159
     },
     {
       "rank": 456,
@@ -3658,7 +3658,7 @@
       "count": 58,
       "first_public": 2021,
       "pred_1y": 110,
-      "pred_5y": 703
+      "pred_5y": 702
     },
     {
       "rank": 457,
@@ -3706,23 +3706,23 @@
       "count": 49,
       "first_public": 2022,
       "pred_1y": 105,
-      "pred_5y": 860
+      "pred_5y": 859
     },
     {
       "rank": 463,
-      "language": "Daslang",
-      "count": 49,
-      "first_public": null,
-      "pred_1y": 60,
-      "pred_5y": 127
-    },
-    {
-      "rank": 464,
       "language": "SurrealQL",
       "count": 49,
       "first_public": 2021,
       "pred_1y": 93,
-      "pred_5y": 594
+      "pred_5y": 593
+    },
+    {
+      "rank": 464,
+      "language": "Daslang",
+      "count": 48,
+      "first_public": null,
+      "pred_1y": 59,
+      "pred_5y": 125
     },
     {
       "rank": 465,
@@ -3734,19 +3734,19 @@
     },
     {
       "rank": 466,
+      "language": "Verse",
+      "count": 47,
+      "first_public": 2023,
+      "pred_1y": 120,
+      "pred_5y": 1369
+    },
+    {
+      "rank": 467,
       "language": "Dogescript",
       "count": 46,
       "first_public": null,
       "pred_1y": 57,
       "pred_5y": 120
-    },
-    {
-      "rank": 467,
-      "language": "Verse",
-      "count": 46,
-      "first_public": 2023,
-      "pred_1y": 118,
-      "pred_5y": 1342
     },
     {
       "rank": 468,
@@ -3806,14 +3806,6 @@
     },
     {
       "rank": 475,
-      "language": "Genie",
-      "count": 34,
-      "first_public": null,
-      "pred_1y": 42,
-      "pred_5y": 88
-    },
-    {
-      "rank": 476,
       "language": "Nit",
       "count": 34,
       "first_public": null,
@@ -3821,12 +3813,20 @@
       "pred_5y": 88
     },
     {
-      "rank": 477,
+      "rank": 476,
       "language": "RAScript",
       "count": 34,
       "first_public": null,
       "pred_1y": 42,
       "pred_5y": 88
+    },
+    {
+      "rank": 477,
+      "language": "Genie",
+      "count": 33,
+      "first_public": null,
+      "pred_1y": 41,
+      "pred_5y": 86
     },
     {
       "rank": 478,
@@ -3846,15 +3846,15 @@
     },
     {
       "rank": 480,
-      "language": "Gno",
-      "count": 31,
+      "language": "Quint",
+      "count": 32,
       "first_public": 2022,
-      "pred_1y": 66,
-      "pred_5y": 544
+      "pred_1y": 68,
+      "pred_5y": 561
     },
     {
       "rank": 481,
-      "language": "Quint",
+      "language": "Gno",
       "count": 31,
       "first_public": 2022,
       "pred_1y": 66,
@@ -3903,10 +3903,10 @@
     {
       "rank": 487,
       "language": "Pro*C",
-      "count": 25,
+      "count": 26,
       "first_public": null,
-      "pred_1y": 31,
-      "pred_5y": 65
+      "pred_1y": 32,
+      "pred_5y": 68
     },
     {
       "rank": 488,
@@ -3922,10 +3922,18 @@
       "count": 23,
       "first_public": 2023,
       "pred_1y": 59,
-      "pred_5y": 671
+      "pred_5y": 670
     },
     {
       "rank": 490,
+      "language": "MiniScript",
+      "count": 22,
+      "first_public": 2017,
+      "pred_1y": 32,
+      "pred_5y": 115
+    },
+    {
+      "rank": 491,
       "language": "OverPy",
       "count": 22,
       "first_public": null,
@@ -3933,20 +3941,12 @@
       "pred_5y": 57
     },
     {
-      "rank": 491,
+      "rank": 492,
       "language": "WebIDL",
       "count": 22,
       "first_public": null,
       "pred_1y": 27,
       "pred_5y": 57
-    },
-    {
-      "rank": 492,
-      "language": "MiniScript",
-      "count": 21,
-      "first_public": 2017,
-      "pred_1y": 31,
-      "pred_5y": 110
     },
     {
       "rank": 493,
@@ -4023,10 +4023,10 @@
     {
       "rank": 502,
       "language": "Lobster",
-      "count": 12,
+      "count": 11,
       "first_public": 2015,
-      "pred_1y": 17,
-      "pred_5y": 49
+      "pred_1y": 15,
+      "pred_5y": 45
     },
     {
       "rank": 503,
